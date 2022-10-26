@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom'; // added React router
 import './index.css';
 import App from './App';
-// do I need this?
+// do I need this? check link below and revisit later
 import reportWebVitals from './reportWebVitals';
 
 // creates the root
