@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom'; // added React router
 import './index.css';
 import App from './App';
+// do I need this?
 import reportWebVitals from './reportWebVitals';
 
+// creates the root
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // do I need to be in strictmode? what does this do?
   <React.StrictMode>
+    <BrowserRouter>
+
     <App />
+
+    </BrowserRouter>
   </React.StrictMode>
 );
 
