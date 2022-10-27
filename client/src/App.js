@@ -13,11 +13,11 @@ function App() {
     <div className="App">
       {/* <NavBar /> */}
       <h1>Hello there</h1>
-      {/* <Routes> */}
+      <Routes>
         {/* can pass props here */}
-        {/* <Route path="/" element={<HomeView />} /> */}
-        {/* <Route path="/about" element={<About />} />  */}
-      {/* </Routes> */}
+        <Route path="/" element={<HomeView />} />
+        <Route path="/about" element={<About />} /> 
+      </Routes>
     </div>
   );
 }

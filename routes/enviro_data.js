@@ -1,8 +1,9 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+const db = require("../model/helper"); // added
 
 /* GET all data */
-router.get('/enviro_data', function(req, res, next) {
+router.get('/', function(req, res, next) {
   db("SELECT * FROM enviro_data;")
   .then(results => {
     res.send(results.data);
