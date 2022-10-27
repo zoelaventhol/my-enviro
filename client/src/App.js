@@ -2,21 +2,22 @@
 import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import FeaturedIndicator from './components/FeaturedIndicator.js';
+// import { NavBar } from 'react-router-dom';
+import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
+import IconGridView from './components/IconGridView.js';
+import AboutView from './components/AboutView.js';
 import Form from './components/Form.js';
-import IconGrid from './components/IconGrid.js';
-import About from './components/About.js';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      
-      <Routes>
+      {/* <NavBar /> */}
+      <h1>Hello there</h1>
+      {/* <Routes> */}
         {/* can pass props here */}
-        <Route path="/" element={<HomeView />} />
-        <Route path="/about" element={<About />} /> 
-      </Routes>
+        {/* <Route path="/" element={<HomeView />} /> */}
+        {/* <Route path="/about" element={<About />} />  */}
+      {/* </Routes> */}
     </div>
   );
 }
