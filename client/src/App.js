@@ -11,9 +11,14 @@ import AboutView from './components/AboutView.js';
 // import bootstrap from 'bootstrap';
 
 function App() {
-  const [data, setData] = useState(94608);
-  const [indicator, setIndicator] = useState({});
+  const [data, setData] = useState({});
+  const [indicatorDetails, setIndicatorDetails] = useState({});
 
+  // get all indicator details
+  function allIndicatorDetails() {
+
+  }
+  
   // get local data based on form entry (ZIP code)
   function getLocalData() {
     
@@ -35,7 +40,7 @@ function App() {
         <Route path="/" element={<HomeView />} />
         <Route path="/about" element={<AboutView />} />
         <Route path="/indicators" element={<IndicatorView data={data}/>} />
-        <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicator}/>} /> 
+        <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicatorDetails}/>} /> 
       </Routes>
     </div>
   );
