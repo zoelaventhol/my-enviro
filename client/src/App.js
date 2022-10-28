@@ -5,9 +5,10 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.js';
 import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
-import IconGridView from './components/IconGridView.js';
+import IndicatorView from './components/IndicatorView.js';
 import HomeView from './components/HomeView.js';
 import AboutView from './components/AboutView.js';
+// import bootstrap from 'bootstrap';
 
 function App() {
   const [data, setData] = useState(94608);
@@ -28,13 +29,12 @@ function App() {
     <div className="App">
       {/* only have things that should be visible from every page */}
       <Navbar />
-
       <Routes>
         {/* can pass props here */}
         {/* / is implied, homeview should load automatically */}
         <Route path="/" element={<HomeView />} />
         <Route path="/about" element={<AboutView />} />
-        <Route path="/indicators" element={<IconGridView data={data}/>} />
+        <Route path="/indicators" element={<IndicatorView data={data}/>} />
         <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicator}/>} /> 
       </Routes>
     </div>

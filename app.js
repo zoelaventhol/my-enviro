@@ -27,13 +27,9 @@ app.use('/enviro_data', enviroDataRouter);
 
 // Anything that doesn't match the above, send back index.html
 // QUESTION: can't find "build" directory in "client" in the original project - what is this pointing to? should I point it somewhere else?
+// build folder auto-generated when we npm build (package.json)
 app.get("*", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/client/build/index.html"));
-  });
-  
-  // catch 404 and forward to error handler
-  app.use(function(req, res, next) {
-    next(createError(404));
   });
   
   // error handler

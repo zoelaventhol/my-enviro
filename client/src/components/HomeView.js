@@ -2,6 +2,7 @@ import React from "react";
 import './HomeView.css'
 
 function HomeView(){
+    return (
     <div className="HomeView">
     <h2>Home View</h2>  
     <form>
@@ -11,6 +12,7 @@ function HomeView(){
         </label>
     </form>     
     </div>
+    )
 }
 
 export default HomeView;

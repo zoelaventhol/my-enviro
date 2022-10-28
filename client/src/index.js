@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 // do I need this? check link below and revisit later
 import reportWebVitals from './reportWebVitals';
+import bootstrap from 'bootstrap';
 
 // creates the root
 const root = ReactDOM.createRoot(document.getElementById('root'));
