@@ -20,8 +20,19 @@ function App() {
   }
   
   // get local data based on form entry (ZIP code)
-  function getLocalData() {
-    
+  async function getLocalData(zipInput) {
+    try {
+      let response = await fetch(`/enviro_data/${zipInput}`);
+      if (response.ok) {
+        let data = await response.json();
+        setData(data);
+        console.log(data);
+      } else {
+        console.log(`Server error: ${response.status} ${response.statusText}`);
+      }
+    } catch (error) {
+      console.log(`Network error: ${error.message}`);
+    }
   }
 
   // get indicator info based on click
@@ -37,7 +48,7 @@ function App() {
       <Routes>
         {/* can pass props here */}
         {/* / is implied, homeview should load automatically */}
-        <Route path="/" element={<HomeView />} />
+        <Route path="/" element={<HomeView getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
         <Route path="/about" element={<AboutView />} />
         <Route path="/indicators" element={<IndicatorView data={data}/>} />
         <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicatorDetails}/>} /> 

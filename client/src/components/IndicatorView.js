@@ -1,10 +1,11 @@
 import React from "react";
 import './IndicatorView.css';
-// import bootstrap from 'bootstrap'
 
 function IndicatorView(props){
     // use state of data
+    let envData = props.data;
     // use state of indicator
+
 
     function handleClick () {
         
@@ -17,7 +18,7 @@ function IndicatorView(props){
             <div className="col">
             <h2>Results for</h2>
             <h2 id="location">
-            [Location] 
+            {`${envData.city}`} 
             </h2>
             </div>
         </div>
