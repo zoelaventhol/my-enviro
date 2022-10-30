@@ -15,3 +15,26 @@ FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
+
+DROP TABLE IF EXISTS indicator_details;
+
+CREATE TABLE indicator_details (
+    id VARCHAR (15),
+    data_description VARCHAR (1000),
+    summary VARCHAR (1000),
+    learn_more VARCHAR (1000),
+    protect_yourself VARCHAR (1000),
+    footnote VARCHAR (1000),
+    good_news VARCHAR (255),
+    bad_news VARCHAR (255),
+    no_data VARCHAR (255),
+    threshold INT,
+    source VARCHAR (255)
+);
+
+LOAD DATA LOCAL INFILE '/Users/Zoe/Desktop/CodeOp/codeop-activities/MVP/my-express-app/data/indicator_details.csv' 
+INTO TABLE indicator_details
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;

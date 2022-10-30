@@ -47,11 +47,10 @@ function App() {
       <Navbar />
       <Routes>
         {/* can pass props here */}
-        {/* / is implied, homeview should load automatically */}
         <Route path="/" element={<HomeView getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
         <Route path="/about" element={<AboutView />} />
         <Route path="/indicators" element={<IndicatorView data={data}/>} />
-        <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicatorDetails}/>} /> 
+        <Route path="/indicators/:id" element={<FeaturedIndicatorView id={indicatorDetails} data={data} />} /> 
       </Routes>
     </div>
   );

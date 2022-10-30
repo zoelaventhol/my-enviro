@@ -36,3 +36,8 @@ h2#location {
     background-color: #5a52fc;
     font-weight: bold;
 }
+
+#footnote {
+    font-size: smaller;
+    text-align: left;
+}

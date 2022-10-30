@@ -88,8 +88,7 @@ function IndicatorView(props){
                 </div>
             </div>
         </div>
-
-        {/* footnote: not rendering - why?? */}
+        
         <div className="row" id="footnote">
             <p>* This varies home-by-home, so you can check to make sure. Homes built before 1978 have a higher likelihod of lead paint.</p>
         </div>

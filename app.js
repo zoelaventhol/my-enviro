@@ -6,6 +6,7 @@ const cors = require('cors');
 
 var indexRouter = require('./routes/index');
 const enviroDataRouter = require("./routes/enviro_data.js")
+const indicatorDetailsRouter = require("./routes/indicator_details.js")
 // later: add indicators
 
 var app = express();
@@ -21,6 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/enviro_data', enviroDataRouter);
+app.use('/indicator_details', indicatorDetailsRouter);
 // later: add indicators
 
 /* BELOW COPIED FROM MILESTONE APP.JS FILE, need to understand */

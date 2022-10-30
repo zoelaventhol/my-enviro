@@ -22,7 +22,7 @@ con.connect(function(err) {
   let sql = fs.readFileSync(__dirname+"/init_db.sql").toString();
   con.query(sql, function(err, result) {
     if (err) throw err;
-    console.log("Table creation `my_enviro` was successful!");
+    console.log("Table creation `my_enviro` and `indicator_details` was successful!");
 
     console.log("Closing...");
   });

@@ -4,6 +4,7 @@ import './FeaturedIndicatorView.css'
 function FeaturedIndicatorView(props){
     // need to access indicator state
     // need to access data state
+    let envData = props.data;
 
     // get indicator info based on click
     // need to pass localData for dynamic components (good/bad news & value)
@@ -16,7 +17,7 @@ function FeaturedIndicatorView(props){
         <div className="row">
             <div className="col">
                 <h2>[indicator id] in</h2>
-                <h2 id="location">[Location]</h2>
+                <h2 id="location">{`${envData.city}`}</h2>
             </div>
         </div>
 
