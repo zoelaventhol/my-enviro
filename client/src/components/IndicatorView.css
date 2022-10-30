@@ -41,3 +41,7 @@ h2#location {
     font-size: smaller;
     text-align: left;
 }
+
+.card-text p {
+    background-color: rgb(255, 177, 177);
+}

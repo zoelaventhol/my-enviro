@@ -20,6 +20,25 @@ function IndicatorView(props){
         console.log(id);
     }
 
+    // // function to generate conditional messages based on enviro data
+    // function news(indicator, data) {
+    //     // if data is null, show no data message
+    //     if (!data) {
+    //         return `${indicator.no_data}`;
+    //     // else if data is below hazard threshold, show good news
+    //     } else if (data < indicator.threshold) {
+    //         return `${good_news}`;
+    //     // else, data is over hazard threshold, so show bad news
+    //     } else {
+    //         return `${bad_news}`
+    //     }
+    // }
+
+    // let airNews = news(air, envData.air);
+    // let hazCleanupsNews = news(haz_cleanups, envData.haz_cleanups);
+    // let leadNews = news(lead_paint, envData.lead_paint);
+    // let waterNews= news(water, envData.water);
+
     return (
     <div className="IndicatorView">
         {/* header */}
@@ -46,10 +65,6 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <p className="card-text">
-                            {/* if data is null, show no data message and add class  */}
-                            {/* else if data is below threshold, show good news and add class  */}
-                            {/* else data is over threshold, so show bad news and add class  */}
-                            Good news/bad news/ no data
                         </p>
                         <button 
                             type="button" 
