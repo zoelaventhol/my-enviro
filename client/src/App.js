@@ -74,8 +74,8 @@ function App() {
         {/* can pass props here */}
         <Route path="/" element={<HomeView getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
         <Route path="/about" element={<AboutView />} />
-        <Route path="/indicators" element={<IndicatorView data={data} indicatorDetails={indicatorDetails} oneIndicator={(id) => oneIndicator(id)}/>} />
-        <Route path="/indicators/:id" element={<FeaturedIndicatorView indicatorDetails={indicatorDetails} data={data} />} /> 
+        <Route path="/indicators" element={<IndicatorView data={data} indicatorDetails={indicatorDetails} oneIndicator={(id) => oneIndicator(id)} allIndicatorDetails={allIndicatorDetails}/>} />
+        <Route path="/indicators/:id" element={<FeaturedIndicatorView indicatorDetails={indicatorDetails} data={data} allIndicatorDetails={allIndicatorDetails}/>} /> 
       </Routes>
     </div>
   );

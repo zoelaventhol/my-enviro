@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import './FeaturedIndicatorView.css'
 
 function FeaturedIndicatorView(props){
@@ -7,9 +8,15 @@ function FeaturedIndicatorView(props){
     // use state of enviro data
     let envData = props.data;
 
-    // get indicator info based on click
-    // need to pass localData for dynamic components (good/bad news & value)
-    function getIndicatorInfo() {
+    // use React router navigation
+    const navigate = useNavigate();
+
+    function handleClick(e) {
+        // reset state to all indicators
+        // DOESN'T WORK: WHY?
+        props.allIndicatorDetails();
+        // go back to indicators page
+        navigate(`/indicators`);
     }
     
     return (
@@ -29,7 +36,12 @@ function FeaturedIndicatorView(props){
                 click to close and return to "indicators view" (with all 4 indicators. state of data should stay saved) */}
                 <div className="row">
                     <div className = "close-button">
-                        <button type="button" class="btn btn-primary">x</button>
+                        <button 
+                            type="button" 
+                            class="btn btn-primary"
+                            onClick={e => handleClick(e)} >
+                                x
+                        </button>
                     </div>
                 </div>
 
@@ -57,15 +69,15 @@ function FeaturedIndicatorView(props){
                     conditionally display: number from enviro_data, and indicator description and summary from indicator_details*/}
                     <div className="col-5" id="summary">
                         <div className="row" id="data">
-                            <h1>54%</h1>
+                            <h1>{`${envData[ind.id]}`}</h1>
                         </div>
 
                         <div className="row" id="indicator-description">
-                            <p>Of homes in your area have a higher likelihood of lead paint hazards.</p>
+                            <p>{`${ind.data_description}`}</p>
                         </div>
 
                         <div className="row" id="indicator-summary">
-                            <p>In the past, lead was widely used in house paint and plumbing, so some older houses (especially those built before 1978) may contain lead. If a home contains lead, it can pass to people through actions like touching surfaces, gardening in contamiated soil, or drinking contaminated water. Lead exposure can cause health and developmental issues, especially in children. You can help protect yourself from lead exposure by frequent hand washing, and avoiding contaminated areas.</p>
+                            <p>{`${ind.summary}`}</p>
                         </div>
                     </div>
                     
@@ -77,23 +89,33 @@ function FeaturedIndicatorView(props){
                         </div>
 
                         <div className="row" id="action-intro">
-                            <p>If you are concerned about [indicator], some simple steps you can take are:</p>
+                            <p>If you are concerned about {`${ind.indicator_name}`.toLowerCase()} in your area, some simple steps you can take are:</p>
                         </div>
 
                         <div className="row" id="action-detail">
-                            <p><b>Learn more</b>
-                            <br />
-                            Lorem ipsum dolor sit amet</p>
+                            <p>
+                                <b>Learn more</b>
+                                <br />
+                                <div dangerouslySetInnerHTML={{__html: ind.learn_more }} />
+                            </p>
 
-                            <p><b>Protect yourself</b>
-                            <br />
-                            Lorem ipsum dolor sit amet</p>
+                            <p>
+                                <b>Protect yourself</b>
+                                <br />
+                                <div dangerouslySetInnerHTML={{__html: ind.protect_yourself }} />
+                            </p>
 
-                            <p><b>Take action</b>
-                            <br />
-                            Lorem ipsum dolor sit amet</p>
+                            <p>
+                                <b>Take action</b>
+                                <br />
+                                Look up your local public officials or {`${ind.indicator_name}`.toLowerCase()} advocacy groups to learn more.</p>
                         </div>
-                    </div>
+                    </div>  
+                </div>
+
+                {/* conditionally display footnote */}
+                <div className="row" id="footnote">
+                    <p>{`${ind.footnote}`}</p>
                 </div>
             </div>
         </div>

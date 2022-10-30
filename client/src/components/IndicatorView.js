@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import './IndicatorView.css';
 
 function IndicatorView(props){
+    useEffect(() => {
+        props.allIndicatorDetails();
+      }, []);
+
     // use state of data
     let envData = props.data;
     // use state of indicator details
@@ -20,24 +24,25 @@ function IndicatorView(props){
         console.log(id);
     }
 
+    // NOT WORKING - WHY?
     // // function to generate conditional messages based on enviro data
-    // function news(indicator, data) {
+    // function news(indId, data) {
     //     // if data is null, show no data message
     //     if (!data) {
-    //         return `${indicator.no_data}`;
+    //         return `${ind[indId].no_data}`;
     //     // else if data is below hazard threshold, show good news
-    //     } else if (data < indicator.threshold) {
-    //         return `${good_news}`;
+    //     } else if (data < ind[indId].threshold) {
+    //         return `${ind[indId].good_news}`;
     //     // else, data is over hazard threshold, so show bad news
     //     } else {
-    //         return `${bad_news}`
+    //         return `${ind[indId].bad_news}`
     //     }
     // }
 
-    // let airNews = news(air, envData.air);
-    // let hazCleanupsNews = news(haz_cleanups, envData.haz_cleanups);
-    // let leadNews = news(lead_paint, envData.lead_paint);
-    // let waterNews= news(water, envData.water);
+    // let airNews = news(ind[0].id, envData.air);
+    // let hazCleanupsNews = news(ind[1].id, envData.haz_cleanups);
+    // let leadNews = news(ind[2].id, envData.lead_paint);
+    // let waterNews= news(ind[3].id, envData.water);
 
     return (
     <div className="IndicatorView">
@@ -59,12 +64,13 @@ function IndicatorView(props){
                 <div className="card" id="air-card">
                     <img 
                         className="card-img-top" 
-                        src="https://cdn-icons-png.flaticon.com/512/1007/1007163.png" 
+                        src={`${ind[0].icon_url}`}
                         alt="air"
                     />
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <p className="card-text">
+                        Good news/bad news/ no data
                         </p>
                         <button 
                             type="button" 
@@ -81,7 +87,7 @@ function IndicatorView(props){
                 <div className="card" id="haz-cleanups-card">
                     <img 
                         className="card-img-top" 
-                        src="https://cdn-icons-png.flaticon.com/512/3937/3937144.png" 
+                        src={`${ind[1].icon_url}`} 
                         alt="waste cleanup sites"/>
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
@@ -102,7 +108,7 @@ function IndicatorView(props){
                 <div className="card" id="lead-paint-card">
                     <img 
                         className="card-img-top" 
-                        src="https://cdn-icons-png.flaticon.com/512/263/263115.png" 
+                        src={`${ind[2].icon_url}`} 
                         alt="lead in housing"/>
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
@@ -122,7 +128,7 @@ function IndicatorView(props){
                 <div className="card" id="water-card">
                     <img 
                         className="card-img-top" 
-                        src="https://cdn-icons-png.flaticon.com/512/606/606797.png" 
+                        src={`${ind[3].icon_url}`} 
                         alt="water quality"/>
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
@@ -136,10 +142,6 @@ function IndicatorView(props){
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div className="row" id="footnote">
-            <p>* This varies home-by-home, so you can check to make sure. Homes built before 1978 have a higher likelihod of lead paint.</p>
         </div>
     </div>
     )

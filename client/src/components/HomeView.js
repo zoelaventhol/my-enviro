@@ -28,16 +28,24 @@ function HomeView(props){
 
     return (
     <div className="HomeView">
-    <h2>Home View</h2>  
-    <form onSubmit={handleSubmit}>
-        <label>
-            Enter your ZIP code
-            <input type = "text" onChange={(e) => handleChange(e)}></input>
-        </label>
-        <button type="submit" class="btn btn-primary">
-            Search
-        </button>
-    </form>     
+        <div class="layer">
+            <div className="row">
+                <div className="col-8">
+                    <div className="row">
+                        <h1>Enter your ZIP code</h1>
+                    </div>
+                    <div className="row">
+                        <h4>Learn about your air, water, home, and neighborhood - and how to protect yourself. Knowledge is power!</h4>
+                    </div>
+                    <div className="row">
+                        <form onSubmit={handleSubmit}>
+                            <input type = "text" onChange={(e) => handleChange(e)} placeholder="Enter ZIP here"></input>
+                            <button type="submit" class="btn btn-primary">Search</button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </div>
     </div>
     )
 }

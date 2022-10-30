@@ -10,10 +10,7 @@
     background-color: white;
     border: 8px solid #5a52fc;
     border-radius: 10px;
-    margin: 1em;
-}
-
-.col {
+    margin: auto;
 }
 
 .close-button {
@@ -29,7 +26,15 @@
 #action, #summary {
     border: 6px solid #5a52fc;
     border-radius: 10px;
-    margin: 1em;
+    margin: auto;
+}
+
+#indicator-summary {
+    text-align: left;
+}
+
+#what-to-do {
+    text-align: center;
 }
 
 #action-detail {
@@ -38,6 +43,10 @@
 
 .icon-container {
     padding: 1em;
+}
+
+h1 {
+    font-size:xx-large;
 }
 
 .icon-container img {
