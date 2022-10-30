@@ -2,8 +2,9 @@ import React from "react";
 import './FeaturedIndicatorView.css'
 
 function FeaturedIndicatorView(props){
-    // need to access indicator state
-    // need to access data state
+    // use state of indicator details
+    let ind = props.indicatorDetails;
+    // use state of enviro data
     let envData = props.data;
 
     // get indicator info based on click
@@ -16,7 +17,7 @@ function FeaturedIndicatorView(props){
         {/* header */}
         <div className="row">
             <div className="col">
-                <h2>[indicator id] in</h2>
+                <h2>{`${ind.indicator_name}`} in</h2>
                 <h2 id="location">{`${envData.city}`}</h2>
             </div>
         </div>
@@ -34,11 +35,10 @@ function FeaturedIndicatorView(props){
 
                 
                 <div className="row">
-                    {/* icon square:
-                    conditionally display an icon depending on indicator id (store icon URL in "indicator_details" data?) */}
+                    {/* icon square: conditionally display an icon depending on indicator id */}
                     <div className="col-3">
                         <div className="icon-container">
-                            <img src="https://cdn-icons-png.flaticon.com/512/1007/1007163.png" />
+                            <img src={`${ind.icon_url}`} />
                         </div>
                     </div>
 

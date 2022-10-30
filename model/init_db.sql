@@ -20,6 +20,8 @@ DROP TABLE IF EXISTS indicator_details;
 
 CREATE TABLE indicator_details (
     id VARCHAR (15),
+    indicator_name VARCHAR (50),
+    icon_url VARCHAR (255),
     data_description VARCHAR (1000),
     summary VARCHAR (1000),
     learn_more VARCHAR (1000),
