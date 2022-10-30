@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
 
 /* GET indicator details by id */
 router.get("/:id", async function(req, res) {
-  const sql = `SELECT * FROM indicator_details WHERE id = ${req.params.id}`;
+  const sql = `SELECT * FROM indicator_details WHERE id = "${req.params.id}"`;
 
   try {
     let result = await db(sql); // run the sql command: look for data by zip

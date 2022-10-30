@@ -1,14 +1,23 @@
 import React from "react";
+import { useNavigate } from 'react-router-dom';
 import './IndicatorView.css';
 
 function IndicatorView(props){
     // use state of data
     let envData = props.data;
-    // use state of indicator
+    // use state of indicator details
+    let ind = props.indicatorDetails;
 
+    // use React router navigation
+    const navigate = useNavigate();
 
-    function handleClick () {
-        
+    // handleClick to send indicator id to App/update state
+    function handleClick(id) {
+        // update state/pass to parent (App.js)
+        props.oneIndicator(id)
+        // go to featured indicator page for clicked indicator
+        navigate(`/indicators/${id}`)
+        console.log(id);
     }
 
     return (
@@ -28,7 +37,7 @@ function IndicatorView(props){
 
             {/* column 1: air card */}
             <div className="col"> 
-                <div className="card" id="air">
+                <div className="card" id="air-card">
                     <img 
                         className="card-img-top" 
                         src="https://cdn-icons-png.flaticon.com/512/1007/1007163.png" 
@@ -36,15 +45,25 @@ function IndicatorView(props){
                     />
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
-                        <p className="card-text">Good news/bad news/ no data</p>
-                        <a href="#" className="btn btn-primary">Learn more</a>
+                        <p className="card-text">
+                            {/* if data is null, show no data message and add class  */}
+                            {/* else if data is below threshold, show good news and add class  */}
+                            {/* else data is over threshold, so show bad news and add class  */}
+                            Good news/bad news/ no data
+                        </p>
+                        <button 
+                            type="button" 
+                            id="air" 
+                            onClick={e => handleClick(ind[0].id)}>
+                                Learn more
+                        </button>
                     </div>
                 </div>
             </div>
 
             {/* column 2: haz-cleanups card */}
             <div className="col">
-                <div className="card" id="haz-cleanups">
+                <div className="card" id="haz-cleanups-card">
                     <img 
                         className="card-img-top" 
                         src="https://cdn-icons-png.flaticon.com/512/3937/3937144.png" 
@@ -52,7 +71,12 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
                         <p className="card-text">Good news/bad news/ no data</p>
-                        <a href="#" className="btn btn-primary">Learn more</a>
+                        <button 
+                            type="button" 
+                            id="haz_cleanups" 
+                            onClick={e => handleClick(ind[1].id)}>
+                                Learn more
+                        </button>
                     </div>
                 </div>
 
@@ -60,7 +84,7 @@ function IndicatorView(props){
 
             {/* column 3: lead-paint card */}
             <div className="col">
-                <div className="card" id="lead-paint">
+                <div className="card" id="lead-paint-card">
                     <img 
                         className="card-img-top" 
                         src="https://cdn-icons-png.flaticon.com/512/263/263115.png" 
@@ -68,14 +92,19 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
                         <p className="card-text">Good news/bad news/ no data</p>
-                        <a href="#" className="btn btn-primary">Learn more</a>
+                        <button 
+                            type="button" 
+                            id="lead_paint" 
+                            onClick={e => handleClick(ind[2].id)}>
+                                Learn more
+                        </button>
                     </div>
                 </div>   
             </div>
 
             {/* column 4: water card */}
             <div className="col">
-                <div className="card" id="water">
+                <div className="card" id="water-card">
                     <img 
                         className="card-img-top" 
                         src="https://cdn-icons-png.flaticon.com/512/606/606797.png" 
@@ -83,7 +112,12 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
                         <p className="card-text">Good news/bad news/ no data.</p>
-                        <a href="#" className="btn btn-primary">Learn more</a>
+                        <button 
+                            type="button" 
+                            id="air" 
+                            onClick={e => handleClick(ind[3].id)}>
+                                Learn more
+                        </button>
                     </div>
                 </div>
             </div>
