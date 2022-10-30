@@ -73,6 +73,7 @@ function IndicatorView(props){
                         Good news/bad news/ no data
                         </p>
                         <button 
+                            class="btn btn-primary"
                             type="button" 
                             id="air" 
                             onClick={e => handleClick(ind[0].id)}>
@@ -93,6 +94,7 @@ function IndicatorView(props){
                         <h5 className="card-title">Waste Cleanups</h5>
                         <p className="card-text">Good news/bad news/ no data</p>
                         <button 
+                            class="btn btn-primary"
                             type="button" 
                             id="haz_cleanups" 
                             onClick={e => handleClick(ind[1].id)}>
@@ -114,6 +116,7 @@ function IndicatorView(props){
                         <h5 className="card-title">Lead in Housing</h5>
                         <p className="card-text">Good news/bad news/ no data</p>
                         <button 
+                            class="btn btn-primary"
                             type="button" 
                             id="lead_paint" 
                             onClick={e => handleClick(ind[2].id)}>
@@ -134,6 +137,7 @@ function IndicatorView(props){
                         <h5 className="card-title">Water</h5>
                         <p className="card-text">Good news/bad news/ no data.</p>
                         <button 
+                            class="btn btn-primary"
                             type="button" 
                             id="air" 
                             onClick={e => handleClick(ind[3].id)}>
