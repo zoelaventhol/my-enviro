@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
+import ErrorView from './ErrorView';
 import './FeaturedIndicatorView.css'
 
 function FeaturedIndicatorView(props){
@@ -71,7 +72,10 @@ function FeaturedIndicatorView(props){
                         conditionally display a message from "indicator_details" object based on value from enviro_data, and a threshold */}
                         <div className="col">
                             <div className="good-or-bad-news">
-                                <p>{`${dataNews}`}</p>
+                                {/* conditionally set class based on good news or bad news */}
+                                <p className={envData[ind.id] < ind.threshold ? 'good-news' : 'bad-news'}>
+                                    {`${dataNews}`}
+                                </p>
                             </div>
                         </div>
 

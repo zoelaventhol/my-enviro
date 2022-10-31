@@ -8,9 +8,11 @@ import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
 import IndicatorView from './components/IndicatorView.js';
 import HomeView from './components/HomeView.js';
 import AboutView from './components/AboutView.js';
-// import bootstrap from 'bootstrap';
+import ErrorView from './components/ErrorView.js';
 
 function App() {
+  
+  // initiate state for enviro_data (aka "data") and indicator_details (aka "indicatorDetails")
   const [data, setData] = useState({});
   const [indicatorDetails, setIndicatorDetails] = useState({});
 

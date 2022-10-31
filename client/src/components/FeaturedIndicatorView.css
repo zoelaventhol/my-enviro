@@ -22,10 +22,20 @@
     padding: .5em;
 }
 
-.good-or-bad-news p {
+.good-or-bad-news {
     padding-top: 10%;
     font-size:x-large;
     /* want to vertically align in container */
+}
+
+.good-news {
+    background-color: rgb(184, 255, 195);
+    border-radius: 10px;
+}
+
+.bad-news {
+    background-color: rgb(255, 184, 184);
+    border-radius: 10px;
 }
 
 #action, #summary {

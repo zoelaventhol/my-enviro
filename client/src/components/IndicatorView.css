@@ -37,15 +37,19 @@ h2#location {
     border-bottom: 8px solid #5a52fc;
 }
 
-.card-text {
-    border-radius: 10px;
-    padding: .25em;
-    background-color:rgb(197, 237, 252);
-}
-
 .btn {
     background-color: #5a52fc;
     font-weight: bold;
+}
+
+.good-news {
+    background-color: rgb(184, 255, 195);
+    border-radius: 10px;
+}
+
+.bad-news {
+    background-color: rgb(255, 184, 184);
+    border-radius: 10px;
 }
 
 #footnote {

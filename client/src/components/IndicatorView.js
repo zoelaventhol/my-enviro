@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import './IndicatorView.css';
+import ErrorView from "./ErrorView.js"
 
 function IndicatorView(props){
     useEffect(() => {
@@ -28,14 +29,15 @@ function IndicatorView(props){
     function news(indId, data) {
         // if data is null, show no data message
         // problem: doens't differentiate between null and 0-value data. also tried if (data === null), same problem
+        // question: using "ind" variable doesn't work here - returns undefined. why?
         if (!data) {
-            return `${ind[indId].no_data}`;
+            return `${props.indicatorDetails[indId].no_data}`;
         // else if data is below hazard threshold, show good news
         } else if (data < ind[indId].threshold) {
-            return `${ind[indId].good_news}`;
+            return `${props.indicatorDetails[indId].good_news}`;
         // else, data is over hazard threshold, so show bad news
         } else {
-            return `${ind[indId].bad_news}`
+            return `${props.indicatorDetails[indId].bad_news}`
         }
     }
     
@@ -70,9 +72,12 @@ function IndicatorView(props){
                     />
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
-                        <p className="card-text">
-                        { ind && `${airNews}`}
-                        </p>
+                        <div className="card-text">
+                            {/* conditionally set class based on good news or bad news */}
+                            <p className={envData[ind[0].id] < ind[0].threshold ? 'good-news' : 'bad-news'}>
+                                { ind && `${airNews}`}
+                            </p>
+                        </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
@@ -93,7 +98,12 @@ function IndicatorView(props){
                         alt="waste cleanup sites"/>
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
-                        <p className="card-text">{ ind && `${hazCleanupsNews}`}</p>
+                        <div className="card-text">
+                            {/* conditionally set class based on good news or bad news */}
+                            <p className={envData[ind[1].id] < ind[1].threshold ? 'good-news' : 'bad-news'}>
+                                { ind && `${hazCleanupsNews}`}
+                            </p>
+                        </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
@@ -115,7 +125,12 @@ function IndicatorView(props){
                         alt="lead in housing"/>
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
-                        <p className="card-text">{ ind && `${leadNews}`}</p>
+                        <div className="card-text">
+                            {/* conditionally set class based on good news or bad news */}
+                            <p className={envData[ind[2].id] < ind[2].threshold ? 'good-news' : 'bad-news'}>
+                                { ind && `${leadNews}`}
+                            </p>
+                        </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
@@ -136,7 +151,12 @@ function IndicatorView(props){
                         alt="water quality"/>
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
-                        <p className="card-text">{ ind && `${waterNews}`}</p>
+                        <div className="card-text">
+                             {/* conditionally set class based on good news or bad news */}
+                             <p className={envData[ind[3].id] < ind[3].threshold ? 'good-news' : 'bad-news'}>
+                                { ind && `${waterNews}`}
+                            </p>
+                        </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
