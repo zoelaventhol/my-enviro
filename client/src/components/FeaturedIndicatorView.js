@@ -13,7 +13,7 @@ function FeaturedIndicatorView(props){
     const navigate = useNavigate();
 
     function handleClick(e) {
-        navigate(`/`);
+        navigate(`/indicators`);
     }
 
     // function to generate conditional messages based on enviro data

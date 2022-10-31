@@ -22,6 +22,10 @@ function App() {
     allIndicatorDetails();
   }, []);
 
+  // useEffect(() => {
+  //   localStorage.getItem('data', JSON.parse(data));
+  // }, [data]);
+
   // get all indicator details
   async function allIndicatorDetails() {
     try {
@@ -62,6 +66,7 @@ function App() {
         let data = await response.json();
         setData(data);
         console.log(data);
+        // localStorage.setItem('data', JSON.stringify(data));
       } else {
         console.log(`Server error: ${response.status} ${response.statusText}`);
       }
@@ -76,7 +81,7 @@ function App() {
       <Navbar />
       <Routes>
         {/* can pass props here */}
-        <Route path="/" element={<HomeView getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
+        <Route path="/" element={<HomeView data={data} getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
         <Route path="/about" element={<AboutView />} />
         <Route path="/indicators" element={<IndicatorView data={data} indicatorDetails={indicatorDetails} oneIndicator={(id) => oneIndicator(id)} allIndicatorDetails={allIndicatorDetails}/>} />
         <Route path="/indicators/:id" element={<FeaturedIndicatorView indicatorDetails={indicatorDetails} data={data} allIndicatorDetails={allIndicatorDetails}/>} /> 

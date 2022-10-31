@@ -10,8 +10,6 @@ function IndicatorView(props){
 
     // use state of data
     let envData = props.data;
-    // use state of indicator details
-    let ind = props.indicatorDetails;
 
     // use React router navigation
     const navigate = useNavigate();
@@ -25,15 +23,20 @@ function IndicatorView(props){
         console.log(id);
     }
 
+    if (props.indicatorDetails.length < 4) {
+        return <h2>loading</h2>
+    }
+
     // function to generate conditional messages based on enviro data
     function news(indId, data) {
         // if data is null, show no data message
         // problem: doens't differentiate between null and 0-value data. also tried if (data === null), same problem
         // question: using "ind" variable doesn't work here - returns undefined. why?
-        if (!data) {
+        console.log("news", indId, data)
+        if (data === null) {
             return `${props.indicatorDetails[indId].no_data}`;
         // else if data is below hazard threshold, show good news
-        } else if (data < ind[indId].threshold) {
+        } else if (data < props.indicatorDetails[indId].threshold) {
             return `${props.indicatorDetails[indId].good_news}`;
         // else, data is over hazard threshold, so show bad news
         } else {
@@ -46,6 +49,16 @@ function IndicatorView(props){
     let hazCleanupsNews = news(1, envData.haz_cleanups);
     let leadNews = news(2, envData.lead_paint);
     let waterNews= news(3, envData.water);
+
+    function conditionalClass(indId) {
+        if (!envData[props.indicatorDetails[indId].id]) {
+            return "no-data"
+        } else if (envData[props.indicatorDetails[indId].id] < props.indicatorDetails[indId].threshold) {
+            return "good-news"
+        } else {
+            return "bad-news"
+        }
+    }
 
     return (
     <div className="IndicatorView">
@@ -67,15 +80,15 @@ function IndicatorView(props){
                 <div className="card" id="air-card">
                     <img 
                         className="card-img-top" 
-                        src={`${ind[0].icon_url}`}
+                        src={`${props.indicatorDetails[0].icon_url}`}
                         alt="air"
                     />
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <div className="card-text">
                             {/* NOT WORKING: conditionally set class based on good news or bad news */}
-                            <p className={envData[ind[0].id]===null ? 'no-data' : 'has-data'}>
-                                <p className={envData[ind[0].id] < ind[0].threshold ? 'good-news' : 'bad-news'}> 
+                            <p className={envData[props.indicatorDetails[0].id]===null ? 'no-data' : 'has-data'}>
+                                <p className={envData[props.indicatorDetails[0].id] < props.indicatorDetails[0].threshold ? 'good-news' : 'bad-news'}> 
                                     {`${airNews}`}
                                 </p>
                             </p>
@@ -84,7 +97,7 @@ function IndicatorView(props){
                             class="btn btn-primary"
                             type="button" 
                             id="air" 
-                            onClick={e => handleClick(ind[0].id)}>
+                            onClick={e => handleClick(props.indicatorDetails[0].id)}>
                                 Learn more
                         </button>
                     </div>
@@ -96,20 +109,20 @@ function IndicatorView(props){
                 <div className="card" id="haz-cleanups-card">
                     <img 
                         className="card-img-top" 
-                        src={`${ind[1].icon_url}`} 
+                        src={`${props.indicatorDetails[1].icon_url}`} 
                         alt="waste cleanup sites"/>
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
                         <div className="card-text">
-                            <p className={envData[ind[1].id] < ind[1].threshold ? 'good-news' : 'bad-news'}> 
-                                { ind && `${hazCleanupsNews}`}
+                            <p className={envData[props.indicatorDetails[1].id] < props.indicatorDetails[1].threshold ? 'good-news' : 'bad-news'}> 
+                                { props.indicatorDetails && `${hazCleanupsNews}`}
                             </p>
                         </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
                             id="haz_cleanups" 
-                            onClick={e => handleClick(ind[1].id)}>
+                            onClick={e => handleClick(props.indicatorDetails[1].id)}>
                                 Learn more
                         </button>
                     </div>
@@ -122,12 +135,12 @@ function IndicatorView(props){
                 <div className="card" id="lead-paint-card">
                     <img 
                         className="card-img-top" 
-                        src={`${ind[2].icon_url}`} 
+                        src={`${props.indicatorDetails[2].icon_url}`} 
                         alt="lead in housing"/>
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
                         <div className="card-text">
-                            <p className={envData[ind[2].id] < ind[2].threshold ? 'good-news' : 'bad-news'}> 
+                            <p className={envData[props.indicatorDetails[2].id] < props.indicatorDetails[2].threshold ? 'good-news' : 'bad-news'}> 
                                 {`${leadNews}`}
                             </p>
                         </div>
@@ -135,7 +148,7 @@ function IndicatorView(props){
                             class="btn btn-primary"
                             type="button" 
                             id="lead_paint" 
-                            onClick={e => handleClick(ind[2].id)}>
+                            onClick={e => handleClick(props.indicatorDetails[2].id)}>
                                 Learn more
                         </button>
                     </div>
@@ -147,20 +160,20 @@ function IndicatorView(props){
                 <div className="card" id="water-card">
                     <img 
                         className="card-img-top" 
-                        src={`${ind[3].icon_url}`} 
+                        src={`${props.indicatorDetails[3].icon_url}`} 
                         alt="water quality"/>
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
                         <div className="card-text">
-                            <p className={envData[ind[3].id] < ind[3].threshold ? 'good-news' : 'bad-news'}> 
-                                { ind && `${waterNews}`}
+                            <p className={envData[props.indicatorDetails[3].id] < props.indicatorDetails[3].threshold ? 'good-news' : 'bad-news'}> 
+                                { props.indicatorDetails && `${waterNews}`}
                             </p>
                         </div>
                         <button 
                             class="btn btn-primary"
                             type="button" 
                             id="air" 
-                            onClick={e => handleClick(ind[3].id)}>
+                            onClick={e => handleClick(props.indicatorDetails[3].id)}>
                                 Learn more
                         </button>
                     </div>
