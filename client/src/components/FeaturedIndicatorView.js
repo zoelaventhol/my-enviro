@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from 'react-router-dom';
-import ErrorView from './ErrorView';
 import './FeaturedIndicatorView.css'
 
 function FeaturedIndicatorView(props){
@@ -15,7 +14,7 @@ function FeaturedIndicatorView(props){
     // function to generate conditional messages based on enviro data
     function news(envDataValue) {
         // if data is null, show no data message
-        if (!envDataValue) {
+        if (envDataValue < 0) {
             return `${props.featIndicator.no_data}`;
         // else if data is below hazard threshold, show good news
         } else if (envDataValue < props.featIndicator.threshold) {
@@ -25,9 +24,29 @@ function FeaturedIndicatorView(props){
             return `${props.featIndicator.bad_news}`
         }
     }
-    
+
     // call "news" function to create conditional messages based on enviro data
     let featNews = news(props.envData[props.featIndicator.id]);
+
+    // function to give conditional styling (red/yellow/green text background) to featNews based on indicator threshold
+    function conditionalClass() {
+        if (props.envData[props.featIndicator.id] < 0) {
+            return "no-data"
+        } else if (props.envData[props.featIndicator.id] < props.featIndicator.threshold) {
+            return "good-news"
+        } else {
+            return "bad-news"
+        }
+    }
+
+    // if envDataValue is null (set as -1 in data set to differentiate it from 0 values), return a "?". else return the data value, and a "%" if it's a percentage.
+    function displayData(envDataValue) {
+        if (envDataValue < 0) {
+            return '?';
+        } else {
+            return `${props.envData[props.featIndicator.id]}${props.featIndicator.if_percent}`;
+        }
+    }
     
     return (
     <div className="FeaturedIndicatorView">
@@ -68,8 +87,8 @@ function FeaturedIndicatorView(props){
                         conditionally display a message from "indicator_details" object based on value from enviro_data, and a threshold */}
                         <div className="col">
                             <div className="good-or-bad-news">
-                                {/* conditionally set class based on good news or bad news */}
-                                <p className={props.envData[props.featIndicator.id] < props.featIndicator.threshold ? 'good-news' : 'bad-news'}>
+                                {/* conditionally set class based on indicator threshold */}
+                                <p className={conditionalClass()}>
                                     {`${featNews}`}
                                 </p>
                             </div>
@@ -78,11 +97,12 @@ function FeaturedIndicatorView(props){
                     </div> 
                     
                     <div className="row">
+                        
                         {/* summary container 
                         conditionally display: number from enviro_data, and indicator description and summary from indicator_details*/}
                         <div className="col-5" id="summary">
                             <div className="row" id="data">
-                                <h1>{`${props.envData[props.featIndicator.id]}${props.featIndicator.if_percent}`}</h1>
+                                <h1>{displayData(props.envData[props.featIndicator.id])}</h1>
                             </div>
 
                             <div className="row" id="indicator-description">
