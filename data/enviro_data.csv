@@ -1,1356 +1,1356 @@
 zip,city,air,haz_cleanups,lead_paint,water
-95677,Rocklin,8,4,18%,0.1%
-95428,Unincorporated Mendocino County area,4,0,57%,0.2%
-93223,Farmersville,13,1,67%,0.6%
-96044,Unincorporated Siskiyou County area,3,0,57%,0.6%
-61,Unincorporated Ventura County area,6,5,,0.6%
-93043,Port Hueneme,9,32,50%,0.6%
-92242,Unincorporated San Bernardino County area,10,0,26%,0.6%
-95432,Unincorporated Mendocino County area,6,16,45%,0.7%
-96041,Unincorporated Trinity County area,4,6,26%,0.7%
-96025,Unincorporated Siskiyou County area,4,0,65%,0.7%
-95501,Eureka,7,4,62%,2.0%
-95661,Roseville,8,0,24%,2.1%
-95765,Rocklin,8,0,9%,2.5%
-95650,Loomis,8,45,19%,3.3%
-96143,Kings Beach,6,0,51%,3.3%
-94611,Oakland and Piedmont,9,6,49%,4.2%
-94502,Alameda,9,0,16%,4.2%
-94530,El Cerrito,9,5,60%,4.2%
-94547,Hercules,9,11,13%,4.2%
-94564,Pinole,9,11,42%,4.2%
-94572,Rodeo,9,23,75%,4.2%
-94577,San Leandro,9,20,67%,4.2%
-94579,San Leandro,9,4,62%,4.2%
-94601,Oakland,9,21,86%,4.2%
-94602,Oakland,9,0,69%,4.2%
-94603,Oakland,8,28,87%,4.2%
-94605,Oakland,9,4,76%,4.2%
-94606,Oakland,10,14,74%,4.2%
-94607,Oakland,10,84,60%,4.2%
-94608,Oakland and Emeryville,10,65,54%,4.2%
-94609,Oakland,10,7,58%,4.2%
-94610,Oakland,10,1,53%,4.2%
-94612,Oakland,10,14,58%,4.2%
-94613,Oakland,9,0,73%,4.2%
-94618,Oakland,9,0,55%,4.2%
-94621,Oakland,9,27,91%,4.2%
-94702,Berkeley,9,12,65%,4.2%
-94703,Berkeley,9,4,65%,4.2%
-94704,Berkeley,9,3,38%,4.2%
-94705,Berkeley,9,0,61%,4.2%
-94706,Albany,9,11,65%,4.2%
-94707,Berkeley and Kensington,9,1,60%,4.2%
-94708,Berkeley,9,2,56%,4.2%
-94709,Berkeley,9,11,57%,4.2%
-94710,Berkeley,9,26,56%,4.2%
-94720,Berkeley,9,9,,4.2%
-94801,Richmond,9,48,75%,4.2%
-94803,El Sobrante and Richmond,9,4,41%,4.2%
-94804,Richmond,9,46,74%,4.2%
-94805,Richmond,9,11,78%,4.2%
-94806,San Pablo and Richmond,9,18,62%,4.2%
-94501,Alameda,9,14,55%,4.2%
-94506,Danville,8,0,9%,4.2%
-94595,Walnut Creek,9,1,28%,4.2%
-94507,Unincorporated Contra Costa County area,9,9,28%,4.3%
-95466,Unincorporated Mendocino County area,6,0,56%,4.3%
-94556,Moraga,9,0,27%,4.3%
-94580,San Lorenzo,9,1,76%,4.4%
-94578,San Leandro,9,13,69%,4.5%
-39,Unincorporated Trinity County area,3,0,50%,4.5%
-94526,Danville,9,7,25%,4.7%
-95519,McKinleyville,6,0,39%,4.7%
-96058,Unincorporated Siskiyou County area,3,0,74%,4.8%
-96019,Shasta Lake,8,5,43%,4.9%
-35,Unincorporated Siskiyou County area,3,0,66%,5.0%
-95405,Santa Rosa,7,0,49%,5.0%
-95610,Citrus Heights,8,0,40%,5.2%
-48,Unincorporated Lake County area,4,15,47%,5.4%
-94947,Novato,8,5,44%,5.5%
-94945,Novato,8,5,42%,5.6%
-94546,Castro Valley,9,5,57%,5.8%
-94549,Lafayette,9,4,44%,5.9%
-95521,Arcata,6,5,56%,5.9%
-95550,Unincorporated Humboldt County area,5,4,29%,5.9%
-94949,Novato,8,35,33%,6.2%
-95981,Unincorporated Plumas County area,7,1,13%,6.2%
-95662,Orangevale,8,0,38%,6.5%
-94545,Hayward,9,4,63%,6.7%
-94542,Hayward,8,2,47%,6.7%
-95548,Unincorporated Del Norte County area,5,0,53%,6.8%
-95664,Unincorporated El Dorado County area,8,0,15%,6.9%
-94541,Hayward,9,9,64%,7.0%
-94963,San Geronimo,8,0,54%,7.0%
-95437,Fort Bragg,7,13,51%,7.0%
-94619,Oakland,9,0,59%,7.2%
-94544,Hayward,9,4,66%,7.2%
-95630,Folsom,8,4,13%,7.2%
-95746,Granite Bay,8,5,10%,7.2%
-94903,San Rafael,8,0,40%,7.3%
-94563,Orinda,9,5,40%,7.4%
-94901,San Rafael,8,12,55%,7.4%
-94904,Larkspur and Kentfield,8,0,46%,7.4%
-94920,Belvedere and Tiburon,9,4,41%,7.4%
-94925,Corte Madera,9,6,49%,7.4%
-94939,Larkspur,8,7,43%,7.4%
-94941,Mill Valley,8,0,46%,7.4%
-94960,San Anselmo and Sleepy Hollow,8,11,55%,7.4%
-94964,Unincorporated Marin County area,9,5,,7.4%
-94965,Marin City and Sausalito,9,7,42%,7.4%
-94130,San Francisco,9,143,63%,7.5%
-95449,Unincorporated Mendocino County area,6,0,42%,7.5%
-92397,Wrightwood,10,0,43%,7.5%
-95678,Roseville,8,8,35%,7.6%
-94587,Union City,9,11,32%,8.1%
-92626,Costa Mesa,11,9,46%,8.1%
-94538,Fremont,9,12,36%,8.3%
-94555,Fremont,9,1,18%,8.3%
-92315,Big Bear Lake,6,0,48%,8.3%
-93526,Unincorporated Inyo County area,4,12,52%,8.4%
-95565,Unincorporated Humboldt County area,6,17,57%,8.5%
-94560,Newark,9,28,40%,8.5%
-96114,Janesville,5,0,15%,8.6%
-95987,Unincorporated Colusa County area,7,4,50%,8.6%
-92656,Aliso Viejo,9,0,14%,8.7%
-95971,Quincy,9,0,47%,8.8%
-94536,Fremont,8,6,38%,8.9%
-94583,San Ramon,9,0,19%,8.9%
-90245,El Segundo,12,28,50%,9.0%
-95954,Magalia,7,0,24%,9.0%
-96013,Unincorporated Shasta County area,4,2,48%,9.1%
-95514,Unincorporated Humboldt County area,5,0,50%,9.2%
-90266,Manhattan Beach,12,7,38%,9.3%
-94596,Walnut Creek,9,10,36%,9.6%
-94070,San Carlos,8,16,50%,10.1%
-92586,Menifee,10,0,19%,10.2%
-92551,Moreno Valley,11,6,35%,10.2%
-96067,Mount Shasta,3,18,33%,10.2%
-95524,Unincorporated Humboldt County area,6,7,43%,10.2%
-95482,Ukiah,7,8,55%,10.4%
-92008,Carlsbad,9,1,25%,10.4%
-92011,Carlsbad,9,4,8%,10.4%
-96132,Unincorporated Lassen County area,4,0,50%,10.4%
-92135,Coronado,10,18,,10.5%
-95722,Meadow Vista,7,2,23%,10.7%
-94509,Antioch,9,6,54%,10.8%
-94539,Fremont,8,11,18%,10.8%
-94553,Martinez,9,4,44%,11.1%
-95403,Santa Rosa,7,9,34%,11.3%
-95605,West Sacramento,9,38,68%,11.4%
-95747,Roseville,8,6,12%,11.4%
-92571,Perris,11,6,32%,11.5%
-96140,Unincorporated Placer County area,6,0,40%,11.8%
-95638,Unincorporated Sacramento County area,9,0,17%,11.8%
-95536,Unincorporated Humboldt County area,5,2,55%,11.8%
-95673,Rio Linda,9,7,56%,11.9%
-92596,French Valley,9,3,15%,12.0%
-96145,Unincorporated Placer County area,6,0,28%,12.1%
-94518,Concord,9,6,46%,12.4%
-94519,Concord,9,19,62%,12.4%
-94517,Clayton,8,6,19%,12.4%
-92345,Hesperia,9,0,39%,12.5%
-95492,Windsor,7,7,20%,12.6%
-92677,Laguna Niguel,9,0,19%,12.6%
-94510,Benicia,9,13,30%,12.6%
-90275,Rancho Palos Verdes,11,9,36%,12.9%
-95932,Unincorporated Colusa County area,8,15,65%,13.6%
-92553,Moreno Valley,12,3,46%,13.7%
-92691,Mission Viejo,9,1,28%,13.8%
-95603,Auburn,7,12,39%,13.9%
-94597,Walnut Creek,9,15,34%,13.9%
-92627,Costa Mesa,11,17,55%,14.4%
-94503,American Canyon,9,2,30%,14.5%
-90740,Seal Beach,12,18,39%,14.8%
-92583,San Jacinto,9,5,41%,14.8%
-90274,Rolling Hills Estates and Palos Verdes Estates,11,6,40%,14.9%
-94521,Concord,9,8,41%,15.0%
-94102,San Francisco,9,17,51%,15.0%
-94110,San Francisco,9,3,65%,15.0%
-94112,San Francisco,9,2,73%,15.0%
-94122,San Francisco,9,7,63%,15.0%
-94134,San Francisco,9,13,67%,15.0%
-94109,San Francisco,9,3,56%,15.0%
-94114,San Francisco,9,0,52%,15.0%
-94115,San Francisco,9,1,47%,15.0%
-94116,San Francisco,9,0,68%,15.0%
-94117,San Francisco,9,0,59%,15.0%
-94118,San Francisco,9,1,59%,15.0%
-94124,San Francisco,9,16,60%,15.0%
-94131,San Francisco,9,3,46%,15.0%
-94103,San Francisco,9,38,47%,15.0%
-94107,San Francisco,9,24,33%,15.0%
-94108,San Francisco,9,6,56%,15.0%
-94133,San Francisco,9,4,57%,15.0%
-94105,San Francisco,9,37,6%,15.0%
-94111,San Francisco,9,3,49%,15.0%
-94127,San Francisco,9,1,61%,15.0%
-94158,San Francisco,9,57,7%,15.0%
-93458,Santa Maria,8,5,68%,15.1%
-95969,Paradise,7,4,43%,15.2%
-92555,Moreno Valley,11,2,24%,15.2%
-94520,Concord,9,15,57%,15.6%
-92694,Ladera Ranch,10,0,11%,15.6%
-92653,Laguna Hills,9,1,16%,15.7%
-95503,Bayview and Eureka,6,3,47%,15.9%
-95035,Milpitas,8,21,31%,16.1%
-94523,Pleasant Hill,9,1,41%,16.3%
-94044,Pacifica,8,2,48%,16.5%
-92028,Fallbrook,8,8,38%,16.7%
-94121,San Francisco,9,6,58%,16.7%
-94598,Walnut Creek,9,2,28%,16.8%
-95814,Sacramento,9,48,40%,16.9%
-95818,Sacramento,9,22,64%,16.9%
-95819,Sacramento,9,5,62%,16.9%
-95831,Sacramento,9,2,27%,16.9%
-95811,Sacramento,9,218,72%,16.9%
-95816,Sacramento,9,8,54%,16.9%
-95817,Sacramento,9,8,69%,16.9%
-95832,Sacramento,9,0,49%,16.9%
-95838,Sacramento,9,12,57%,16.9%
-91914,Chula Vista,11,0,21%,17.1%
-91915,Chula Vista,11,7,23%,17.1%
-94930,Fairfax,8,17,47%,17.1%
-93101,Santa Barbara,8,11,59%,17.3%
-93103,Santa Barbara,8,19,58%,17.3%
-94531,Antioch,9,1,24%,17.3%
-94123,San Francisco,9,27,61%,17.4%
-96032,Unincorporated Siskiyou County area,3,4,47%,17.5%
-95762,El Dorado Hills,8,4,11%,17.5%
-92007,Encinitas,9,0,25%,17.6%
-95568,Unincorporated Siskiyou County area,3,15,59%,17.7%
-93454,Santa Maria,8,4,53%,17.8%
-95401,Santa Rosa,7,2,41%,18.3%
-92692,Mission Viejo,10,2,15%,18.3%
-95934,Unincorporated Plumas County area,7,8,52%,18.3%
-95709,Unincorporated El Dorado County area,7,0,35%,18.5%
-95979,Unincorporated Colusa County area,6,0,49%,18.6%
-91913,Chula Vista,11,0,21%,18.6%
-94132,San Francisco,9,2,61%,18.6%
-95926,Chico,9,20,48%,18.8%
-92563,Murrieta,9,2,17%,19.1%
-92201,Indio,8,1,39%,19.2%
-95192,San Jose,9,1,42%,19.3%
-95726,Pollock Pines,7,2,29%,19.4%
-92003,Bonsall,8,0,18%,19.5%
-92071,Santee,9,2,30%,19.6%
-90254,Hermosa Beach,12,1,41%,19.7%
-95691,West Sacramento,9,8,44%,19.9%
-95030,Los Gatos and Monte Sereno,7,1,34%,20.1%
-94552,Castro Valley,8,2,17%,20.2%
-93550,Palmdale,8,0,51%,20.4%
-96104,Unincorporated Modoc County area,4,0,58%,20.5%
-96056,Unincorporated Lassen and Modoc County area,5,2,49%,20.5%
-95835,Sacramento,9,0,12%,20.7%
-96052,Unincorporated Trinity County area,4,2,35%,20.8%
-90278,Redondo Beach,12,3,37%,21.1%
-90277,Redondo Beach,12,4,39%,21.1%
-95112,San Jose,9,14,61%,21.3%
-95062,Santa Cruz and Live Oak,6,9,47%,21.4%
-95822,Sacramento,9,3,69%,21.5%
-95667,Placerville and Unincorporated El Dorado County area,8,1,33%,21.6%
-92708,Fountain Valley,12,10,36%,21.7%
-93286,Woodlake,12,0,61%,21.9%
-94533,Fairfield,8,3,48%,21.9%
-92557,Moreno Valley,12,5,32%,21.9%
-92236,Coachella,7,4,40%,22.1%
-95131,San Jose,9,50,30%,22.2%
-95409,Santa Rosa,7,0,27%,22.3%
-95833,Sacramento,9,3,38%,22.4%
-94954,Petaluma,8,3,23%,22.4%
-95376,Tracy,9,6,43%,22.4%
-95672,El Dorado Hills,8,5,8%,22.6%
-95110,San Jose,9,23,52%,22.7%
-95117,San Jose,8,3,46%,22.7%
-95126,San Jose,9,14,52%,22.7%
-95130,San Jose,8,0,54%,22.7%
-95133,San Jose,9,12,42%,22.7%
-95008,Campbell,8,4,40%,22.7%
-95118,San Jose,8,0,36%,22.7%
-95124,San Jose,8,7,47%,22.7%
-95129,San Jose,8,6,39%,22.7%
-95116,San Jose,9,1,65%,22.7%
-95125,San Jose,9,9,51%,22.7%
-96150,South Lake Tahoe,4,0,43%,22.8%
-95525,Unincorporated Humboldt County area,6,21,51%,22.8%
-95687,Vacaville,8,0,22%,23.0%
-96007,Anderson and Happy Valley,11,0,38%,23.1%
-95663,Unincorporated Placer County area,7,27,32%,23.1%
-95064,Santa Cruz,6,0,30%,23.1%
-92118,Coronado,11,11,32%,23.3%
-92065,Ramona,7,3,28%,23.3%
-95070,Saratoga,8,0,37%,23.4%
-96108,Unincorporated Modoc County area,4,1,48%,23.5%
-90265,Unincorporated Los Angeles County area,10,6,27%,24.0%
-92024,Encinitas,9,0,24%,24.0%
-94590,Vallejo,9,3,71%,24.0%
-95468,Unincorporated Mendocino County area,6,11,30%,24.1%
-93108,Unincorporated Santa Barbara County area,8,1,38%,24.1%
-92663,Newport Beach,11,17,39%,24.1%
-92307,Apple Valley,7,2,40%,24.2%
-94002,Belmont,8,9,47%,24.3%
-95425,Unincorporated Sonoma County area,6,25,53%,24.3%
-93109,Santa Barbaraarea,8,7,44%,24.4%
-95453,Lakeport,5,13,50%,24.5%
-92585,Menifee,10,0,28%,24.5%
-91932,Imperial Beach,12,7,59%,24.7%
-92637,Laguna Woods,10,2,21%,24.8%
-96003,Redding,8,5,27%,24.8%
-95128,San Jose,9,3,61%,24.9%
-95446,Unincorporated Sonoma County area,6,0,59%,24.9%
-94403,San Mateo,8,4,56%,24.9%
-94565,Pittsburg,9,17,53%,25.1%
-92069,San Marcos,8,4,29%,25.1%
-95628,Fair Oaks,8,6,36%,25.3%
-95065,Live Oak and Santa Cruz,6,6,35%,25.3%
-95122,San Jose,9,2,58%,25.5%
-92584,Menifee,10,0,20%,25.5%
-95836,Unincorporated Sacramento County area,9,0,,25.5%
-95032,Los Gatos,8,2,38%,25.6%
-95695,Woodland,9,4,49%,25.6%
-95540,Fortuna,6,0,46%,25.7%
-95470,Unincorporated Mendocino County area,7,3,42%,25.7%
-90755,Signal Hill,12,14,51%,25.7%
-95551,Loleta,6,0,64%,25.9%
-94066,San Bruno,9,5,58%,25.9%
-95132,San Jose,8,7,35%,25.9%
-95834,Sacramento,9,2,27%,26.0%
-92154,San Diego,13,2,43%,26.1%
-92064,Poway,9,1,29%,26.3%
-96088,Unincorporated Shasta County area,6,0,17%,26.4%
-94534,Fairfield,9,1,21%,26.5%
-96161,Truckee,8,2,15%,26.6%
-95928,Chico,9,28,43%,26.6%
-94401,San Mateo,9,2,75%,26.7%
-95135,San Jose,8,2,13%,26.7%
-95404,Santa Rosa,7,1,43%,26.7%
-95127,San Jose,8,0,67%,26.7%
-90623,La Palma,12,4,37%,26.9%
-92688,Rancho Santa Margarita,10,5,19%,26.9%
-94591,Vallejo,9,3,42%,27.0%
-96020,Unincorporated Plumas County area,8,9,37%,27.1%
-90723,Paramount,12,11,69%,27.2%
-92131,San Diego,9,3,9%,27.2%
-94582,San Ramon,8,0,6%,27.2%
-95120,San Jose,8,1,21%,27.3%
-94024,Los Altos,8,5,44%,27.4%
-95546,Unincorporated Humboldt County area,5,15,54%,27.4%
-92128,San Diego,9,2,16%,27.4%
-92119,San Diego,10,2,34%,28.0%
-95965,Oroville,8,19,55%,28.0%
-96130,Unincorporated Lassen County area,5,7,53%,28.2%
-92078,San Marcos,8,9,26%,28.3%
-95407,Santa Rosa,7,7,56%,28.4%
-93436,Lompoc,7,3,51%,28.8%
-95136,San Jose,8,5,32%,28.8%
-95820,Sacramento,9,7,80%,28.9%
-95688,Vacaville,8,6,35%,28.9%
-92107,San Diego,10,4,41%,29.0%
-92108,San Diego,10,10,21%,29.0%
-92110,San Diego,10,17,43%,29.0%
-92121,San Diego,9,13,12%,29.0%
-92124,San Diego,9,10,37%,29.0%
-92134,San Diego,10,7,,29.0%
-92136,San Diego,10,35,,29.0%
-92140,San Diego,10,19,,29.0%
-92145,San Diego,9,11,46%,29.0%
-92173,San Diego,14,0,46%,29.0%
-92101,San Diego,10,23,15%,29.0%
-92103,San Diego,10,10,37%,29.0%
-92104,San Diego,10,2,51%,29.0%
-92106,San Diego,10,18,48%,29.0%
-92111,San Diego,10,2,44%,29.0%
-92116,San Diego,10,0,52%,29.0%
-92117,San Diego,9,7,54%,29.0%
-92122,San Diego,9,0,21%,29.0%
-92123,San Diego,9,12,40%,29.0%
-92037,San Diego,10,6,27%,29.0%
-92102,San Diego,10,5,63%,29.0%
-92109,San Diego,10,2,36%,29.0%
-92126,San Diego,9,4,27%,29.0%
-92129,San Diego,9,0,16%,29.0%
-92395,Victorville,8,0,44%,29.0%
-95060,Santa Cruz,6,15,45%,29.2%
-92113,San Diego,10,7,70%,29.2%
-90745,Carson,12,35,62%,29.4%
-91910,Chula Vista,10,3,51%,29.5%
-95959,Unincorporated Nevada County area,6,55,24%,29.5%
-90742,Huntington Beach,11,4,41%,29.5%
-95648,Lincoln,8,1,16%,29.6%
-96021,Unincorporated Tehama County area,7,7,53%,29.8%
-94589,Vallejo,9,1,55%,29.8%
-92083,Vista,9,2,49%,29.9%
-92130,San Diego,9,0,9%,29.9%
-96002,Redding,9,4,35%,30.0%
-92392,Mountain View Acres and Victorville,8,4,29%,30.2%
-95973,Chico,9,5,28%,30.2%
-92394,Victorville,7,10,41%,30.3%
-90503,Torrance,12,6,49%,30.3%
-92240,Desert Hot Springs,6,0,41%,30.3%
-92223,Beaumont,9,2,31%,30.5%
-92139,San Diego,10,1,51%,30.5%
-92105,San Diego,10,3,70%,30.5%
-95602,North Auburn,7,4,26%,30.6%
-91911,Chula Vista,11,2,54%,30.6%
-94585,Suisun City,8,6,29%,30.7%
-92009,Carlsbad,9,0,11%,30.7%
-94035,Unincorporated Santa Clara County area,8,52,,30.8%
-93552,Palmdale,8,1,47%,30.8%
-94030,Millbrae,8,5,50%,30.8%
-93111,Goleta and Eastern Goleta Valley,8,6,37%,31.0%
-94404,Foster City,9,4,23%,31.0%
-95073,Unincorporated Santa Cruz County area,6,0,27%,31.3%
-95014,Cupertino,8,13,34%,31.5%
-92081,Vista,9,4,32%,31.5%
-96001,Redding,8,11,40%,31.6%
-92019,Rancho San Diego,10,0,33%,31.7%
-94402,San Mateo,8,2,57%,31.8%
-92264,Palm Springs,7,0,35%,31.9%
-96073,Bella Vista,9,0,25%,32.0%
-92372,Piñon Hills,10,0,29%,32.0%
-96022,Unincorporated Tehama County area,9,0,38%,32.1%
-95526,Unincorporated Humboldt County area,5,0,41%,32.1%
-92241,Desert Edge and Indio Hills,7,0,27%,32.2%
-92625,Newport Beach,11,9,29%,32.3%
-92657,Newport Beach,10,0,9%,32.3%
-92661,Newport Beach,11,4,41%,32.3%
-92662,Newport Beach,11,2,55%,32.3%
-92084,Vista,9,2,49%,32.3%
-92115,San Diego,10,2,57%,32.3%
-92120,San Diego,10,5,44%,32.3%
-96031,Unincorporated Siskiyou County area,2,4,47%,32.4%
-95223,Unincorporated Calaveras County area,7,0,21%,32.4%
-92314,Big Bear City,6,1,34%,32.5%
-91978,Spring Valley,10,0,33%,32.7%
-95683,Unincorporated Sacramento County area,8,17,12%,32.7%
-94592,Unincorporated Solano County area,9,37,33%,32.8%
-95682,Cameron Park,8,4,18%,32.8%
-95632,Galt,9,1,35%,32.9%
-95966,Oroville,8,12,45%,32.9%
-95111,San Jose,8,6,57%,33.0%
-96016,Unincorporated Shasta County area,5,0,47%,33.0%
-92014,San Diego,9,3,15%,33.2%
-92010,Carlsbad,9,3,19%,33.2%
-91950,National City,10,7,68%,33.3%
-90502,West Carson,12,47,58%,33.5%
-91010,Duarte,12,8,61%,33.5%
-94015,Daly City,8,2,56%,33.8%
-92545,Hemet,9,2,27%,33.9%
-90505,Torrance,12,11,43%,34.1%
-90810,Long Beach,12,3,74%,34.1%
-95252,"Unincorporated Calaveras County area,Unincorporated Calaveras County area",9,0,34%,34.1%
-92233,Unincorporated Imperial County area,8,18,49%,34.1%
-92114,San Diego,10,2,57%,34.2%
-94087,Sunnyvale,8,4,40%,34.2%
-90815,Long Beach,12,9,56%,34.3%
-90803,Long Beach,12,7,44%,34.4%
-90250,Hawthorne,12,9,66%,34.5%
-90804,Long Beach,12,6,67%,34.5%
-95121,San Jose,9,5,38%,34.5%
-92861,Villa Park,12,0,27%,34.6%
-90814,Long Beach,12,4,57%,34.7%
-90840,Long Beach,12,1,,34.7%
-90802,Long Beach,12,8,58%,34.7%
-90806,Long Beach,12,5,77%,34.7%
-90813,Long Beach,12,3,82%,34.7%
-95134,San Jose,8,79,15%,34.8%
-92660,Newport Beach,11,5,18%,34.8%
-90504,Torrance,12,11,64%,35.1%
-92655,Midway City,12,2,60%,35.2%
-93117,Goleta and Isla Vista,8,6,31%,35.4%
-92308,Apple Valley,7,1,32%,35.5%
-95469,Unincorporated Mendocino County area,6,0,53%,35.5%
-91935,Unincorporated San Diego County area,10,0,20%,35.6%
-94931,Penngrove and Cotati,8,4,35%,35.7%
-95010,Capitola,6,1,43%,35.8%
-93591,"Palmdale,Lake Los Angeles",7,0,49%,35.9%
-90805,Long Beach,12,4,81%,36.0%
-92582,San Jacinto and Hemet,9,6,30%,36.0%
-95476,Fetters Hot Springs-Agua Caliente and Boyes Hot Springs,8,0,39%,36.1%
-91902,Bonita,10,0,26%,36.1%
-92646,Huntington Beach,11,4,28%,36.2%
-95975,Lake Wildwood,7,11,17%,36.2%
-92371,Phelan,9,0,25%,36.2%
-93422,Atascadero,6,0,40%,36.2%
-92344,Oak Hills,10,0,10%,36.2%
-95461,Unincorporated Lake County area,4,9,31%,36.2%
-95448,Healdsburg,6,0,38%,36.3%
-92651,Laguna Beach,10,2,37%,36.3%
-95247,Unincorporated Calaveras County area,8,0,33%,36.4%
-92648,Huntington Beach,11,9,24%,36.7%
-90232,Culver City,12,11,51%,36.7%
-92649,Huntington Beach,11,5,30%,36.7%
-92591,Temecula,9,1,18%,36.8%
-92592,Temecula,8,3,12%,36.8%
-92886,Yorba Linda,12,3,26%,36.9%
-93905,Salinas,5,3,67%,37.0%
-95693,Unincorporated Sacramento County area,8,3,28%,37.0%
-90746,Carson,12,36,49%,37.2%
-92325,Crestline,9,4,51%,37.4%
-93402,Los Osos,7,0,35%,37.4%
-94129,San Francisco,9,113,55%,37.4%
-95003,Aptos and Rio del Mar,6,0,33%,37.4%
-95123,San Jose,8,0,35%,37.6%
-95724,Unincorporated Placer County area,7,0,20%,37.7%
-90807,Long Beach,12,5,63%,37.7%
-95776,Woodland,9,4,39%,37.7%
-92672,San Clemente,10,4,36%,37.9%
-95608,Carmichael,9,4,47%,37.9%
-94301,Palo Alto,8,11,47%,38.1%
-92262,Palm Springs,6,0,29%,38.2%
-96035,Proberta,7,0,39%,38.2%
-92301,Adelanto,8,10,43%,38.3%
-95943,Unincorporated Glenn County area,8,0,50%,38.3%
-92647,Huntington Beach,11,10,42%,38.4%
-90506,Alondra Park,12,4,75%,38.4%
-92629,Dana Point,10,0,25%,38.5%
-90260,Lawndale,12,1,69%,38.7%
-90230,Los Angeles and Culver City,12,4,62%,38.7%
-93944,Monterey,5,1,,38.7%
-93950,Pacific Grove,6,2,53%,38.7%
-93953,Del Monte Forest,5,3,36%,38.7%
-92027,Escondido,8,0,44%,38.7%
-96064,Unincorporated Siskiyou County area,3,0,35%,38.8%
-95531,Bertsch-Oceanview and Crescent City,6,8,45%,38.8%
-96094,Unincorporated Siskiyou County area,4,15,34%,38.8%
-95713,Unincorporated Placer County area,7,15,32%,38.9%
-94568,Dublin,9,3,16%,38.9%
-93430,Cayucos,7,0,39%,39.0%
-95002,San Jose,8,104,49%,39.0%
-93930,King City,6,4,61%,39.1%
-96097,Yreka,4,10,53%,39.2%
-90249,Gardena,12,40,80%,39.3%
-94305,Stanford,8,26,34%,39.3%
-90703,Cerritos,12,5,27%,39.3%
-92683,Westminster,12,5,57%,39.4%
-94561,Oakley,9,10,31%,39.5%
-90304,Lennox,12,6,89%,39.5%
-95585,Unincorporated Mendocino County area,5,0,35%,39.6%
-91301,Unincorporated Los Angeles County area,10,1,19%,39.6%
-94022,Los Altos,8,12,33%,39.7%
-96142,Unincorporated Placer County area,5,0,25%,39.7%
-92067,Rancho Santa Fe,8,11,20%,39.7%
-92075,Solana Beach,9,3,20%,39.7%
-95815,Sacramento,9,9,73%,39.7%
-90747,Carson,12,19,25%,39.8%
-90732,Los Angeles,12,12,53%,39.9%
-94952,Petaluma,8,5,48%,39.9%
-96010,Unincorporated Trinity County area,4,0,35%,40.3%
-91977,La Presa and Spring Valley,10,1,49%,40.4%
-95963,Orland,7,3,55%,40.5%
-95631,Unincorporated Placer County area,6,7,21%,40.8%
-92530,Lake Elsinore,10,0,41%,40.8%
-95948,Unincorporated Butte County area,9,0,58%,40.8%
-93546,Mammoth Lakes,3,0,28%,41.0%
-92127,Unincorporated San Diego County area,8,9,15%,41.0%
-94089,Sunnyvale,8,41,49%,41.1%
-94085,Sunnyvale,8,74,52%,41.1%
-92282,Unincorporated Riverside County area,6,0,43%,41.2%
-93023,Mira Monte and Meiners Oaks,9,3,46%,41.2%
-92679,Coto de Caza,10,1,11%,41.3%
-91901,Alpine,8,1,26%,41.4%
-95148,San Jose,8,0,26%,41.4%
-95202,Stockton,12,33,81%,41.6%
-95203,Stockton,11,38,70%,41.6%
-94086,Sunnyvale,8,11,40%,41.6%
-95945,Grass Valley,6,74,48%,41.8%
-95949,Alta Sierra,7,12,22%,41.8%
-92025,Escondido,8,1,50%,41.9%
-90255,Huntington Park,12,15,89%,42.1%
-90731,Los Angeles,12,20,62%,42.1%
-93455,Orcutt,8,3,34%,42.1%
-91702,Azusa,12,4,69%,42.2%
-94080,South San Francisco,9,15,60%,42.3%
-94025,Menlo Park,8,14,59%,42.4%
-90744,Los Angeles,12,16,82%,42.4%
-93015,Unincorporated Ventura County area,8,3,59%,42.5%
-92548,Unincorporated Riverside County area,10,0,45%,42.5%
-90808,Long Beach,12,7,56%,42.6%
-95464,Unincorporated Lake County area,5,12,33%,42.6%
-92021,El Cajon,9,5,47%,42.7%
-92567,Unincorporated Riverside County area,10,4,34%,42.7%
-94588,Pleasanton,8,3,13%,42.9%
-94027,Atherton,8,24,44%,43.0%
-92310,Unincorporated San Bernardino County area,6,8,46%,43.1%
-95937,Unincorporated Yolo County area,7,1,52%,43.2%
-95228,Unincorporated Calaveras County area,9,20,19%,43.2%
-92243,El Centro,9,6,42%,43.3%
-94956,Unincorporated Marin County area,7,4,51%,43.3%
-92887,Yorba Linda,12,0,20%,43.3%
-93428,Cambria,7,8,29%,43.5%
-92673,San Clemente,10,5,11%,43.6%
-95837,Unincorporated Yolo and Sacramento County area,9,8,38%,43.6%
-94065,Redwood City,8,2,11%,43.6%
-95389,Unincorporated Mariposa County area,6,10,35%,43.7%
-93940,Monterey,6,9,42%,43.7%
-92780,Tustin,12,6,53%,43.8%
-90501,Torrance,12,38,57%,43.8%
-92401,San Bernardino,11,43,78%,44.1%
-92405,San Bernardino,11,18,91%,44.1%
-90056,Culver City,12,12,42%,44.1%
-93433,Grover Beach,8,0,54%,44.1%
-95830,Vineyard,8,0,4%,44.1%
-94928,Rohnert Park,8,0,33%,44.2%
-95624,Elk Grove,9,1,21%,44.4%
-93442,Morro Bay,7,7,43%,44.8%
-92587,Menifee and Canyon Lake,10,0,21%,44.8%
-94566,Pleasanton,8,2,21%,44.8%
-90242,Downey,12,5,70%,44.9%
-93060,Santa Paula,9,3,62%,44.9%
-92399,Yucaipa,10,2,47%,45.0%
-94306,Palo Alto,8,16,47%,45.0%
-91942,La Mesa,10,4,52%,45.1%
-92234,"Cathedral City,",7,1,30%,45.2%
-92210,Indian Wells,7,0,10%,45.4%
-93022,Oak View,9,2,46%,45.4%
-95020,Gilroy,6,7,42%,45.5%
-90640,Montebello,12,9,67%,45.7%
-91945,Lemon Grove,10,0,62%,45.7%
-92020,El Cajon,10,11,55%,45.8%
-92211,Palm Desert,7,0,7%,45.8%
-95758,Elk Grove,9,0,22%,45.9%
-95542,Unincorporated Humboldt County area,5,0,34%,45.9%
-94303,Palo Alto,8,10,68%,46.0%
-92270,Rancho Mirage,7,3,12%,46.0%
-94063,Redwood City,8,54,70%,46.0%
-93105,Santa Barbara,7,1,48%,46.0%
-95037,Morgan Hill,7,4,34%,46.1%
-92618,Irvine,11,9,21%,46.2%
-92026,Escondido,8,2,30%,46.2%
-92707,Santa Ana,12,25,77%,46.3%
-95377,Tracy,9,8,14%,46.4%
-90710,Los Angeles,12,6,47%,46.5%
-92704,Santa Ana,12,11,63%,46.6%
-93955,Seaside,6,11,69%,46.6%
-95139,San Jose,8,12,24%,46.6%
-92260,Palm Deser,7,1,24%,46.7%
-95138,San Jose,8,13,20%,46.7%
-92570,Perris and Mead Valley,11,14,47%,46.8%
-95119,San Jose,8,24,43%,46.8%
-92703,Santa Ana,12,11,83%,47.0%
-95961,Olivehurst,9,4,52%,47.1%
-92203,Bermuda Dunes and Indio,7,0,16%,47.1%
-92253,La Quinta,7,1,18%,47.2%
-90717,Lomita,12,3,57%,47.2%
-92630,Lake Forest,9,2,30%,47.2%
-92606,Irvine,12,1,26%,47.3%
-92620,Irvine,11,4,20%,47.3%
-92602,Irvine,12,1,22%,47.3%
-92603,Irvine,11,2,19%,47.3%
-92610,Lake Forest,11,0,15%,47.3%
-92614,Irvine,11,0,20%,47.3%
-92617,Irvine,11,4,19%,47.3%
-92604,Irvine,11,0,27%,47.3%
-92612,Irvine,11,0,23%,47.3%
-94014,Daly City,8,9,59%,47.3%
-94062,Redwood City,8,2,49%,47.4%
-90706,Bellflower,12,0,66%,47.5%
-92701,Santa Ana,12,33,77%,47.5%
-95472,Unincorporated Sonoma County area,7,2,43%,47.6%
-93612,Clovis,14,5,43%,47.6%
-92544,East Hemet,9,0,50%,47.7%
-94019,El Granada,8,0,34%,47.8%
-91941,La Mesa and Casa de Oro-Mount Helix,10,2,54%,47.9%
-92082,Unincorporated San Diego County area,7,0,28%,47.9%
-95076,Watsonville,6,6,58%,48.1%
-90405,Santa Monica,12,17,49%,48.1%
-92250,Holtville,9,1,38%,48.1%
-90704,Avalon,7,50,46%,48.2%
-90401,Santa Monica,12,24,19%,48.2%
-90403,Santa Monica,12,0,43%,48.2%
-90404,Santa Monica,12,12,45%,48.2%
-94038,Montara,8,6,30%,48.2%
-93110,Eastern Goleta Valley,8,0,37%,48.2%
-94040,Mountain View,8,19,47%,48.3%
-92706,Santa Ana,12,6,77%,48.3%
-94010,Burlingame,8,3,53%,48.3%
-40,Unincorporated Tuolumne County area,6,0,18%,48.4%
-91361,Thousand Oaks,9,1,24%,48.4%
-92274,Unincorporated Imperial County area,8,9,36%,48.4%
-95257,Unincorporated Calaveras County area,7,0,32%,48.5%
-95634,Unincorporated El Dorado County area,7,0,20%,48.5%
-95666,Unincorporated Amador County area,7,0,20%,48.7%
-94061,Redwood City,8,7,61%,48.7%
-95204,Country Club and Stockton,11,4,72%,48.7%
-95066,Unincorporated Santa Cruz County area,6,39,27%,48.7%
-91302,Calabasas,11,0,20%,48.9%
-91362,Thousand Oaks,9,2,22%,49.1%
-95050,Santa Clara,8,38,50%,49.1%
-95988,Willows,9,8,59%,49.1%
-93245,Lemoore,13,5,43%,49.2%
-96080,"Red Bluff,",6,8,46%,49.2%
-95757,Elk Grove,9,2,14%,49.4%
-92624,Dana Point,10,12,34%,49.4%
-90212,Beverly Hills,12,6,56%,49.4%
-94041,Mountain View,8,19,38%,49.5%
-93013,Carpinteria,9,0,44%,49.5%
-93923,Carmel-by-the-Sea,5,8,34%,49.8%
-95490,Unincorporated Mendocino County area,7,4,47%,49.9%
-95051,Santa Clara,8,9,49%,50.1%
-95054,Santa Clara,8,111,26%,50.2%
-96051,Unincorporated Shasta County area,5,0,27%,50.2%
-90247,Gardena,12,15,62%,50.2%
-92782,Tustin,12,20,21%,50.2%
-95618,Davis,9,15,25%,50.3%
-95843,Antelope,9,0,29%,50.4%
-92239,Unincorporated Riverside County area,9,8,25%,50.5%
-95917,Unincorporated Butte County area,8,0,54%,50.6%
-95658,Unincorporated Placer County area,7,25,35%,50.6%
-96101,Daphnedale Park,5,0,59%,50.7%
-95616,Davis,9,2,29%,50.7%
-93906,Salinas,6,3,49%,50.9%
-95824,Sacramento,9,3,74%,51.1%
-95423,Unincorporated Lake County area,3,12,46%,51.2%
-95626,Elverta,8,3,46%,51.2%
-90303,Inglewood,12,2,82%,51.3%
-95823,Sacramento,9,2,50%,51.4%
-92227,Brawley,9,12,48%,51.5%
-92320,Calimesa,10,0,16%,51.5%
-90402,Santa Monica,12,0,50%,51.6%
-90222,Compton,12,24,89%,51.6%
-90716,Hawaiian Gardens,12,1,76%,51.6%
-95703,Unincorporated Placer County area,7,0,23%,51.6%
-95006,Boulder Creek,6,0,45%,51.6%
-90066,Los Angeles,12,3,55%,51.8%
-90715,Lakewood,12,1,55%,51.8%
-90660,Pico Rivera,12,9,73%,51.9%
-92705,Santa Ana,12,11,43%,52.0%
-92276,Thousand Palms,7,0,31%,52.0%
-94558,Napa,9,4,40%,52.0%
-94559,Napa,10,9,61%,52.1%
-93933,Marina,6,16,41%,52.3%
-95829,Vineyard,9,5,26%,52.3%
-93901,Salinas,6,4,64%,52.5%
-93535,Lancaster,7,5,54%,52.6%
-90067,Los Angeles,12,5,11%,52.7%
-90094,Los Angeles,12,13,1%,52.7%
-90293,Los Angeles,12,16,34%,52.7%
-90024,Los Angeles,12,6,35%,52.7%
-95916,Berry Creek,6,18,33%,52.8%
-95370,Sonora and Phoenix Lake,8,15,39%,52.8%
-95236,Peters,10,10,38%,52.9%
-95451,Clearlake Riviera,3,11,28%,52.9%
-95826,Rosemont,9,4,40%,53.0%
-92675,San Juan Capistrano,10,6,20%,53.2%
-92231,Calexico,12,4,45%,53.2%
-95237,Lockeford,10,9,37%,53.2%
-94505,Discovery Bay,9,0,35%,53.3%
-90302,Inglewood,12,1,74%,53.4%
-95623,Unincorporated El Dorado County area,8,0,17%,53.5%
-95222,Unincorporated Calaveras County area,9,7,42%,53.5%
-94551,Livermore,8,4,33%,53.5%
-95427,Unincorporated Mendocino County area,6,0,29%,53.6%
-92595,Wildomar,10,0,19%,53.6%
-90638,La Mirada,12,5,58%,53.7%
-94028,Portola Valley,8,0,40%,53.7%
-95684,Unincorporated El Dorado County area,7,0,30%,53.7%
-95306,Unincorporated Mariposa County area,10,1,26%,53.7%
-90064,Los Angeles,12,1,52%,53.7%
-90701,Artesia,12,1,65%,53.7%
-92363,Unincorporated San Bernardino County area,9,8,63%,53.9%
-91741,Glendora,12,4,48%,53.9%
-95338,Unincorporated Mariposa County area,8,4,28%,54.1%
-94043,Mountain View,8,56,33%,54.1%
-95421,Timber Cove,6,12,33%,54.1%
-95033,Unincorporated Santa Clara County area,7,0,40%,54.2%
-93543,Palmdale,8,1,49%,54.3%
-92411,San Bernardino,11,13,86%,54.3%
-93204,Avenal,10,0,75%,54.3%
-90221,Compton,12,4,91%,54.4%
-94513,Brentwood,9,8,21%,54.5%
-96047,Unincorporated Shasta County area,7,12,23%,54.6%
-95701,Unincorporated Placer County area,7,1,40%,54.6%
-92867,Orange,12,15,47%,54.7%
-92284,Yucca Valley,5,0,38%,54.7%
-92313,Grand Terrace,12,10,33%,54.7%
-90025,Los Angeles,12,14,38%,54.7%
-95441,Unincorporated Sonoma County area,6,1,47%,54.8%
-93534,Lancaster,7,2,61%,54.8%
-92865,Orange,12,5,42%,55.1%
-92870,Placentia,12,13,36%,55.1%
-90291,Los Angeles,12,3,55%,55.2%
-90220,Compton,12,12,81%,55.3%
-93449,Pismo Beach,8,0,32%,55.4%
-90712,Lakewood,12,3,69%,55.5%
-95005,Ben Lomond,6,1,55%,55.5%
-95206,Stockton,11,10,58%,55.5%
-92281,Unincorporated Imperial County area,9,0,60%,55.6%
-95023,Hollister,5,10,36%,55.6%
-92029,Unincorporated San Diego County area,8,11,20%,55.7%
-90713,Lakewood,12,0,68%,55.7%
-95825,Arden-Arcade,9,2,48%,55.8%
-92056,Oceanside,9,3,27%,55.9%
-95640,"Unincorporated Amador County area,Unincorporated Amador County area",9,55,34%,55.9%
-95938,Durham,8,25,33%,55.9%
-94550,Livermore,8,8,26%,56.0%
-93033,Oxnard,9,3,69%,56.1%
-91320,Thousand Oaks,9,3,21%,56.2%
-93514,Unincorporated Inyo County area,4,4,28%,56.2%
-92054,Oceanside,10,9,46%,56.3%
-90040,Commerce,12,58,66%,56.3%
-92407,Muscoy and San Bernardino,11,15,52%,56.4%
-93021,Moorpark,9,0,26%,56.4%
-90301,Inglewood,12,5,77%,56.5%
-96113,Unincorporated Lassen County area,5,23,43%,56.6%
-94304,Palo Alto,8,91,33%,56.6%
-90621,Buena Park,12,15,59%,56.6%
-93212,Corcoran,13,4,61%,56.7%
-91722,Covina,12,3,67%,56.8%
-93555,Ridgecrest,8,4,47%,56.8%
-90045,Los Angeles,12,11,54%,56.8%
-92806,Anaheim,12,39,50%,57.0%
-95205,Stockton,12,7,80%,57.1%
-92805,Anaheim,12,27,76%,57.1%
-92862,Unincorporated Orange County area,12,1,17%,57.2%
-90272,Los Angeles,11,8,41%,57.2%
-92808,Anaheim,12,0,14%,57.4%
-91748,Rowland Heights,12,4,38%,57.5%
-95694,Unincorporated Yolo County area,8,16,41%,57.6%
-92277,Twentynine Palms,7,16,55%,57.8%
-90305,Inglewood,12,0,63%,57.8%
-90620,Buena Park,12,9,67%,57.9%
-93010,Camarillo,9,3,32%,57.9%
-92868,Orange,12,26,56%,57.9%
-92807,Anaheim,12,9,24%,58.0%
-93640,Unincorporated Fresno County area,10,7,59%,58.0%
-91377,Oak Park,9,1,10%,58.0%
-92843,Garden Grove,12,4,67%,58.0%
-92543,Hemet,9,2,52%,58.1%
-93551,Palmdale,7,1,31%,58.1%
-90240,Downey,12,10,65%,58.1%
-92252,Joshua Tree,5,0,46%,58.2%
-93927,Greenfield,5,5,51%,58.3%
-92058,Oceanside,10,6,41%,58.3%
-92057,Oceanside,9,4,28%,58.4%
-95436,Unincorporated Sonoma County area,6,0,42%,58.4%
-92040,Lakeside and Winter Gardens,9,3,41%,58.4%
-95442,Unincorporated Sonoma County area,7,0,42%,58.5%
-93611,Clovis,13,1,16%,58.8%
-91765,Diamond Bar,12,0,20%,58.8%
-92869,Orange,12,7,35%,58.9%
-51,Unincorporated El Dorado County area,5,0,33%,59.0%
-91016,Monrovia,12,18,55%,59.0%
-92866,Orange,12,9,60%,59.1%
-93446,Paso Robles,7,10,40%,59.4%
-93536,Lancaster and Quartz Hill,7,2,34%,59.6%
-92802,Anaheim,12,9,67%,59.6%
-92844,Garden Grove,12,0,61%,59.7%
-90270,Maywood,12,15,92%,59.7%
-92804,Anaheim,12,10,68%,59.7%
-93620,Unincorporated Merced County area,11,7,67%,60.0%
-93063,Simi Valley,9,2,27%,60.0%
-92055,Unincorporated San Diego County area,9,28,47%,60.1%
-95320,"Unincorporated San Joaquin County area,Escalon",11,10,39%,60.1%
-95346,Unincorporated Tuolumne County area,7,2,27%,60.3%
-93445,Oceano,8,0,41%,60.4%
-94970,Unincorporated Marin County area,8,0,54%,60.5%
-95017,Unincorporated Santa Cruz County area,6,0,32%,60.6%
-93042,Unincorporated Ventura County area,9,15,64%,60.7%
-92256,Morongo Valley,6,0,31%,60.7%
-93066,Unincorporated Ventura County area,9,4,49%,60.7%
-95374,Unincorporated Merced County area,11,0,68%,60.8%
-91360,Thousand Oaks,9,0,29%,60.9%
-94574,St. Helena,8,16,43%,61.0%
-92278,Unincorporated San Bernardino County area,6,0,43%,61.1%
-95652,McClellan Park,9,19,83%,61.1%
-93510,Acton,9,8,15%,61.1%
-95570,Unincorporated Humboldt County area,5,2,53%,61.1%
-93065,Simi Valley,9,0,27%,61.4%
-95692,Unincorporated Yuba County area,8,0,25%,61.4%
-92086,Unincorporated San Diego County area,6,0,44%,61.4%
-92801,Anaheim,12,28,74%,61.5%
-92254,Unincorporated Riverside County area,7,13,48%,61.6%
-93234,Unincorporated Fresno County area,10,5,53%,61.7%
-93453,Unincorporated San Luis Obispo County area,6,0,43%,61.7%
-95660,North Highlands,9,10,67%,61.7%
-95993,Yuba City,9,3,32%,61.9%
-92840,Garden Grove,12,2,77%,61.9%
-90262,Lynwood,12,24,90%,62.0%
-92220,Banning,9,7,59%,62.1%
-93001,San Buenaventura (Ventura),9,7,58%,62.1%
-93268,Taft,13,2,77%,62.1%
-90670,Santa Fe Springs,12,60,59%,62.2%
-95665,Pine Grove,8,10,19%,62.2%
-93230,Hanford,15,5,47%,62.2%
-92004,Unincorporated San Diego County area,7,20,30%,62.3%
-92036,Unincorporated San Diego County area,6,0,39%,62.3%
-93517,Unincorporated Mono County area,3,0,47%,62.3%
-93252,Unincorporated Kern County area,10,10,68%,62.3%
-95620,Dixon,8,11,39%,62.4%
-92676,Silverado,11,1,50%,62.6%
-91916,Unincorporated San Diego County area,6,13,48%,62.6%
-90241,Downey,12,3,74%,62.6%
-92845,Garden Grove,12,7,40%,62.6%
-92841,Garden Grove,12,5,65%,62.6%
-94571,Unincorporated Solano County area,8,10,24%,62.7%
-95827,Rosemont,9,10,39%,62.8%
-90049,Los Angeles,12,6,43%,62.8%
-92283,Unincorporated Imperial County area,9,12,28%,62.9%
-90065,Los Angeles,12,28,71%,62.9%
-90602,Whittier,12,27,78%,63.0%
-94005,Brisbane,9,35,57%,63.0%
-95942,Unincorporated Butte County area,7,16,10%,63.0%
-92352,Lake Arrowhead,9,2,28%,63.0%
-95939,Unincorporated Glenn County area,5,0,52%,63.4%
-92311,Barstow,8,6,64%,63.5%
-91340,Los Angeles,11,12,80%,63.6%
-90034,Los Angeles,12,3,49%,63.6%
-94535,Fairfield,8,12,50%,63.6%
-95457,Unincorporated Lake County area,4,10,28%,63.7%
-94951,Unincorporated Sonoma County area,7,0,19%,63.8%
-90290,Topanga,11,4,46%,64.0%
-92251,Unincorporated Imperial County area,9,39,30%,64.1%
-95348,Merced,12,3,43%,64.3%
-91024,Sierra Madre,12,0,54%,64.5%
-92332,Unincorporated San Bernardino County area,8,15,40%,64.5%
-95246,Unincorporated Calaveras County area,9,7,51%,64.6%
-95901,Marysville and Linda,8,6,51%,64.6%
-95422,Clearlake,3,12,49%,64.6%
-93647,Orosi,12,12,59%,64.7%
-95821,Arden-Arcade,9,3,63%,64.7%
-95322,Unincorporated Merced County area,10,9,56%,64.7%
-95311,Unincorporated Mariposa County area,8,0,18%,64.8%
-95957,Unincorporated Sutter County area,8,12,65%,65.1%
-95327,Unincorporated Tuolumne County area,9,7,22%,65.1%
-95361,Oakdale,11,9,43%,65.2%
-95991,Yuba City,9,6,51%,65.2%
-93215,Delano,13,16,62%,65.2%
-96065,Unincorporated Shasta County area,5,0,22%,65.3%
-90042,Los Angeles,12,4,69%,65.3%
-90201,Bell Gardens,12,22,86%,65.5%
-93004,San Buenaventura (Ventura),9,0,28%,65.5%
-93003,San Buenaventura (Ventura),9,1,40%,65.5%
-90650,Norwalk,12,6,74%,65.6%
-95685,Unincorporated Amador County area,8,110,38%,65.8%
-95333,Unincorporated Merced County area,11,4,60%,65.9%
-90720,Rossmoor and Los Alamitos,12,22,42%,65.9%
-93638,Madera,13,4,52%,66.0%
-95742,Rancho Cordova,8,34,18%,66.2%
-96124,Unincorporated Sierra County area,6,0,22%,66.2%
-92324,Colton,12,17,55%,66.2%
-91789,Industry and Walnut,12,3,20%,66.2%
-92410,San Bernardino,11,14,73%,66.4%
-90292,Los Angeles,12,18,23%,66.4%
-90680,Stanton,12,6,68%,66.5%
-93465,Unincorporated Santa Barbara County area,6,0,25%,66.6%
-92408,San Bernardino,11,24,75%,66.7%
-92285,Unincorporated San Bernardino County area,5,16,39%,66.7%
-93210,"Coalinga,",9,24,46%,66.9%
-95912,College City,8,7,51%,67.0%
-95340,Merced,12,2,60%,67.1%
-95864,Arden-Arcade,9,1,53%,67.1%
-95841,North Highlands,9,2,55%,67.2%
-92562,Murrieta,9,0,19%,67.2%
-92328,Unincorporated Inyo County area,4,42,54%,67.2%
-93309,Bakersfield,16,1,39%,67.3%
-90041,Los Angeles,12,4,65%,67.5%
-91384,Castaic,9,0,23%,67.5%
-91773,San Dimas,12,0,32%,67.7%
-96122,Unincorporated Plumas County area,7,0,42%,67.7%
-93501,Mojave,6,4,72%,67.8%
-91354,Santa Clarita,10,1,14%,67.9%
-92335,Fontana,13,8,61%,67.9%
-90604,South Whittier,12,5,65%,68.0%
-93277,Visalia,15,24,41%,68.1%
-93610,Chowchilla,12,4,53%,68.2%
-92374,Redlands,11,5,41%,68.3%
-93311,Bakersfield,15,2,11%,68.3%
-94599,Yountville,8,0,16%,68.3%
-93461,Unincorporated San Luis Obispo County area,7,0,21%,68.4%
-93441,Unincorporated Santa Barbara County area,6,0,25%,68.4%
-93656,Unincorporated Fresno County area,12,10,61%,68.4%
-93516,Boron,7,12,68%,68.4%
-95629,Unincorporated Amador County area,8,34,30%,68.4%
-90630,Cypress,12,4,35%,68.4%
-95669,Unincorporated Amador County area,8,9,20%,68.5%
-95953,Live Oak,9,5,44%,68.7%
-95046,San Martin,7,2,48%,68.7%
-93420,Arroyo Grande,8,0,27%,68.7%
-92532,Lake Elsinore,10,1,22%,68.8%
-91740,Glendora,12,0,60%,68.9%
-93662,Unincorporated Fresno County area,14,7,59%,69.0%
-93036,Oxnard,9,2,52%,69.0%
-93618,Dinuba,13,8,58%,69.0%
-93524,Unincorporated Kern County area,7,16,40%,69.1%
-95324,Unincorporated Merced County area,12,1,31%,69.1%
-93619,Clovis,13,2,12%,69.2%
-95659,Unincorporated Sutter County area,8,4,49%,69.3%
-91387,Santa Clarita,10,2,26%,69.3%
-93960,Soledad,5,2,46%,69.4%
-91321,Santa Clarita,10,4,40%,69.5%
-93908,Unincorporated Monterey County area,5,21,32%,69.5%
-93437,Vandenberg AFB,7,27,42%,69.5%
-95018,Unincorporated Santa Cruz County area,6,5,43%,69.7%
-93426,Unincorporated Monterey County area,5,4,44%,69.7%
-95045,Unincorporated San Benito County area,5,1,55%,69.9%
-95219,Stockton,11,1,22%,70.0%
-91381,Stevenson Ranch,10,0,9%,70.1%
-90032,Los Angeles,12,7,77%,70.2%
-93301,Bakersfield,16,4,60%,70.3%
-93304,Bakersfield,16,10,70%,70.3%
-93305,Bakersfield,16,1,87%,70.3%
-92305,Unincorporated San Bernardino County area,6,0,60%,70.5%
-95925,Unincorporated Yuba County area,6,8,34%,70.5%
-91390,Santa Clarita,9,3,20%,70.5%
-93616,Unincorporated Fresno County area,13,12,67%,70.6%
-93505,California City,7,18,44%,70.6%
-93544,Unincorporated Los Angeles County area,9,1,54%,70.6%
-95335,Unincorporated Tuolumne County area,6,5,39%,70.6%
-95210,Stockton,11,0,42%,70.6%
-92518,March ARB,11,21,51%,70.7%
-95207,Stockton,11,1,52%,70.7%
-92225,Blythe,10,8,55%,70.7%
-91008,Bradbury,12,1,43%,70.8%
-93907,Salinas and Prunedale,5,6,35%,71.0%
-95842,Foothill Farms,9,1,40%,71.0%
-95240,Lodi,10,3,53%,71.0%
-90603,Whittier,12,14,62%,71.1%
-91350,Santa Clarita,10,9,23%,71.1%
-93012,Camarillo,9,7,15%,71.1%
-91780,Temple City,12,12,66%,71.1%
-91101,Pasadena,11,6,41%,71.1%
-91355,Santa Clarita,10,5,17%,71.2%
-96117,Unincorporated Lassen County area,5,9,33%,71.2%
-95367,Riverbank,11,7,49%,71.2%
-93532,Unincorporated Los Angeles County area,6,0,36%,71.3%
-95655,Mather,8,37,15%,71.3%
-91351,Santa Clarita,10,0,35%,71.5%
-93924,Unincorporated Monterey County area,5,0,51%,71.5%
-92883,Temescal Valley,11,1,6%,71.5%
-93622,Unincorporated Fresno County area,10,5,66%,71.7%
-96120,Unincorporated Alpine County area,3,0,37%,71.7%
-93239,Unincorporated Kings County area,11,2,69%,71.8%
-95641,Unincorporated Sacramento County area,8,0,47%,71.9%
-92356,Lucerne Valley,6,31,43%,72.0%
-91104,Pasadena,11,1,74%,72.0%
-95465,Unincorporated Sonoma County area,6,0,29%,72.0%
-93654,Reedley,13,6,58%,72.0%
-32,Unincorporated Santa Barbara County area,6,0,77%,72.1%
-91006,Arcadia,12,10,58%,72.1%
-93405,Unincorporated San Luis Obispo County area,8,10,32%,72.2%
-92336,Fontana,12,1,28%,72.2%
-91723,Covina,12,4,71%,72.4%
-93615,Unincorporated Tulare County area,12,0,69%,72.5%
-90605,South Whittier,12,8,76%,72.6%
-92382,Unincorporated San Bernardino County area,10,0,42%,72.6%
-93401,San Luis Obispo,8,18,41%,72.7%
-91103,Pasadena,11,1,63%,73.0%
-95341,Merced,12,4,61%,73.1%
-93291,Visalia,15,37,47%,73.1%
-95828,Florin,9,3,40%,73.1%
-91776,San Gabriel,12,12,63%,73.2%
-95642,Unincorporated Amador County area,9,36,37%,73.2%
-93560,Rosamond,7,30,29%,73.2%
-92590,Temecula,9,4,21%,73.2%
-90211,Beverly Hills,12,2,43%,73.3%
-93035,Oxnard,9,5,35%,73.4%
-92373,Redlands,11,5,41%,73.6%
-92881,Corona,12,1,24%,73.7%
-90280,South Gate,12,31,88%,74.0%
-95388,"Winton,Unincorporated Merced County area",12,17,65%,74.0%
-93041,Port Hueneme,9,11,56%,74.2%
-93030,Oxnard,9,6,56%,74.2%
-93308,Oildale,15,13,43%,74.2%
-93633,Unincorporated Fresno County area,8,0,27%,74.3%
-92347,Unincorporated San Bernardino County area,7,27,38%,74.5%
-91739,Rancho Cucamonga,13,3,13%,74.5%
-95315,Delhi,12,2,52%,74.5%
-93637,Madera,12,6,45%,74.6%
-90001,Florence-Graham and Los Angeles,12,45,93%,74.7%
-91001,Altadena,11,2,69%,74.8%
-90022,East Los Angeles,12,4,91%,74.8%
-91701,Rancho Cucamonga,13,5,20%,74.8%
-91737,Rancho Cucamonga,13,0,13%,74.8%
-93221,Exeter,13,1,51%,74.9%
-93561,Bear Valley Springs and Tehachapi,7,1,27%,75.0%
-95698,Unincorporated Yolo County area,8,3,47%,75.2%
-90063,East Los Angeles,12,8,88%,75.4%
-90210,Beverly Hills,12,8,45%,75.4%
-92508,Riverside,12,10,20%,75.4%
-96103,Graeagle,7,0,12%,75.5%
-93312,Bakersfield,15,1,15%,75.5%
-92832,Fullerton,12,11,70%,75.7%
-91007,Arcadia,12,3,51%,76.0%
-91202,Glendale,12,29,55%,76.1%
-91203,Glendale,12,37,49%,76.1%
-91204,Glendale,12,47,62%,76.1%
-91207,Glendale,12,0,47%,76.1%
-92882,Corona,12,3,32%,76.1%
-95369,Unincorporated Merced County area,11,3,41%,76.2%
-93648,Unincorporated Fresno County area,13,9,46%,76.2%
-95728,Unincorporated Nevada County area,6,3,28%,76.3%
-93243,Unincorporated Ventura County area,6,20,32%,76.5%
-92404,San Bernardino,11,7,72%,76.6%
-90035,Los Angeles,12,1,57%,76.6%
-90601,Whittier,12,8,55%,76.6%
-93614,Coarsegold and Yosemite Lakes,10,0,17%,76.7%
-92337,Fontana,13,8,25%,77.0%
-95621,Citrus Heights,9,0,37%,77.0%
-92504,Riverside,13,7,63%,77.1%
-92501,Riverside,12,27,71%,77.2%
-91106,Pasadena,11,10,50%,77.2%
-92831,Fullerton,12,27,54%,77.3%
-92506,Riverside,12,1,36%,77.3%
-92521,Riverside,12,6,44%,77.4%
-91730,Rancho Cucamonga,14,11,32%,77.4%
-90033,Los Angeles,13,17,88%,77.5%
-91105,Pasadena,11,27,42%,77.5%
-91307,Los Angeles,11,0,39%,77.6%
-90039,Los Angeles,12,53,64%,77.7%
-92503,Riverside,13,4,52%,77.7%
-93926,Gonzales,5,7,72%,77.8%
-90058,Los Angeles,12,51,93%,77.8%
-93653,Unincorporated Madera County area,11,0,11%,77.8%
-93225,Frazier Park,6,6,38%,77.9%
-93313,Bakersfield,16,10,24%,77.9%
-91724,Covina,12,1,50%,77.9%
-92507,Riverside,12,12,56%,78.2%
-90248,Los Angeles,12,22,68%,78.3%
-91763,Montclair,13,9,56%,78.3%
-95209,Stockton,11,0,35%,78.4%
-93257,Porterville,13,7,57%,78.4%
-93608,Unincorporated Fresno County area,10,8,63%,78.4%
-92354,Loma Linda,12,9,59%,78.5%
-95720,Unincorporated El Dorado County area,5,0,,78.5%
-91206,Glendale,12,11,51%,78.6%
-91906,Unincorporated San Diego County area,7,26,48%,78.6%
-93306,"East Niles, Hillcrest and Bakersfield",15,0,56%,78.7%
-90061,West Rancho Dominguez and Los Angeles,12,8,87%,78.8%
-90059,Los Angeles and Willowbrook,12,14,82%,78.9%
-91304,Los Angeles,11,3,47%,78.9%
-93292,Visalia,14,19,43%,79.0%
-91770,Rosemead,12,16,71%,79.1%
-95670,Rancho Cordova,9,20,41%,79.2%
-91790,West Covina,12,9,71%,79.4%
-91775,East San Gabriel,12,6,62%,79.5%
-90044,Los Angeles and Westmont,12,5,87%,79.6%
-91311,Los Angeles,11,13,35%,79.6%
-93314,Rosedale and Bakersfield,15,1,11%,79.8%
-92509,Jurupa Valley,13,13,54%,79.9%
-92879,Corona,13,4,39%,80.0%
-95215,Garden Acres,11,13,61%,80.0%
-91784,Upland,13,1,17%,80.3%
-92833,Fullerton,12,9,56%,80.5%
-91205,Glendale,12,29,61%,80.6%
-93636,Unincorporated Madera County area,13,6,28%,80.8%
-95330,Lathrop,11,14,29%,80.8%
-93646,Unincorporated Fresno and Tulare County area,12,2,71%,80.9%
-93250,Unincorporated Kern County area,14,5,55%,80.9%
-90047,Los Angeles and Westmont,12,7,82%,80.9%
-91342,Los Angeles,11,3,56%,80.9%
-92505,Riverside,13,3,54%,81.0%
-91042,Los Angeles,11,0,54%,81.2%
-91364,Los Angeles,11,0,41%,81.4%
-95360,Newman,10,12,63%,81.5%
-91367,Los Angeles,11,0,40%,81.7%
-91436,Los Angeles,12,4,47%,81.8%
-93307,Bakersfield,16,11,66%,81.8%
-91752,Jurupa Valley,13,3,43%,81.9%
-93274,Tulare,14,1,51%,82.1%
-92880,Eastvale and Corona,13,5,27%,82.3%
-91604,Los Angeles,11,2,35%,82.4%
-93657,Unincorporated Fresno County area,13,5,41%,82.5%
-91792,West Covina,12,4,38%,82.6%
-91331,Los Angeles,11,37,79%,82.8%
-91040,Los Angeles,11,1,57%,83.1%
-91303,Los Angeles,12,1,50%,83.1%
-91306,Los Angeles,12,3,59%,83.1%
-91316,Los Angeles,13,0,46%,83.1%
-91324,Los Angeles,12,7,51%,83.1%
-91325,Los Angeles,12,12,47%,83.1%
-91326,Los Angeles,11,0,26%,83.1%
-91330,Los Angeles,12,1,,83.1%
-91345,Los Angeles,11,0,57%,83.1%
-91356,Los Angeles,12,6,45%,83.1%
-91371,Los Angeles,12,4,4%,83.1%
-91401,Los Angeles,12,29,60%,83.1%
-91403,Los Angeles,12,0,43%,83.1%
-91405,Los Angeles,12,35,63%,83.1%
-91411,Los Angeles,12,13,55%,83.1%
-91423,Los Angeles,12,0,43%,83.1%
-91601,Los Angeles,12,31,55%,83.1%
-91602,Los Angeles,12,7,39%,83.1%
-91607,Los Angeles,12,3,51%,83.1%
-91605,Los Angeles,12,39,68%,83.1%
-91335,Los Angeles,14,3,64%,83.1%
-91343,Los Angeles,12,25,61%,83.1%
-91406,Los Angeles,13,14,68%,83.1%
-91402,Los Angeles,12,38,63%,83.1%
-91201,Glendale,12,33,63%,83.2%
-90031,Los Angeles,13,26,78%,83.2%
-90077,Los Angeles,11,0,42%,83.2%
-95242,Lodi,10,0,32%,83.3%
-93280,Wasco,14,8,63%,83.4%
-91606,Los Angeles,12,38,68%,83.4%
-91352,Los Angeles,11,37,69%,83.5%
-91344,Los Angeles,11,2,50%,83.6%
-91744,La Puente and South San Jose Hills,12,10,77%,84.3%
-93701,Fresno,14,0,73%,84.4%
-93702,Fresno,14,2,83%,84.4%
-93703,Fresno,14,2,81%,84.4%
-93705,Fresno,14,0,72%,84.4%
-93721,Fresno,14,6,70%,84.4%
-93726,Fresno,14,2,68%,84.4%
-95220,Collierville,10,2,42%,84.5%
-95946,Unincorporated Nevada County area,7,9,18%,84.6%
-92823,Unincorporated Orange County area,12,7,13%,84.8%
-91107,Pasadena,11,8,59%,85.0%
-93463,Unincorporated Santa Barbara County area,7,0,34%,85.0%
-93630,Kerman,12,1,51%,85.1%
-91706,Baldwin Park,12,13,69%,85.2%
-92346,Highland and San Bernardino,11,3,34%,85.2%
-93518,Unincorporated Kern County area,7,4,30%,85.4%
-91754,Monterey Park,12,1,61%,85.6%
-93722,Fresno,13,0,30%,85.8%
-95012,Prunedale,5,4,49%,85.8%
-91755,Monterey Park,12,4,53%,85.9%
-90023,Los Angeles,12,27,88%,86.1%
-95304,Unincorporated San Joaquin County area,10,14,27%,86.1%
-93644,Oakhurst,7,2,37%,86.2%
-90002,Florence-Graham and Los Angeles,12,27,86%,86.2%
-93720,Fresno,13,0,12%,86.4%
-90069,West Hollywood and Los Angeles,12,4,38%,86.7%
-90631,La Habra,12,2,66%,86.7%
-92821,Brea,12,9,42%,86.7%
-90043,Los Angeles,12,2,76%,87.0%
-92309,Unincorporated San Bernardino County area,7,42,41%,87.0%
-91214,La Crescenta-Montrose,11,0,54%,87.1%
-91108,San Marino,11,12,60%,87.3%
-93704,Fresno,14,1,62%,87.4%
-94060,Unincorporated San Mateo County area,7,10,47%,87.5%
-91791,West Covina,12,0,61%,87.5%
-91011,La Cañada Flintridge,11,10,53%,87.5%
-93728,Fresno,14,2,82%,87.6%
-93285,Unincorporated Kern County area,9,4,35%,87.7%
-91786,Upland,14,12,49%,87.7%
-91505,Burbank,12,39,65%,87.7%
-93727,Fresno,14,2,46%,87.8%
-93711,Fresno,13,3,21%,87.8%
-91502,Burbank,12,44,46%,87.8%
-92835,Fullerton,12,8,39%,87.8%
-91501,Burbank,12,26,49%,87.8%
-91504,Burbank,12,47,66%,87.9%
-91506,Burbank,12,58,67%,87.9%
-91766,Pomona,13,15,66%,88.3%
-90068,Los Angeles,12,1,47%,88.6%
-91745,Hacienda Heights,12,10,49%,88.7%
-91768,Pomona,12,12,81%,88.9%
-92376,Rialto,12,11,54%,88.9%
-93263,Shafter,14,11,60%,88.9%
-93706,Fresno,13,18,69%,89.1%
-91030,South Pasadena,11,14,55%,89.2%
-93730,Fresno,13,0,8%,89.4%
-90008,Los Angeles,12,2,76%,89.4%
-90046,West Hollywood and Los Angeles,12,5,41%,89.4%
-91731,El Monte,12,21,73%,90.0%
-92561,Unincorporated Riverside County area,6,0,38%,90.0%
-91208,Glendale,11,5,56%,90.6%
-93723,Fresno,13,4,40%,90.8%
-94515,Calistoga,7,2,48%,90.8%
-95363,Patterson,10,12,45%,90.9%
-93710,Fresno,14,5,36%,90.9%
-95366,Ripon,11,0,28%,91.1%
-91767,Pomona,13,5,71%,91.7%
-93219,Earlimart,13,1,64%,91.9%
-93725,Fresno,14,41,59%,92.1%
-90048,Los Angeles,12,4,46%,92.2%
-90003,Los Angeles,12,8,89%,92.5%
-90004,Los Angeles,12,6,72%,92.5%
-90005,Los Angeles,12,4,70%,92.5%
-90006,Los Angeles,12,7,81%,92.5%
-90007,Los Angeles,12,5,70%,92.5%
-90011,Los Angeles,12,33,92%,92.5%
-90012,Los Angeles,13,39,34%,92.5%
-90015,Los Angeles,12,11,68%,92.5%
-90016,Los Angeles,12,5,80%,92.5%
-90017,Los Angeles,12,10,68%,92.5%
-90018,Los Angeles,12,2,83%,92.5%
-90019,Los Angeles,12,5,76%,92.5%
-90020,Los Angeles,12,4,55%,92.5%
-90026,Los Angeles,12,9,67%,92.5%
-90028,Los Angeles,12,7,51%,92.5%
-90029,Los Angeles,12,9,74%,92.5%
-90037,Los Angeles,12,8,91%,92.5%
-90038,Los Angeles,12,15,68%,92.5%
-90057,Los Angeles,12,4,73%,92.5%
-90010,Los Angeles,12,6,49%,92.5%
-90062,Los Angeles,12,3,91%,92.5%
-90071,Los Angeles,13,13,18%,92.5%
-90013,Los Angeles,12,10,46%,92.5%
-90021,Los Angeles,12,128,66%,92.5%
-93251,Unincorporated Kern County area,11,24,54%,92.6%
-95039,Unincorporated Monterey County area,5,12,69%,92.6%
-95386,Unincorporated Stanislaus County area,11,0,36%,92.6%
-93203,Unincorporated Kern County area,12,5,62%,92.6%
-90036,Los Angeles,12,1,61%,92.7%
-90027,Los Angeles,12,8,57%,93.0%
-91761,Ontario,14,9,37%,93.8%
-91762,Ontario,14,10,61%,93.8%
-95690,Walnut Grove,9,5,67%,93.8%
-90606,West Whittier-Los Nietos,12,30,74%,93.8%
-91801,Alhambra,12,11,61%,93.9%
-92316,Bloomington and Rialto,12,2,53%,94.0%
-91803,Alhambra,12,14,65%,94.0%
-93563,Unincorporated Los Angeles County area,11,12,33%,94.1%
-93631,Unincorporated Fresno County area,14,9,50%,94.1%
-91764,Ontario,14,3,59%,94.2%
-92549,Unincorporated Riverside County area,7,0,48%,94.5%
-93444,Nipomo,8,2,29%,94.6%
-91732,El Monte,12,20,70%,94.6%
-95231,French Camp,11,22,53%,94.7%
-92377,Rialto,12,17,21%,94.7%
-95301,Atwater,12,3,52%,94.7%
-93609,Caruthers,13,0,59%,94.8%
-92061,Pala,7,0,42%,94.8%
-91709,Chino Hills,12,3,15%,95.0%
-95043,Unincorporated San Benito County area,5,34,49%,95.3%
-93925,Unincorporated Monterey County area,5,6,38%,95.4%
-91746,La Puente and West Puente Valley,12,25,77%,95.6%
-95382,Turlock,12,0,19%,95.7%
-95230,Unincorporated Stanislaus County area,10,0,35%,96.0%
-93635,Los Banos,10,7,47%,96.0%
-91733,South El Monte,12,23,80%,96.1%
-91020,La Crescenta-Montrose,11,12,46%,96.4%
-93242,Unincorporated Fresno County area,13,0,63%,96.4%
-93272,Unincorporated Tulare County area,13,8,69%,96.6%
-93650,Fresno,14,17,62%,96.7%
-95334,Livingston,12,1,55%,96.7%
-93271,Unincorporated Tulare County area,8,9,28%,96.7%
-95380,Turlock,13,4,51%,96.9%
-93206,Unincorporated Kern County area,13,5,60%,96.9%
-93207,Unincorporated Tulare County area,12,0,54%,96.9%
-93664,Unincorporated Fresno County area,5,0,28%,97.0%
-95307,Ceres,11,1,50%,97.3%
-95355,Modesto,11,0,31%,97.7%
-95350,Modesto,11,7,53%,97.8%
-95354,Modesto,11,17,67%,97.8%
-91711,Claremont,13,1,44%,98.0%
-95356,Modesto,11,4,29%,98.0%
-93625,Unincorporated Fresno County area,14,9,55%,98.0%
-95351,Modesto,11,5,64%,98.1%
-95358,Modesto and Ceres,11,3,53%,98.1%
-92358,Unincorporated San Bernardino County area,11,8,52%,98.2%
-92359,Mentone,10,0,42%,98.3%
-95316,Unincorporated Stanislaus County area,12,7,45%,98.3%
-95303,Ballico,12,10,73%,98.4%
-92860,Norco,13,7,30%,98.4%
-91710,Chino,13,5,41%,98.5%
-95326,Hughson,11,0,52%,98.7%
-94508,Unincorporated Napa County area,7,0,48%,98.7%
-93241,Lamont and Weedpatch,13,5,78%,98.8%
-95357,Empire,11,3,37%,99.0%
-93283,Unincorporated Kern County area,5,0,29%,99.1%
-95336,Manteca,11,1,39%,99.1%
-95337,Manteca,11,8,39%,99.1%
-92539,Unincorporated Riverside County area,7,0,20%,99.2%
-93247,Unincorporated Tulare County area,13,0,65%,99.2%
-93249,Unincorporated Kern County area,10,12,54%,99.3%
-93256,Pixley,13,14,72%,99.5%
-91750,La Verne,12,2,39%,99.6%
-91708,Chino,13,13,20%,99.6%
-93267,Unincorporated Tulare County area,13,1,65%,99.8%
-93265,Unincorporated Tulare County area,6,0,38%,99.9%
-95212,Morada,11,1,29%,100.0%
-57,Unincorporated Santa Barbara County area,7,0,,
-91608,Unincorporated Los Angeles County area,12,18,,
-94128,Unincorporated San Mateo County area,9,9,,
+32,Unincorporated Santa Barbara County area,6,0,77,72.1
+35,Unincorporated Siskiyou County area,3,0,66,5.0
+39,Unincorporated Trinity County area,3,0,50,4.5
+40,Unincorporated Tuolumne County area,6,0,18,48.4
+48,Unincorporated Lake County area,4,15,47,5.4
+51,Unincorporated El Dorado County area,5,0,33,59.0
+57,Unincorporated Santa Barbara County area,7,0,-1,-1.0
+61,Unincorporated Ventura County area,6,5,-1,0.6
+90001,Florence-Graham and Los Angeles,12,45,93,74.7
+90002,Florence-Graham and Los Angeles,12,27,86,86.2
+90003,Los Angeles,12,8,89,92.5
+90004,Los Angeles,12,6,72,92.5
+90005,Los Angeles,12,4,70,92.5
+90006,Los Angeles,12,7,81,92.5
+90007,Los Angeles,12,5,70,92.5
+90008,Los Angeles,12,2,76,89.4
+90010,Los Angeles,12,6,49,92.5
+90011,Los Angeles,12,33,92,92.5
+90012,Los Angeles,13,39,34,92.5
+90013,Los Angeles,12,10,46,92.5
+90015,Los Angeles,12,11,68,92.5
+90016,Los Angeles,12,5,80,92.5
+90017,Los Angeles,12,10,68,92.5
+90018,Los Angeles,12,2,83,92.5
+90019,Los Angeles,12,5,76,92.5
+90020,Los Angeles,12,4,55,92.5
+90021,Los Angeles,12,128,66,92.5
+90022,East Los Angeles,12,4,91,74.8
+90023,Los Angeles,12,27,88,86.1
+90024,Los Angeles,12,6,35,52.7
+90025,Los Angeles,12,14,38,54.7
+90026,Los Angeles,12,9,67,92.5
+90027,Los Angeles,12,8,57,93.0
+90028,Los Angeles,12,7,51,92.5
+90029,Los Angeles,12,9,74,92.5
+90031,Los Angeles,13,26,78,83.2
+90032,Los Angeles,12,7,77,70.2
+90033,Los Angeles,13,17,88,77.5
+90034,Los Angeles,12,3,49,63.6
+90035,Los Angeles,12,1,57,76.6
+90036,Los Angeles,12,1,61,92.7
+90037,Los Angeles,12,8,91,92.5
+90038,Los Angeles,12,15,68,92.5
+90039,Los Angeles,12,53,64,77.7
+90040,Commerce,12,58,66,56.3
+90041,Los Angeles,12,4,65,67.5
+90042,Los Angeles,12,4,69,65.3
+90043,Los Angeles,12,2,76,87.0
+90044,Los Angeles and Westmont,12,5,87,79.6
+90045,Los Angeles,12,11,54,56.8
+90046,West Hollywood and Los Angeles,12,5,41,89.4
+90047,Los Angeles and Westmont,12,7,82,80.9
+90048,Los Angeles,12,4,46,92.2
+90049,Los Angeles,12,6,43,62.8
+90056,Culver City,12,12,42,44.1
+90057,Los Angeles,12,4,73,92.5
+90058,Los Angeles,12,51,93,77.8
+90059,Los Angeles and Willowbrook,12,14,82,78.9
+90061,West Rancho Dominguez and Los Angeles,12,8,87,78.8
+90062,Los Angeles,12,3,91,92.5
+90063,East Los Angeles,12,8,88,75.4
+90064,Los Angeles,12,1,52,53.7
+90065,Los Angeles,12,28,71,62.9
+90066,Los Angeles,12,3,55,51.8
+90067,Los Angeles,12,5,11,52.7
+90068,Los Angeles,12,1,47,88.6
+90069,West Hollywood and Los Angeles,12,4,38,86.7
+90071,Los Angeles,13,13,18,92.5
+90077,Los Angeles,11,0,42,83.2
+90094,Los Angeles,12,13,1,52.7
+90201,Bell Gardens,12,22,86,65.5
+90210,Beverly Hills,12,8,45,75.4
+90211,Beverly Hills,12,2,43,73.3
+90212,Beverly Hills,12,6,56,49.4
+90220,Compton,12,12,81,55.3
+90221,Compton,12,4,91,54.4
+90222,Compton,12,24,89,51.6
+90230,Los Angeles and Culver City,12,4,62,38.7
+90232,Culver City,12,11,51,36.7
+90240,Downey,12,10,65,58.1
+90241,Downey,12,3,74,62.6
+90242,Downey,12,5,70,44.9
+90245,El Segundo,12,28,50,9.0
+90247,Gardena,12,15,62,50.2
+90248,Los Angeles,12,22,68,78.3
+90249,Gardena,12,40,80,39.3
+90250,Hawthorne,12,9,66,34.5
+90254,Hermosa Beach,12,1,41,19.7
+90255,Huntington Park,12,15,89,42.1
+90260,Lawndale,12,1,69,38.7
+90262,Lynwood,12,24,90,62.0
+90265,Unincorporated Los Angeles County area,10,6,27,24.0
+90266,Manhattan Beach,12,7,38,9.3
+90270,Maywood,12,15,92,59.7
+90272,Los Angeles,11,8,41,57.2
+90274,Rolling Hills Estates and Palos Verdes Estates,11,6,40,14.9
+90275,Rancho Palos Verdes,11,9,36,12.9
+90277,Redondo Beach,12,4,39,21.1
+90278,Redondo Beach,12,3,37,21.1
+90280,South Gate,12,31,88,74.0
+90290,Topanga,11,4,46,64.0
+90291,Los Angeles,12,3,55,55.2
+90292,Los Angeles,12,18,23,66.4
+90293,Los Angeles,12,16,34,52.7
+90301,Inglewood,12,5,77,56.5
+90302,Inglewood,12,1,74,53.4
+90303,Inglewood,12,2,82,51.3
+90304,Lennox,12,6,89,39.5
+90305,Inglewood,12,0,63,57.8
+90401,Santa Monica,12,24,19,48.2
+90402,Santa Monica,12,0,50,51.6
+90403,Santa Monica,12,0,43,48.2
+90404,Santa Monica,12,12,45,48.2
+90405,Santa Monica,12,17,49,48.1
+90501,Torrance,12,38,57,43.8
+90502,West Carson,12,47,58,33.5
+90503,Torrance,12,6,49,30.3
+90504,Torrance,12,11,64,35.1
+90505,Torrance,12,11,43,34.1
+90506,Alondra Park,12,4,75,38.4
+90601,Whittier,12,8,55,76.6
+90602,Whittier,12,27,78,63.0
+90603,Whittier,12,14,62,71.1
+90604,South Whittier,12,5,65,68.0
+90605,South Whittier,12,8,76,72.6
+90606,West Whittier-Los Nietos,12,30,74,93.8
+90620,Buena Park,12,9,67,57.9
+90621,Buena Park,12,15,59,56.6
+90623,La Palma,12,4,37,26.9
+90630,Cypress,12,4,35,68.4
+90631,La Habra,12,2,66,86.7
+90638,La Mirada,12,5,58,53.7
+90640,Montebello,12,9,67,45.7
+90650,Norwalk,12,6,74,65.6
+90660,Pico Rivera,12,9,73,51.9
+90670,Santa Fe Springs,12,60,59,62.2
+90680,Stanton,12,6,68,66.5
+90701,Artesia,12,1,65,53.7
+90703,Cerritos,12,5,27,39.3
+90704,Avalon,7,50,46,48.2
+90706,Bellflower,12,0,66,47.5
+90710,Los Angeles,12,6,47,46.5
+90712,Lakewood,12,3,69,55.5
+90713,Lakewood,12,0,68,55.7
+90715,Lakewood,12,1,55,51.8
+90716,Hawaiian Gardens,12,1,76,51.6
+90717,Lomita,12,3,57,47.2
+90720,Rossmoor and Los Alamitos,12,22,42,65.9
+90723,Paramount,12,11,69,27.2
+90731,Los Angeles,12,20,62,42.1
+90732,Los Angeles,12,12,53,39.9
+90740,Seal Beach,12,18,39,14.8
+90742,Huntington Beach,11,4,41,29.5
+90744,Los Angeles,12,16,82,42.4
+90745,Carson,12,35,62,29.4
+90746,Carson,12,36,49,37.2
+90747,Carson,12,19,25,39.8
+90755,Signal Hill,12,14,51,25.7
+90802,Long Beach,12,8,58,34.7
+90803,Long Beach,12,7,44,34.4
+90804,Long Beach,12,6,67,34.5
+90805,Long Beach,12,4,81,36.0
+90806,Long Beach,12,5,77,34.7
+90807,Long Beach,12,5,63,37.7
+90808,Long Beach,12,7,56,42.6
+90810,Long Beach,12,3,74,34.1
+90813,Long Beach,12,3,82,34.7
+90814,Long Beach,12,4,57,34.7
+90815,Long Beach,12,9,56,34.3
+90840,Long Beach,12,1,-1,34.7
+91001,Altadena,11,2,69,74.8
+91006,Arcadia,12,10,58,72.1
+91007,Arcadia,12,3,51,76.0
+91008,Bradbury,12,1,43,70.8
+91010,Duarte,12,8,61,33.5
+91011,La Cañada Flintridge,11,10,53,87.5
+91016,Monrovia,12,18,55,59.0
+91020,La Crescenta-Montrose,11,12,46,96.4
+91024,Sierra Madre,12,0,54,64.5
+91030,South Pasadena,11,14,55,89.2
+91040,Los Angeles,11,1,57,83.1
+91042,Los Angeles,11,0,54,81.2
+91101,Pasadena,11,6,41,71.1
+91103,Pasadena,11,1,63,73.0
+91104,Pasadena,11,1,74,72.0
+91105,Pasadena,11,27,42,77.5
+91106,Pasadena,11,10,50,77.2
+91107,Pasadena,11,8,59,85.0
+91108,San Marino,11,12,60,87.3
+91201,Glendale,12,33,63,83.2
+91202,Glendale,12,29,55,76.1
+91203,Glendale,12,37,49,76.1
+91204,Glendale,12,47,62,76.1
+91205,Glendale,12,29,61,80.6
+91206,Glendale,12,11,51,78.6
+91207,Glendale,12,0,47,76.1
+91208,Glendale,11,5,56,90.6
+91214,La Crescenta-Montrose,11,0,54,87.1
+91301,Unincorporated Los Angeles County area,10,1,19,39.6
+91302,Calabasas,11,0,20,48.9
+91303,Los Angeles,12,1,50,83.1
+91304,Los Angeles,11,3,47,78.9
+91306,Los Angeles,12,3,59,83.1
+91307,Los Angeles,11,0,39,77.6
+91311,Los Angeles,11,13,35,79.6
+91316,Los Angeles,13,0,46,83.1
+91320,Thousand Oaks,9,3,21,56.2
+91321,Santa Clarita,10,4,40,69.5
+91324,Los Angeles,12,7,51,83.1
+91325,Los Angeles,12,12,47,83.1
+91326,Los Angeles,11,0,26,83.1
+91330,Los Angeles,12,1,-1,83.1
+91331,Los Angeles,11,37,79,82.8
+91335,Los Angeles,14,3,64,83.1
+91340,Los Angeles,11,12,80,63.6
+91342,Los Angeles,11,3,56,80.9
+91343,Los Angeles,12,25,61,83.1
+91344,Los Angeles,11,2,50,83.6
+91345,Los Angeles,11,0,57,83.1
+91350,Santa Clarita,10,9,23,71.1
+91351,Santa Clarita,10,0,35,71.5
+91352,Los Angeles,11,37,69,83.5
+91354,Santa Clarita,10,1,14,67.9
+91355,Santa Clarita,10,5,17,71.2
+91356,Los Angeles,12,6,45,83.1
+91360,Thousand Oaks,9,0,29,60.9
+91361,Thousand Oaks,9,1,24,48.4
+91362,Thousand Oaks,9,2,22,49.1
+91364,Los Angeles,11,0,41,81.4
+91367,Los Angeles,11,0,40,81.7
+91371,Los Angeles,12,4,4,83.1
+91377,Oak Park,9,1,10,58.0
+91381,Stevenson Ranch,10,0,9,70.1
+91384,Castaic,9,0,23,67.5
+91387,Santa Clarita,10,2,26,69.3
+91390,Santa Clarita,9,3,20,70.5
+91401,Los Angeles,12,29,60,83.1
+91402,Los Angeles,12,38,63,83.1
+91403,Los Angeles,12,0,43,83.1
+91405,Los Angeles,12,35,63,83.1
+91406,Los Angeles,13,14,68,83.1
+91411,Los Angeles,12,13,55,83.1
+91423,Los Angeles,12,0,43,83.1
+91436,Los Angeles,12,4,47,81.8
+91501,Burbank,12,26,49,87.8
+91502,Burbank,12,44,46,87.8
+91504,Burbank,12,47,66,87.9
+91505,Burbank,12,39,65,87.7
+91506,Burbank,12,58,67,87.9
+91601,Los Angeles,12,31,55,83.1
+91602,Los Angeles,12,7,39,83.1
+91604,Los Angeles,11,2,35,82.4
+91605,Los Angeles,12,39,68,83.1
+91606,Los Angeles,12,38,68,83.4
+91607,Los Angeles,12,3,51,83.1
+91608,Unincorporated Los Angeles County area,12,18,-1,-1.0
+91701,Rancho Cucamonga,13,5,20,74.8
+91702,Azusa,12,4,69,42.2
+91706,Baldwin Park,12,13,69,85.2
+91708,Chino,13,13,20,99.6
+91709,Chino Hills,12,3,15,95.0
+91710,Chino,13,5,41,98.5
+91711,Claremont,13,1,44,98.0
+91722,Covina,12,3,67,56.8
+91723,Covina,12,4,71,72.4
+91724,Covina,12,1,50,77.9
+91730,Rancho Cucamonga,14,11,32,77.4
+91731,El Monte,12,21,73,90.0
+91732,El Monte,12,20,70,94.6
+91733,South El Monte,12,23,80,96.1
+91737,Rancho Cucamonga,13,0,13,74.8
+91739,Rancho Cucamonga,13,3,13,74.5
+91740,Glendora,12,0,60,68.9
+91741,Glendora,12,4,48,53.9
+91744,La Puente and South San Jose Hills,12,10,77,84.3
+91745,Hacienda Heights,12,10,49,88.7
+91746,La Puente and West Puente Valley,12,25,77,95.6
+91748,Rowland Heights,12,4,38,57.5
+91750,La Verne,12,2,39,99.6
+91752,Jurupa Valley,13,3,43,81.9
+91754,Monterey Park,12,1,61,85.6
+91755,Monterey Park,12,4,53,85.9
+91761,Ontario,14,9,37,93.8
+91762,Ontario,14,10,61,93.8
+91763,Montclair,13,9,56,78.3
+91764,Ontario,14,3,59,94.2
+91765,Diamond Bar,12,0,20,58.8
+91766,Pomona,13,15,66,88.3
+91767,Pomona,13,5,71,91.7
+91768,Pomona,12,12,81,88.9
+91770,Rosemead,12,16,71,79.1
+91773,San Dimas,12,0,32,67.7
+91775,East San Gabriel,12,6,62,79.5
+91776,San Gabriel,12,12,63,73.2
+91780,Temple City,12,12,66,71.1
+91784,Upland,13,1,17,80.3
+91786,Upland,14,12,49,87.7
+91789,Industry and Walnut,12,3,20,66.2
+91790,West Covina,12,9,71,79.4
+91791,West Covina,12,0,61,87.5
+91792,West Covina,12,4,38,82.6
+91801,Alhambra,12,11,61,93.9
+91803,Alhambra,12,14,65,94.0
+91901,Alpine,8,1,26,41.4
+91902,Bonita,10,0,26,36.1
+91906,Unincorporated San Diego County area,7,26,48,78.6
+91910,Chula Vista,10,3,51,29.5
+91911,Chula Vista,11,2,54,30.6
+91913,Chula Vista,11,0,21,18.6
+91914,Chula Vista,11,0,21,17.1
+91915,Chula Vista,11,7,23,17.1
+91916,Unincorporated San Diego County area,6,13,48,62.6
+91932,Imperial Beach,12,7,59,24.7
+91935,Unincorporated San Diego County area,10,0,20,35.6
+91941,La Mesa and Casa de Oro-Mount Helix,10,2,54,47.9
+91942,La Mesa,10,4,52,45.1
+91945,Lemon Grove,10,0,62,45.7
+91950,National City,10,7,68,33.3
+91977,La Presa and Spring Valley,10,1,49,40.4
+91978,Spring Valley,10,0,33,32.7
+92003,Bonsall,8,0,18,19.5
+92004,Unincorporated San Diego County area,7,20,30,62.3
+92007,Encinitas,9,0,25,17.6
+92008,Carlsbad,9,1,25,10.4
+92009,Carlsbad,9,0,11,30.7
+92010,Carlsbad,9,3,19,33.2
+92011,Carlsbad,9,4,8,10.4
+92014,San Diego,9,3,15,33.2
+92019,Rancho San Diego,10,0,33,31.7
+92020,El Cajon,10,11,55,45.8
+92021,El Cajon,9,5,47,42.7
+92024,Encinitas,9,0,24,24.0
+92025,Escondido,8,1,50,41.9
+92026,Escondido,8,2,30,46.2
+92027,Escondido,8,0,44,38.7
+92028,Fallbrook,8,8,38,16.7
+92029,Unincorporated San Diego County area,8,11,20,55.7
+92036,Unincorporated San Diego County area,6,0,39,62.3
+92037,San Diego,10,6,27,29.0
+92040,Lakeside and Winter Gardens,9,3,41,58.4
+92054,Oceanside,10,9,46,56.3
+92055,Unincorporated San Diego County area,9,28,47,60.1
+92056,Oceanside,9,3,27,55.9
+92057,Oceanside,9,4,28,58.4
+92058,Oceanside,10,6,41,58.3
+92061,Pala,7,0,42,94.8
+92064,Poway,9,1,29,26.3
+92065,Ramona,7,3,28,23.3
+92067,Rancho Santa Fe,8,11,20,39.7
+92069,San Marcos,8,4,29,25.1
+92071,Santee,9,2,30,19.6
+92075,Solana Beach,9,3,20,39.7
+92078,San Marcos,8,9,26,28.3
+92081,Vista,9,4,32,31.5
+92082,Unincorporated San Diego County area,7,0,28,47.9
+92083,Vista,9,2,49,29.9
+92084,Vista,9,2,49,32.3
+92086,Unincorporated San Diego County area,6,0,44,61.4
+92101,San Diego,10,23,15,29.0
+92102,San Diego,10,5,63,29.0
+92103,San Diego,10,10,37,29.0
+92104,San Diego,10,2,51,29.0
+92105,San Diego,10,3,70,30.5
+92106,San Diego,10,18,48,29.0
+92107,San Diego,10,4,41,29.0
+92108,San Diego,10,10,21,29.0
+92109,San Diego,10,2,36,29.0
+92110,San Diego,10,17,43,29.0
+92111,San Diego,10,2,44,29.0
+92113,San Diego,10,7,70,29.2
+92114,San Diego,10,2,57,34.2
+92115,San Diego,10,2,57,32.3
+92116,San Diego,10,0,52,29.0
+92117,San Diego,9,7,54,29.0
+92118,Coronado,11,11,32,23.3
+92119,San Diego,10,2,34,28.0
+92120,San Diego,10,5,44,32.3
+92121,San Diego,9,13,12,29.0
+92122,San Diego,9,0,21,29.0
+92123,San Diego,9,12,40,29.0
+92124,San Diego,9,10,37,29.0
+92126,San Diego,9,4,27,29.0
+92127,Unincorporated San Diego County area,8,9,15,41.0
+92128,San Diego,9,2,16,27.4
+92129,San Diego,9,0,16,29.0
+92130,San Diego,9,0,9,29.9
+92131,San Diego,9,3,9,27.2
+92134,San Diego,10,7,-1,29.0
+92135,Coronado,10,18,-1,10.5
+92136,San Diego,10,35,-1,29.0
+92139,San Diego,10,1,51,30.5
+92140,San Diego,10,19,-1,29.0
+92145,San Diego,9,11,46,29.0
+92154,San Diego,13,2,43,26.1
+92173,San Diego,14,0,46,29.0
+92201,Indio,8,1,39,19.2
+92203,Bermuda Dunes and Indio,7,0,16,47.1
+92210,Indian Wells,7,0,10,45.4
+92211,Palm Desert,7,0,7,45.8
+92220,Banning,9,7,59,62.1
+92223,Beaumont,9,2,31,30.5
+92225,Blythe,10,8,55,70.7
+92227,Brawley,9,12,48,51.5
+92231,Calexico,12,4,45,53.2
+92233,Unincorporated Imperial County area,8,18,49,34.1
+92234,"Cathedral City,",7,1,30,45.2
+92236,Coachella,7,4,40,22.1
+92239,Unincorporated Riverside County area,9,8,25,50.5
+92240,Desert Hot Springs,6,0,41,30.3
+92241,Desert Edge and Indio Hills,7,0,27,32.2
+92242,Unincorporated San Bernardino County area,10,0,26,0.6
+92243,El Centro,9,6,42,43.3
+92250,Holtville,9,1,38,48.1
+92251,Unincorporated Imperial County area,9,39,30,64.1
+92252,Joshua Tree,5,0,46,58.2
+92253,La Quinta,7,1,18,47.2
+92254,Unincorporated Riverside County area,7,13,48,61.6
+92256,Morongo Valley,6,0,31,60.7
+92260,Palm Deser,7,1,24,46.7
+92262,Palm Springs,6,0,29,38.2
+92264,Palm Springs,7,0,35,31.9
+92270,Rancho Mirage,7,3,12,46.0
+92274,Unincorporated Imperial County area,8,9,36,48.4
+92276,Thousand Palms,7,0,31,52.0
+92277,Twentynine Palms,7,16,55,57.8
+92278,Unincorporated San Bernardino County area,6,0,43,61.1
+92281,Unincorporated Imperial County area,9,0,60,55.6
+92282,Unincorporated Riverside County area,6,0,43,41.2
+92283,Unincorporated Imperial County area,9,12,28,62.9
+92284,Yucca Valley,5,0,38,54.7
+92285,Unincorporated San Bernardino County area,5,16,39,66.7
+92301,Adelanto,8,10,43,38.3
+92305,Unincorporated San Bernardino County area,6,0,60,70.5
+92307,Apple Valley,7,2,40,24.2
+92308,Apple Valley,7,1,32,35.5
+92309,Unincorporated San Bernardino County area,7,42,41,87.0
+92310,Unincorporated San Bernardino County area,6,8,46,43.1
+92311,Barstow,8,6,64,63.5
+92313,Grand Terrace,12,10,33,54.7
+92314,Big Bear City,6,1,34,32.5
+92315,Big Bear Lake,6,0,48,8.3
+92316,Bloomington and Rialto,12,2,53,94.0
+92320,Calimesa,10,0,16,51.5
+92324,Colton,12,17,55,66.2
+92325,Crestline,9,4,51,37.4
+92328,Unincorporated Inyo County area,4,42,54,67.2
+92332,Unincorporated San Bernardino County area,8,15,40,64.5
+92335,Fontana,13,8,61,67.9
+92336,Fontana,12,1,28,72.2
+92337,Fontana,13,8,25,77.0
+92344,Oak Hills,10,0,10,36.2
+92345,Hesperia,9,0,39,12.5
+92346,Highland and San Bernardino,11,3,34,85.2
+92347,Unincorporated San Bernardino County area,7,27,38,74.5
+92352,Lake Arrowhead,9,2,28,63.0
+92354,Loma Linda,12,9,59,78.5
+92356,Lucerne Valley,6,31,43,72.0
+92358,Unincorporated San Bernardino County area,11,8,52,98.2
+92359,Mentone,10,0,42,98.3
+92363,Unincorporated San Bernardino County area,9,8,63,53.9
+92371,Phelan,9,0,25,36.2
+92372,Piñon Hills,10,0,29,32.0
+92373,Redlands,11,5,41,73.6
+92374,Redlands,11,5,41,68.3
+92376,Rialto,12,11,54,88.9
+92377,Rialto,12,17,21,94.7
+92382,Unincorporated San Bernardino County area,10,0,42,72.6
+92392,Mountain View Acres and Victorville,8,4,29,30.2
+92394,Victorville,7,10,41,30.3
+92395,Victorville,8,0,44,29.0
+92397,Wrightwood,10,0,43,7.5
+92399,Yucaipa,10,2,47,45.0
+92401,San Bernardino,11,43,78,44.1
+92404,San Bernardino,11,7,72,76.6
+92405,San Bernardino,11,18,91,44.1
+92407,Muscoy and San Bernardino,11,15,52,56.4
+92408,San Bernardino,11,24,75,66.7
+92410,San Bernardino,11,14,73,66.4
+92411,San Bernardino,11,13,86,54.3
+92501,Riverside,12,27,71,77.2
+92503,Riverside,13,4,52,77.7
+92504,Riverside,13,7,63,77.1
+92505,Riverside,13,3,54,81.0
+92506,Riverside,12,1,36,77.3
+92507,Riverside,12,12,56,78.2
+92508,Riverside,12,10,20,75.4
+92509,Jurupa Valley,13,13,54,79.9
+92518,March ARB,11,21,51,70.7
+92521,Riverside,12,6,44,77.4
+92530,Lake Elsinore,10,0,41,40.8
+92532,Lake Elsinore,10,1,22,68.8
+92539,Unincorporated Riverside County area,7,0,20,99.2
+92543,Hemet,9,2,52,58.1
+92544,East Hemet,9,0,50,47.7
+92545,Hemet,9,2,27,33.9
+92548,Unincorporated Riverside County area,10,0,45,42.5
+92549,Unincorporated Riverside County area,7,0,48,94.5
+92551,Moreno Valley,11,6,35,10.2
+92553,Moreno Valley,12,3,46,13.7
+92555,Moreno Valley,11,2,24,15.2
+92557,Moreno Valley,12,5,32,21.9
+92561,Unincorporated Riverside County area,6,0,38,90.0
+92562,Murrieta,9,0,19,67.2
+92563,Murrieta,9,2,17,19.1
+92567,Unincorporated Riverside County area,10,4,34,42.7
+92570,Perris and Mead Valley,11,14,47,46.8
+92571,Perris,11,6,32,11.5
+92582,San Jacinto and Hemet,9,6,30,36.0
+92583,San Jacinto,9,5,41,14.8
+92584,Menifee,10,0,20,25.5
+92585,Menifee,10,0,28,24.5
+92586,Menifee,10,0,19,10.2
+92587,Menifee and Canyon Lake,10,0,21,44.8
+92590,Temecula,9,4,21,73.2
+92591,Temecula,9,1,18,36.8
+92592,Temecula,8,3,12,36.8
+92595,Wildomar,10,0,19,53.6
+92596,French Valley,9,3,15,12.0
+92602,Irvine,12,1,22,47.3
+92603,Irvine,11,2,19,47.3
+92604,Irvine,11,0,27,47.3
+92606,Irvine,12,1,26,47.3
+92610,Lake Forest,11,0,15,47.3
+92612,Irvine,11,0,23,47.3
+92614,Irvine,11,0,20,47.3
+92617,Irvine,11,4,19,47.3
+92618,Irvine,11,9,21,46.2
+92620,Irvine,11,4,20,47.3
+92624,Dana Point,10,12,34,49.4
+92625,Newport Beach,11,9,29,32.3
+92626,Costa Mesa,11,9,46,8.1
+92627,Costa Mesa,11,17,55,14.4
+92629,Dana Point,10,0,25,38.5
+92630,Lake Forest,9,2,30,47.2
+92637,Laguna Woods,10,2,21,24.8
+92646,Huntington Beach,11,4,28,36.2
+92647,Huntington Beach,11,10,42,38.4
+92648,Huntington Beach,11,9,24,36.7
+92649,Huntington Beach,11,5,30,36.7
+92651,Laguna Beach,10,2,37,36.3
+92653,Laguna Hills,9,1,16,15.7
+92655,Midway City,12,2,60,35.2
+92656,Aliso Viejo,9,0,14,8.7
+92657,Newport Beach,10,0,9,32.3
+92660,Newport Beach,11,5,18,34.8
+92661,Newport Beach,11,4,41,32.3
+92662,Newport Beach,11,2,55,32.3
+92663,Newport Beach,11,17,39,24.1
+92672,San Clemente,10,4,36,37.9
+92673,San Clemente,10,5,11,43.6
+92675,San Juan Capistrano,10,6,20,53.2
+92676,Silverado,11,1,50,62.6
+92677,Laguna Niguel,9,0,19,12.6
+92679,Coto de Caza,10,1,11,41.3
+92683,Westminster,12,5,57,39.4
+92688,Rancho Santa Margarita,10,5,19,26.9
+92691,Mission Viejo,9,1,28,13.8
+92692,Mission Viejo,10,2,15,18.3
+92694,Ladera Ranch,10,0,11,15.6
+92701,Santa Ana,12,33,77,47.5
+92703,Santa Ana,12,11,83,47.0
+92704,Santa Ana,12,11,63,46.6
+92705,Santa Ana,12,11,43,52.0
+92706,Santa Ana,12,6,77,48.3
+92707,Santa Ana,12,25,77,46.3
+92708,Fountain Valley,12,10,36,21.7
+92780,Tustin,12,6,53,43.8
+92782,Tustin,12,20,21,50.2
+92801,Anaheim,12,28,74,61.5
+92802,Anaheim,12,9,67,59.6
+92804,Anaheim,12,10,68,59.7
+92805,Anaheim,12,27,76,57.1
+92806,Anaheim,12,39,50,57.0
+92807,Anaheim,12,9,24,58.0
+92808,Anaheim,12,0,14,57.4
+92821,Brea,12,9,42,86.7
+92823,Unincorporated Orange County area,12,7,13,84.8
+92831,Fullerton,12,27,54,77.3
+92832,Fullerton,12,11,70,75.7
+92833,Fullerton,12,9,56,80.5
+92835,Fullerton,12,8,39,87.8
+92840,Garden Grove,12,2,77,61.9
+92841,Garden Grove,12,5,65,62.6
+92843,Garden Grove,12,4,67,58.0
+92844,Garden Grove,12,0,61,59.7
+92845,Garden Grove,12,7,40,62.6
+92860,Norco,13,7,30,98.4
+92861,Villa Park,12,0,27,34.6
+92862,Unincorporated Orange County area,12,1,17,57.2
+92865,Orange,12,5,42,55.1
+92866,Orange,12,9,60,59.1
+92867,Orange,12,15,47,54.7
+92868,Orange,12,26,56,57.9
+92869,Orange,12,7,35,58.9
+92870,Placentia,12,13,36,55.1
+92879,Corona,13,4,39,80.0
+92880,Eastvale and Corona,13,5,27,82.3
+92881,Corona,12,1,24,73.7
+92882,Corona,12,3,32,76.1
+92883,Temescal Valley,11,1,6,71.5
+92886,Yorba Linda,12,3,26,36.9
+92887,Yorba Linda,12,0,20,43.3
+93001,San Buenaventura (Ventura),9,7,58,62.1
+93003,San Buenaventura (Ventura),9,1,40,65.5
+93004,San Buenaventura (Ventura),9,0,28,65.5
+93010,Camarillo,9,3,32,57.9
+93012,Camarillo,9,7,15,71.1
+93013,Carpinteria,9,0,44,49.5
+93015,Unincorporated Ventura County area,8,3,59,42.5
+93021,Moorpark,9,0,26,56.4
+93022,Oak View,9,2,46,45.4
+93023,Mira Monte and Meiners Oaks,9,3,46,41.2
+93030,Oxnard,9,6,56,74.2
+93033,Oxnard,9,3,69,56.1
+93035,Oxnard,9,5,35,73.4
+93036,Oxnard,9,2,52,69.0
+93041,Port Hueneme,9,11,56,74.2
+93042,Unincorporated Ventura County area,9,15,64,60.7
+93043,Port Hueneme,9,32,50,0.6
+93060,Santa Paula,9,3,62,44.9
+93063,Simi Valley,9,2,27,60.0
+93065,Simi Valley,9,0,27,61.4
+93066,Unincorporated Ventura County area,9,4,49,60.7
+93101,Santa Barbara,8,11,59,17.3
+93103,Santa Barbara,8,19,58,17.3
+93105,Santa Barbara,7,1,48,46.0
+93108,Unincorporated Santa Barbara County area,8,1,38,24.1
+93109,Santa Barbaraarea,8,7,44,24.4
+93110,Eastern Goleta Valley,8,0,37,48.2
+93111,Goleta and Eastern Goleta Valley,8,6,37,31.0
+93117,Goleta and Isla Vista,8,6,31,35.4
+93203,Unincorporated Kern County area,12,5,62,92.6
+93204,Avenal,10,0,75,54.3
+93206,Unincorporated Kern County area,13,5,60,96.9
+93207,Unincorporated Tulare County area,12,0,54,96.9
+93210,"Coalinga,",9,24,46,66.9
+93212,Corcoran,13,4,61,56.7
+93215,Delano,13,16,62,65.2
+93219,Earlimart,13,1,64,91.9
+93221,Exeter,13,1,51,74.9
+93223,Farmersville,13,1,67,0.6
+93225,Frazier Park,6,6,38,77.9
+93230,Hanford,15,5,47,62.2
+93234,Unincorporated Fresno County area,10,5,53,61.7
+93239,Unincorporated Kings County area,11,2,69,71.8
+93241,Lamont and Weedpatch,13,5,78,98.8
+93242,Unincorporated Fresno County area,13,0,63,96.4
+93243,Unincorporated Ventura County area,6,20,32,76.5
+93245,Lemoore,13,5,43,49.2
+93247,Unincorporated Tulare County area,13,0,65,99.2
+93249,Unincorporated Kern County area,10,12,54,99.3
+93250,Unincorporated Kern County area,14,5,55,80.9
+93251,Unincorporated Kern County area,11,24,54,92.6
+93252,Unincorporated Kern County area,10,10,68,62.3
+93256,Pixley,13,14,72,99.5
+93257,Porterville,13,7,57,78.4
+93263,Shafter,14,11,60,88.9
+93265,Unincorporated Tulare County area,6,0,38,99.9
+93267,Unincorporated Tulare County area,13,1,65,99.8
+93268,Taft,13,2,77,62.1
+93271,Unincorporated Tulare County area,8,9,28,96.7
+93272,Unincorporated Tulare County area,13,8,69,96.6
+93274,Tulare,14,1,51,82.1
+93277,Visalia,15,24,41,68.1
+93280,Wasco,14,8,63,83.4
+93283,Unincorporated Kern County area,5,0,29,99.1
+93285,Unincorporated Kern County area,9,4,35,87.7
+93286,Woodlake,12,0,61,21.9
+93291,Visalia,15,37,47,73.1
+93292,Visalia,14,19,43,79.0
+93301,Bakersfield,16,4,60,70.3
+93304,Bakersfield,16,10,70,70.3
+93305,Bakersfield,16,1,87,70.3
+93306,"East Niles, Hillcrest and Bakersfield",15,0,56,78.7
+93307,Bakersfield,16,11,66,81.8
+93308,Oildale,15,13,43,74.2
+93309,Bakersfield,16,1,39,67.3
+93311,Bakersfield,15,2,11,68.3
+93312,Bakersfield,15,1,15,75.5
+93313,Bakersfield,16,10,24,77.9
+93314,Rosedale and Bakersfield,15,1,11,79.8
+93401,San Luis Obispo,8,18,41,72.7
+93402,Los Osos,7,0,35,37.4
+93405,Unincorporated San Luis Obispo County area,8,10,32,72.2
+93420,Arroyo Grande,8,0,27,68.7
+93422,Atascadero,6,0,40,36.2
+93426,Unincorporated Monterey County area,5,4,44,69.7
+93428,Cambria,7,8,29,43.5
+93430,Cayucos,7,0,39,39.0
+93433,Grover Beach,8,0,54,44.1
+93436,Lompoc,7,3,51,28.8
+93437,Vandenberg AFB,7,27,42,69.5
+93441,Unincorporated Santa Barbara County area,6,0,25,68.4
+93442,Morro Bay,7,7,43,44.8
+93444,Nipomo,8,2,29,94.6
+93445,Oceano,8,0,41,60.4
+93446,Paso Robles,7,10,40,59.4
+93449,Pismo Beach,8,0,32,55.4
+93453,Unincorporated San Luis Obispo County area,6,0,43,61.7
+93454,Santa Maria,8,4,53,17.8
+93455,Orcutt,8,3,34,42.1
+93458,Santa Maria,8,5,68,15.1
+93461,Unincorporated San Luis Obispo County area,7,0,21,68.4
+93463,Unincorporated Santa Barbara County area,7,0,34,85.0
+93465,Unincorporated Santa Barbara County area,6,0,25,66.6
+93501,Mojave,6,4,72,67.8
+93505,California City,7,18,44,70.6
+93510,Acton,9,8,15,61.1
+93514,Unincorporated Inyo County area,4,4,28,56.2
+93516,Boron,7,12,68,68.4
+93517,Unincorporated Mono County area,3,0,47,62.3
+93518,Unincorporated Kern County area,7,4,30,85.4
+93524,Unincorporated Kern County area,7,16,40,69.1
+93526,Unincorporated Inyo County area,4,12,52,8.4
+93532,Unincorporated Los Angeles County area,6,0,36,71.3
+93534,Lancaster,7,2,61,54.8
+93535,Lancaster,7,5,54,52.6
+93536,Lancaster and Quartz Hill,7,2,34,59.6
+93543,Palmdale,8,1,49,54.3
+93544,Unincorporated Los Angeles County area,9,1,54,70.6
+93546,Mammoth Lakes,3,0,28,41.0
+93550,Palmdale,8,0,51,20.4
+93551,Palmdale,7,1,31,58.1
+93552,Palmdale,8,1,47,30.8
+93555,Ridgecrest,8,4,47,56.8
+93560,Rosamond,7,30,29,73.2
+93561,Bear Valley Springs and Tehachapi,7,1,27,75.0
+93563,Unincorporated Los Angeles County area,11,12,33,94.1
+93591,"Palmdale,Lake Los Angeles",7,0,49,35.9
+93608,Unincorporated Fresno County area,10,8,63,78.4
+93609,Caruthers,13,0,59,94.8
+93610,Chowchilla,12,4,53,68.2
+93611,Clovis,13,1,16,58.8
+93612,Clovis,14,5,43,47.6
+93614,Coarsegold and Yosemite Lakes,10,0,17,76.7
+93615,Unincorporated Tulare County area,12,0,69,72.5
+93616,Unincorporated Fresno County area,13,12,67,70.6
+93618,Dinuba,13,8,58,69.0
+93619,Clovis,13,2,12,69.2
+93620,Unincorporated Merced County area,11,7,67,60.0
+93622,Unincorporated Fresno County area,10,5,66,71.7
+93625,Unincorporated Fresno County area,14,9,55,98.0
+93630,Kerman,12,1,51,85.1
+93631,Unincorporated Fresno County area,14,9,50,94.1
+93633,Unincorporated Fresno County area,8,0,27,74.3
+93635,Los Banos,10,7,47,96.0
+93636,Unincorporated Madera County area,13,6,28,80.8
+93637,Madera,12,6,45,74.6
+93638,Madera,13,4,52,66.0
+93640,Unincorporated Fresno County area,10,7,59,58.0
+93644,Oakhurst,7,2,37,86.2
+93646,Unincorporated Fresno and Tulare County area,12,2,71,80.9
+93647,Orosi,12,12,59,64.7
+93648,Unincorporated Fresno County area,13,9,46,76.2
+93650,Fresno,14,17,62,96.7
+93653,Unincorporated Madera County area,11,0,11,77.8
+93654,Reedley,13,6,58,72.0
+93656,Unincorporated Fresno County area,12,10,61,68.4
+93657,Unincorporated Fresno County area,13,5,41,82.5
+93662,Unincorporated Fresno County area,14,7,59,69.0
+93664,Unincorporated Fresno County area,5,0,28,97.0
+93701,Fresno,14,0,73,84.4
+93702,Fresno,14,2,83,84.4
+93703,Fresno,14,2,81,84.4
+93704,Fresno,14,1,62,87.4
+93705,Fresno,14,0,72,84.4
+93706,Fresno,13,18,69,89.1
+93710,Fresno,14,5,36,90.9
+93711,Fresno,13,3,21,87.8
+93720,Fresno,13,0,12,86.4
+93721,Fresno,14,6,70,84.4
+93722,Fresno,13,0,30,85.8
+93723,Fresno,13,4,40,90.8
+93725,Fresno,14,41,59,92.1
+93726,Fresno,14,2,68,84.4
+93727,Fresno,14,2,46,87.8
+93728,Fresno,14,2,82,87.6
+93730,Fresno,13,0,8,89.4
+93901,Salinas,6,4,64,52.5
+93905,Salinas,5,3,67,37.0
+93906,Salinas,6,3,49,50.9
+93907,Salinas and Prunedale,5,6,35,71.0
+93908,Unincorporated Monterey County area,5,21,32,69.5
+93923,Carmel-by-the-Sea,5,8,34,49.8
+93924,Unincorporated Monterey County area,5,0,51,71.5
+93925,Unincorporated Monterey County area,5,6,38,95.4
+93926,Gonzales,5,7,72,77.8
+93927,Greenfield,5,5,51,58.3
+93930,King City,6,4,61,39.1
+93933,Marina,6,16,41,52.3
+93940,Monterey,6,9,42,43.7
+93944,Monterey,5,1,-1,38.7
+93950,Pacific Grove,6,2,53,38.7
+93953,Del Monte Forest,5,3,36,38.7
+93955,Seaside,6,11,69,46.6
+93960,Soledad,5,2,46,69.4
+94002,Belmont,8,9,47,24.3
+94005,Brisbane,9,35,57,63.0
+94010,Burlingame,8,3,53,48.3
+94014,Daly City,8,9,59,47.3
+94015,Daly City,8,2,56,33.8
+94019,El Granada,8,0,34,47.8
+94022,Los Altos,8,12,33,39.7
+94024,Los Altos,8,5,44,27.4
+94025,Menlo Park,8,14,59,42.4
+94027,Atherton,8,24,44,43.0
+94028,Portola Valley,8,0,40,53.7
+94030,Millbrae,8,5,50,30.8
+94035,Unincorporated Santa Clara County area,8,52,-1,30.8
+94038,Montara,8,6,30,48.2
+94040,Mountain View,8,19,47,48.3
+94041,Mountain View,8,19,38,49.5
+94043,Mountain View,8,56,33,54.1
+94044,Pacifica,8,2,48,16.5
+94060,Unincorporated San Mateo County area,7,10,47,87.5
+94061,Redwood City,8,7,61,48.7
+94062,Redwood City,8,2,49,47.4
+94063,Redwood City,8,54,70,46.0
+94065,Redwood City,8,2,11,43.6
+94066,San Bruno,9,5,58,25.9
+94070,San Carlos,8,16,50,10.1
+94080,South San Francisco,9,15,60,42.3
+94085,Sunnyvale,8,74,52,41.1
+94086,Sunnyvale,8,11,40,41.6
+94087,Sunnyvale,8,4,40,34.2
+94089,Sunnyvale,8,41,49,41.1
+94102,San Francisco,9,17,51,15.0
+94103,San Francisco,9,38,47,15.0
+94105,San Francisco,9,37,6,15.0
+94107,San Francisco,9,24,33,15.0
+94108,San Francisco,9,6,56,15.0
+94109,San Francisco,9,3,56,15.0
+94110,San Francisco,9,3,65,15.0
+94111,San Francisco,9,3,49,15.0
+94112,San Francisco,9,2,73,15.0
+94114,San Francisco,9,0,52,15.0
+94115,San Francisco,9,1,47,15.0
+94116,San Francisco,9,0,68,15.0
+94117,San Francisco,9,0,59,15.0
+94118,San Francisco,9,1,59,15.0
+94121,San Francisco,9,6,58,16.7
+94122,San Francisco,9,7,63,15.0
+94123,San Francisco,9,27,61,17.4
+94124,San Francisco,9,16,60,15.0
+94127,San Francisco,9,1,61,15.0
+94128,Unincorporated San Mateo County area,9,9,-1,-1.0
+94129,San Francisco,9,113,55,37.4
+94130,San Francisco,9,143,63,7.5
+94131,San Francisco,9,3,46,15.0
+94132,San Francisco,9,2,61,18.6
+94133,San Francisco,9,4,57,15.0
+94134,San Francisco,9,13,67,15.0
+94158,San Francisco,9,57,7,15.0
+94301,Palo Alto,8,11,47,38.1
+94303,Palo Alto,8,10,68,46.0
+94304,Palo Alto,8,91,33,56.6
+94305,Stanford,8,26,34,39.3
+94306,Palo Alto,8,16,47,45.0
+94401,San Mateo,9,2,75,26.7
+94402,San Mateo,8,2,57,31.8
+94403,San Mateo,8,4,56,24.9
+94404,Foster City,9,4,23,31.0
+94501,Alameda,9,14,55,4.2
+94502,Alameda,9,0,16,4.2
+94503,American Canyon,9,2,30,14.5
+94505,Discovery Bay,9,0,35,53.3
+94506,Danville,8,0,9,4.2
+94507,Unincorporated Contra Costa County area,9,9,28,4.3
+94508,Unincorporated Napa County area,7,0,48,98.7
+94509,Antioch,9,6,54,10.8
+94510,Benicia,9,13,30,12.6
+94513,Brentwood,9,8,21,54.5
+94515,Calistoga,7,2,48,90.8
+94517,Clayton,8,6,19,12.4
+94518,Concord,9,6,46,12.4
+94519,Concord,9,19,62,12.4
+94520,Concord,9,15,57,15.6
+94521,Concord,9,8,41,15.0
+94523,Pleasant Hill,9,1,41,16.3
+94526,Danville,9,7,25,4.7
+94530,El Cerrito,9,5,60,4.2
+94531,Antioch,9,1,24,17.3
+94533,Fairfield,8,3,48,21.9
+94534,Fairfield,9,1,21,26.5
+94535,Fairfield,8,12,50,63.6
+94536,Fremont,8,6,38,8.9
+94538,Fremont,9,12,36,8.3
+94539,Fremont,8,11,18,10.8
+94541,Hayward,9,9,64,7.0
+94542,Hayward,8,2,47,6.7
+94544,Hayward,9,4,66,7.2
+94545,Hayward,9,4,63,6.7
+94546,Castro Valley,9,5,57,5.8
+94547,Hercules,9,11,13,4.2
+94549,Lafayette,9,4,44,5.9
+94550,Livermore,8,8,26,56.0
+94551,Livermore,8,4,33,53.5
+94552,Castro Valley,8,2,17,20.2
+94553,Martinez,9,4,44,11.1
+94555,Fremont,9,1,18,8.3
+94556,Moraga,9,0,27,4.3
+94558,Napa,9,4,40,52.0
+94559,Napa,10,9,61,52.1
+94560,Newark,9,28,40,8.5
+94561,Oakley,9,10,31,39.5
+94563,Orinda,9,5,40,7.4
+94564,Pinole,9,11,42,4.2
+94565,Pittsburg,9,17,53,25.1
+94566,Pleasanton,8,2,21,44.8
+94568,Dublin,9,3,16,38.9
+94571,Unincorporated Solano County area,8,10,24,62.7
+94572,Rodeo,9,23,75,4.2
+94574,St. Helena,8,16,43,61.0
+94577,San Leandro,9,20,67,4.2
+94578,San Leandro,9,13,69,4.5
+94579,San Leandro,9,4,62,4.2
+94580,San Lorenzo,9,1,76,4.4
+94582,San Ramon,8,0,6,27.2
+94583,San Ramon,9,0,19,8.9
+94585,Suisun City,8,6,29,30.7
+94587,Union City,9,11,32,8.1
+94588,Pleasanton,8,3,13,42.9
+94589,Vallejo,9,1,55,29.8
+94590,Vallejo,9,3,71,24.0
+94591,Vallejo,9,3,42,27.0
+94592,Unincorporated Solano County area,9,37,33,32.8
+94595,Walnut Creek,9,1,28,4.2
+94596,Walnut Creek,9,10,36,9.6
+94597,Walnut Creek,9,15,34,13.9
+94598,Walnut Creek,9,2,28,16.8
+94599,Yountville,8,0,16,68.3
+94601,Oakland,9,21,86,4.2
+94602,Oakland,9,0,69,4.2
+94603,Oakland,8,28,87,4.2
+94605,Oakland,9,4,76,4.2
+94606,Oakland,10,14,74,4.2
+94607,Oakland,10,84,60,4.2
+94608,Oakland and Emeryville,10,65,54,4.2
+94609,Oakland,10,7,58,4.2
+94610,Oakland,10,1,53,4.2
+94611,Oakland and Piedmont,9,6,49,4.2
+94612,Oakland,10,14,58,4.2
+94613,Oakland,9,0,73,4.2
+94618,Oakland,9,0,55,4.2
+94619,Oakland,9,0,59,7.2
+94621,Oakland,9,27,91,4.2
+94702,Berkeley,9,12,65,4.2
+94703,Berkeley,9,4,65,4.2
+94704,Berkeley,9,3,38,4.2
+94705,Berkeley,9,0,61,4.2
+94706,Albany,9,11,65,4.2
+94707,Berkeley and Kensington,9,1,60,4.2
+94708,Berkeley,9,2,56,4.2
+94709,Berkeley,9,11,57,4.2
+94710,Berkeley,9,26,56,4.2
+94720,Berkeley,9,9,-1,4.2
+94801,Richmond,9,48,75,4.2
+94803,El Sobrante and Richmond,9,4,41,4.2
+94804,Richmond,9,46,74,4.2
+94805,Richmond,9,11,78,4.2
+94806,San Pablo and Richmond,9,18,62,4.2
+94901,San Rafael,8,12,55,7.4
+94903,San Rafael,8,0,40,7.3
+94904,Larkspur and Kentfield,8,0,46,7.4
+94920,Belvedere and Tiburon,9,4,41,7.4
+94925,Corte Madera,9,6,49,7.4
+94928,Rohnert Park,8,0,33,44.2
+94930,Fairfax,8,17,47,17.1
+94931,Penngrove and Cotati,8,4,35,35.7
+94939,Larkspur,8,7,43,7.4
+94941,Mill Valley,8,0,46,7.4
+94945,Novato,8,5,42,5.6
+94947,Novato,8,5,44,5.5
+94949,Novato,8,35,33,6.2
+94951,Unincorporated Sonoma County area,7,0,19,63.8
+94952,Petaluma,8,5,48,39.9
+94954,Petaluma,8,3,23,22.4
+94956,Unincorporated Marin County area,7,4,51,43.3
+94960,San Anselmo and Sleepy Hollow,8,11,55,7.4
+94963,San Geronimo,8,0,54,7.0
+94964,Unincorporated Marin County area,9,5,-1,7.4
+94965,Marin City and Sausalito,9,7,42,7.4
+94970,Unincorporated Marin County area,8,0,54,60.5
+95002,San Jose,8,104,49,39.0
+95003,Aptos and Rio del Mar,6,0,33,37.4
+95005,Ben Lomond,6,1,55,55.5
+95006,Boulder Creek,6,0,45,51.6
+95008,Campbell,8,4,40,22.7
+95010,Capitola,6,1,43,35.8
+95012,Prunedale,5,4,49,85.8
+95014,Cupertino,8,13,34,31.5
+95017,Unincorporated Santa Cruz County area,6,0,32,60.6
+95018,Unincorporated Santa Cruz County area,6,5,43,69.7
+95020,Gilroy,6,7,42,45.5
+95023,Hollister,5,10,36,55.6
+95030,Los Gatos and Monte Sereno,7,1,34,20.1
+95032,Los Gatos,8,2,38,25.6
+95033,Unincorporated Santa Clara County area,7,0,40,54.2
+95035,Milpitas,8,21,31,16.1
+95037,Morgan Hill,7,4,34,46.1
+95039,Unincorporated Monterey County area,5,12,69,92.6
+95043,Unincorporated San Benito County area,5,34,49,95.3
+95045,Unincorporated San Benito County area,5,1,55,69.9
+95046,San Martin,7,2,48,68.7
+95050,Santa Clara,8,38,50,49.1
+95051,Santa Clara,8,9,49,50.1
+95054,Santa Clara,8,111,26,50.2
+95060,Santa Cruz,6,15,45,29.2
+95062,Santa Cruz and Live Oak,6,9,47,21.4
+95064,Santa Cruz,6,0,30,23.1
+95065,Live Oak and Santa Cruz,6,6,35,25.3
+95066,Unincorporated Santa Cruz County area,6,39,27,48.7
+95070,Saratoga,8,0,37,23.4
+95073,Unincorporated Santa Cruz County area,6,0,27,31.3
+95076,Watsonville,6,6,58,48.1
+95110,San Jose,9,23,52,22.7
+95111,San Jose,8,6,57,33.0
+95112,San Jose,9,14,61,21.3
+95116,San Jose,9,1,65,22.7
+95117,San Jose,8,3,46,22.7
+95118,San Jose,8,0,36,22.7
+95119,San Jose,8,24,43,46.8
+95120,San Jose,8,1,21,27.3
+95121,San Jose,9,5,38,34.5
+95122,San Jose,9,2,58,25.5
+95123,San Jose,8,0,35,37.6
+95124,San Jose,8,7,47,22.7
+95125,San Jose,9,9,51,22.7
+95126,San Jose,9,14,52,22.7
+95127,San Jose,8,0,67,26.7
+95128,San Jose,9,3,61,24.9
+95129,San Jose,8,6,39,22.7
+95130,San Jose,8,0,54,22.7
+95131,San Jose,9,50,30,22.2
+95132,San Jose,8,7,35,25.9
+95133,San Jose,9,12,42,22.7
+95134,San Jose,8,79,15,34.8
+95135,San Jose,8,2,13,26.7
+95136,San Jose,8,5,32,28.8
+95138,San Jose,8,13,20,46.7
+95139,San Jose,8,12,24,46.6
+95148,San Jose,8,0,26,41.4
+95192,San Jose,9,1,42,19.3
+95202,Stockton,12,33,81,41.6
+95203,Stockton,11,38,70,41.6
+95204,Country Club and Stockton,11,4,72,48.7
+95205,Stockton,12,7,80,57.1
+95206,Stockton,11,10,58,55.5
+95207,Stockton,11,1,52,70.7
+95209,Stockton,11,0,35,78.4
+95210,Stockton,11,0,42,70.6
+95212,Morada,11,1,29,100.0
+95215,Garden Acres,11,13,61,80.0
+95219,Stockton,11,1,22,70.0
+95220,Collierville,10,2,42,84.5
+95222,Unincorporated Calaveras County area,9,7,42,53.5
+95223,Unincorporated Calaveras County area,7,0,21,32.4
+95228,Unincorporated Calaveras County area,9,20,19,43.2
+95230,Unincorporated Stanislaus County area,10,0,35,96.0
+95231,French Camp,11,22,53,94.7
+95236,Peters,10,10,38,52.9
+95237,Lockeford,10,9,37,53.2
+95240,Lodi,10,3,53,71.0
+95242,Lodi,10,0,32,83.3
+95246,Unincorporated Calaveras County area,9,7,51,64.6
+95247,Unincorporated Calaveras County area,8,0,33,36.4
+95252,"Unincorporated Calaveras County area,Unincorporated Calaveras County area",9,0,34,34.1
+95257,Unincorporated Calaveras County area,7,0,32,48.5
+95301,Atwater,12,3,52,94.7
+95303,Ballico,12,10,73,98.4
+95304,Unincorporated San Joaquin County area,10,14,27,86.1
+95306,Unincorporated Mariposa County area,10,1,26,53.7
+95307,Ceres,11,1,50,97.3
+95311,Unincorporated Mariposa County area,8,0,18,64.8
+95315,Delhi,12,2,52,74.5
+95316,Unincorporated Stanislaus County area,12,7,45,98.3
+95320,"Unincorporated San Joaquin County area,Escalon",11,10,39,60.1
+95322,Unincorporated Merced County area,10,9,56,64.7
+95324,Unincorporated Merced County area,12,1,31,69.1
+95326,Hughson,11,0,52,98.7
+95327,Unincorporated Tuolumne County area,9,7,22,65.1
+95330,Lathrop,11,14,29,80.8
+95333,Unincorporated Merced County area,11,4,60,65.9
+95334,Livingston,12,1,55,96.7
+95335,Unincorporated Tuolumne County area,6,5,39,70.6
+95336,Manteca,11,1,39,99.1
+95337,Manteca,11,8,39,99.1
+95338,Unincorporated Mariposa County area,8,4,28,54.1
+95340,Merced,12,2,60,67.1
+95341,Merced,12,4,61,73.1
+95346,Unincorporated Tuolumne County area,7,2,27,60.3
+95348,Merced,12,3,43,64.3
+95350,Modesto,11,7,53,97.8
+95351,Modesto,11,5,64,98.1
+95354,Modesto,11,17,67,97.8
+95355,Modesto,11,0,31,97.7
+95356,Modesto,11,4,29,98.0
+95357,Empire,11,3,37,99.0
+95358,Modesto and Ceres,11,3,53,98.1
+95360,Newman,10,12,63,81.5
+95361,Oakdale,11,9,43,65.2
+95363,Patterson,10,12,45,90.9
+95366,Ripon,11,0,28,91.1
+95367,Riverbank,11,7,49,71.2
+95369,Unincorporated Merced County area,11,3,41,76.2
+95370,Sonora and Phoenix Lake,8,15,39,52.8
+95374,Unincorporated Merced County area,11,0,68,60.8
+95376,Tracy,9,6,43,22.4
+95377,Tracy,9,8,14,46.4
+95380,Turlock,13,4,51,96.9
+95382,Turlock,12,0,19,95.7
+95386,Unincorporated Stanislaus County area,11,0,36,92.6
+95388,"Winton,Unincorporated Merced County area",12,17,65,74.0
+95389,Unincorporated Mariposa County area,6,10,35,43.7
+95401,Santa Rosa,7,2,41,18.3
+95403,Santa Rosa,7,9,34,11.3
+95404,Santa Rosa,7,1,43,26.7
+95405,Santa Rosa,7,0,49,5.0
+95407,Santa Rosa,7,7,56,28.4
+95409,Santa Rosa,7,0,27,22.3
+95421,Timber Cove,6,12,33,54.1
+95422,Clearlake,3,12,49,64.6
+95423,Unincorporated Lake County area,3,12,46,51.2
+95425,Unincorporated Sonoma County area,6,25,53,24.3
+95427,Unincorporated Mendocino County area,6,0,29,53.6
+95428,Unincorporated Mendocino County area,4,0,57,0.2
+95432,Unincorporated Mendocino County area,6,16,45,0.7
+95436,Unincorporated Sonoma County area,6,0,42,58.4
+95437,Fort Bragg,7,13,51,7.0
+95441,Unincorporated Sonoma County area,6,1,47,54.8
+95442,Unincorporated Sonoma County area,7,0,42,58.5
+95446,Unincorporated Sonoma County area,6,0,59,24.9
+95448,Healdsburg,6,0,38,36.3
+95449,Unincorporated Mendocino County area,6,0,42,7.5
+95451,Clearlake Riviera,3,11,28,52.9
+95453,Lakeport,5,13,50,24.5
+95457,Unincorporated Lake County area,4,10,28,63.7
+95461,Unincorporated Lake County area,4,9,31,36.2
+95464,Unincorporated Lake County area,5,12,33,42.6
+95465,Unincorporated Sonoma County area,6,0,29,72.0
+95466,Unincorporated Mendocino County area,6,0,56,4.3
+95468,Unincorporated Mendocino County area,6,11,30,24.1
+95469,Unincorporated Mendocino County area,6,0,53,35.5
+95470,Unincorporated Mendocino County area,7,3,42,25.7
+95472,Unincorporated Sonoma County area,7,2,43,47.6
+95476,Fetters Hot Springs-Agua Caliente and Boyes Hot Springs,8,0,39,36.1
+95482,Ukiah,7,8,55,10.4
+95490,Unincorporated Mendocino County area,7,4,47,49.9
+95492,Windsor,7,7,20,12.6
+95501,Eureka,7,4,62,2.0
+95503,Bayview and Eureka,6,3,47,15.9
+95514,Unincorporated Humboldt County area,5,0,50,9.2
+95519,McKinleyville,6,0,39,4.7
+95521,Arcata,6,5,56,5.9
+95524,Unincorporated Humboldt County area,6,7,43,10.2
+95525,Unincorporated Humboldt County area,6,21,51,22.8
+95526,Unincorporated Humboldt County area,5,0,41,32.1
+95531,Bertsch-Oceanview and Crescent City,6,8,45,38.8
+95536,Unincorporated Humboldt County area,5,2,55,11.8
+95540,Fortuna,6,0,46,25.7
+95542,Unincorporated Humboldt County area,5,0,34,45.9
+95546,Unincorporated Humboldt County area,5,15,54,27.4
+95548,Unincorporated Del Norte County area,5,0,53,6.8
+95550,Unincorporated Humboldt County area,5,4,29,5.9
+95551,Loleta,6,0,64,25.9
+95565,Unincorporated Humboldt County area,6,17,57,8.5
+95568,Unincorporated Siskiyou County area,3,15,59,17.7
+95570,Unincorporated Humboldt County area,5,2,53,61.1
+95585,Unincorporated Mendocino County area,5,0,35,39.6
+95602,North Auburn,7,4,26,30.6
+95603,Auburn,7,12,39,13.9
+95605,West Sacramento,9,38,68,11.4
+95608,Carmichael,9,4,47,37.9
+95610,Citrus Heights,8,0,40,5.2
+95616,Davis,9,2,29,50.7
+95618,Davis,9,15,25,50.3
+95620,Dixon,8,11,39,62.4
+95621,Citrus Heights,9,0,37,77.0
+95623,Unincorporated El Dorado County area,8,0,17,53.5
+95624,Elk Grove,9,1,21,44.4
+95626,Elverta,8,3,46,51.2
+95628,Fair Oaks,8,6,36,25.3
+95629,Unincorporated Amador County area,8,34,30,68.4
+95630,Folsom,8,4,13,7.2
+95631,Unincorporated Placer County area,6,7,21,40.8
+95632,Galt,9,1,35,32.9
+95634,Unincorporated El Dorado County area,7,0,20,48.5
+95638,Unincorporated Sacramento County area,9,0,17,11.8
+95640,"Unincorporated Amador County area,Unincorporated Amador County area",9,55,34,55.9
+95641,Unincorporated Sacramento County area,8,0,47,71.9
+95642,Unincorporated Amador County area,9,36,37,73.2
+95648,Lincoln,8,1,16,29.6
+95650,Loomis,8,45,19,3.3
+95652,McClellan Park,9,19,83,61.1
+95655,Mather,8,37,15,71.3
+95658,Unincorporated Placer County area,7,25,35,50.6
+95659,Unincorporated Sutter County area,8,4,49,69.3
+95660,North Highlands,9,10,67,61.7
+95661,Roseville,8,0,24,2.1
+95662,Orangevale,8,0,38,6.5
+95663,Unincorporated Placer County area,7,27,32,23.1
+95664,Unincorporated El Dorado County area,8,0,15,6.9
+95665,Pine Grove,8,10,19,62.2
+95666,Unincorporated Amador County area,7,0,20,48.7
+95667,Placerville and Unincorporated El Dorado County area,8,1,33,21.6
+95669,Unincorporated Amador County area,8,9,20,68.5
+95670,Rancho Cordova,9,20,41,79.2
+95672,El Dorado Hills,8,5,8,22.6
+95673,Rio Linda,9,7,56,11.9
+95677,Rocklin,8,4,18,0.1
+95678,Roseville,8,8,35,7.6
+95682,Cameron Park,8,4,18,32.8
+95683,Unincorporated Sacramento County area,8,17,12,32.7
+95684,Unincorporated El Dorado County area,7,0,30,53.7
+95685,Unincorporated Amador County area,8,110,38,65.8
+95687,Vacaville,8,0,22,23.0
+95688,Vacaville,8,6,35,28.9
+95690,Walnut Grove,9,5,67,93.8
+95691,West Sacramento,9,8,44,19.9
+95692,Unincorporated Yuba County area,8,0,25,61.4
+95693,Unincorporated Sacramento County area,8,3,28,37.0
+95694,Unincorporated Yolo County area,8,16,41,57.6
+95695,Woodland,9,4,49,25.6
+95698,Unincorporated Yolo County area,8,3,47,75.2
+95701,Unincorporated Placer County area,7,1,40,54.6
+95703,Unincorporated Placer County area,7,0,23,51.6
+95709,Unincorporated El Dorado County area,7,0,35,18.5
+95713,Unincorporated Placer County area,7,15,32,38.9
+95720,Unincorporated El Dorado County area,5,0,-1,78.5
+95722,Meadow Vista,7,2,23,10.7
+95724,Unincorporated Placer County area,7,0,20,37.7
+95726,Pollock Pines,7,2,29,19.4
+95728,Unincorporated Nevada County area,6,3,28,76.3
+95742,Rancho Cordova,8,34,18,66.2
+95746,Granite Bay,8,5,10,7.2
+95747,Roseville,8,6,12,11.4
+95757,Elk Grove,9,2,14,49.4
+95758,Elk Grove,9,0,22,45.9
+95762,El Dorado Hills,8,4,11,17.5
+95765,Rocklin,8,0,9,2.5
+95776,Woodland,9,4,39,37.7
+95811,Sacramento,9,218,72,16.9
+95814,Sacramento,9,48,40,16.9
+95815,Sacramento,9,9,73,39.7
+95816,Sacramento,9,8,54,16.9
+95817,Sacramento,9,8,69,16.9
+95818,Sacramento,9,22,64,16.9
+95819,Sacramento,9,5,62,16.9
+95820,Sacramento,9,7,80,28.9
+95821,Arden-Arcade,9,3,63,64.7
+95822,Sacramento,9,3,69,21.5
+95823,Sacramento,9,2,50,51.4
+95824,Sacramento,9,3,74,51.1
+95825,Arden-Arcade,9,2,48,55.8
+95826,Rosemont,9,4,40,53.0
+95827,Rosemont,9,10,39,62.8
+95828,Florin,9,3,40,73.1
+95829,Vineyard,9,5,26,52.3
+95830,Vineyard,8,0,4,44.1
+95831,Sacramento,9,2,27,16.9
+95832,Sacramento,9,0,49,16.9
+95833,Sacramento,9,3,38,22.4
+95834,Sacramento,9,2,27,26.0
+95835,Sacramento,9,0,12,20.7
+95836,Unincorporated Sacramento County area,9,0,-1,25.5
+95837,Unincorporated Yolo and Sacramento County area,9,8,38,43.6
+95838,Sacramento,9,12,57,16.9
+95841,North Highlands,9,2,55,67.2
+95842,Foothill Farms,9,1,40,71.0
+95843,Antelope,9,0,29,50.4
+95864,Arden-Arcade,9,1,53,67.1
+95901,Marysville and Linda,8,6,51,64.6
+95912,College City,8,7,51,67.0
+95916,Berry Creek,6,18,33,52.8
+95917,Unincorporated Butte County area,8,0,54,50.6
+95925,Unincorporated Yuba County area,6,8,34,70.5
+95926,Chico,9,20,48,18.8
+95928,Chico,9,28,43,26.6
+95932,Unincorporated Colusa County area,8,15,65,13.6
+95934,Unincorporated Plumas County area,7,8,52,18.3
+95937,Unincorporated Yolo County area,7,1,52,43.2
+95938,Durham,8,25,33,55.9
+95939,Unincorporated Glenn County area,5,0,52,63.4
+95942,Unincorporated Butte County area,7,16,10,63.0
+95943,Unincorporated Glenn County area,8,0,50,38.3
+95945,Grass Valley,6,74,48,41.8
+95946,Unincorporated Nevada County area,7,9,18,84.6
+95948,Unincorporated Butte County area,9,0,58,40.8
+95949,Alta Sierra,7,12,22,41.8
+95953,Live Oak,9,5,44,68.7
+95954,Magalia,7,0,24,9.0
+95957,Unincorporated Sutter County area,8,12,65,65.1
+95959,Unincorporated Nevada County area,6,55,24,29.5
+95961,Olivehurst,9,4,52,47.1
+95963,Orland,7,3,55,40.5
+95965,Oroville,8,19,55,28.0
+95966,Oroville,8,12,45,32.9
+95969,Paradise,7,4,43,15.2
+95971,Quincy,9,0,47,8.8
+95973,Chico,9,5,28,30.2
+95975,Lake Wildwood,7,11,17,36.2
+95979,Unincorporated Colusa County area,6,0,49,18.6
+95981,Unincorporated Plumas County area,7,1,13,6.2
+95987,Unincorporated Colusa County area,7,4,50,8.6
+95988,Willows,9,8,59,49.1
+95991,Yuba City,9,6,51,65.2
+95993,Yuba City,9,3,32,61.9
+96001,Redding,8,11,40,31.6
+96002,Redding,9,4,35,30.0
+96003,Redding,8,5,27,24.8
+96007,Anderson and Happy Valley,11,0,38,23.1
+96010,Unincorporated Trinity County area,4,0,35,40.3
+96013,Unincorporated Shasta County area,4,2,48,9.1
+96016,Unincorporated Shasta County area,5,0,47,33.0
+96019,Shasta Lake,8,5,43,4.9
+96020,Unincorporated Plumas County area,8,9,37,27.1
+96021,Unincorporated Tehama County area,7,7,53,29.8
+96022,Unincorporated Tehama County area,9,0,38,32.1
+96025,Unincorporated Siskiyou County area,4,0,65,0.7
+96031,Unincorporated Siskiyou County area,2,4,47,32.4
+96032,Unincorporated Siskiyou County area,3,4,47,17.5
+96035,Proberta,7,0,39,38.2
+96041,Unincorporated Trinity County area,4,6,26,0.7
+96044,Unincorporated Siskiyou County area,3,0,57,0.6
+96047,Unincorporated Shasta County area,7,12,23,54.6
+96051,Unincorporated Shasta County area,5,0,27,50.2
+96052,Unincorporated Trinity County area,4,2,35,20.8
+96056,Unincorporated Lassen and Modoc County area,5,2,49,20.5
+96058,Unincorporated Siskiyou County area,3,0,74,4.8
+96064,Unincorporated Siskiyou County area,3,0,35,38.8
+96065,Unincorporated Shasta County area,5,0,22,65.3
+96067,Mount Shasta,3,18,33,10.2
+96073,Bella Vista,9,0,25,32.0
+96080,"Red Bluff,",6,8,46,49.2
+96088,Unincorporated Shasta County area,6,0,17,26.4
+96094,Unincorporated Siskiyou County area,4,15,34,38.8
+96097,Yreka,4,10,53,39.2
+96101,Daphnedale Park,5,0,59,50.7
+96103,Graeagle,7,0,12,75.5
+96104,Unincorporated Modoc County area,4,0,58,20.5
+96108,Unincorporated Modoc County area,4,1,48,23.5
+96113,Unincorporated Lassen County area,5,23,43,56.6
+96114,Janesville,5,0,15,8.6
+96117,Unincorporated Lassen County area,5,9,33,71.2
+96120,Unincorporated Alpine County area,3,0,37,71.7
+96122,Unincorporated Plumas County area,7,0,42,67.7
+96124,Unincorporated Sierra County area,6,0,22,66.2
+96130,Unincorporated Lassen County area,5,7,53,28.2
+96132,Unincorporated Lassen County area,4,0,50,10.4
+96140,Unincorporated Placer County area,6,0,40,11.8
+96142,Unincorporated Placer County area,5,0,25,39.7
+96143,Kings Beach,6,0,51,3.3
+96145,Unincorporated Placer County area,6,0,28,12.1
+96150,South Lake Tahoe,4,0,43,22.8
+96161,Truckee,8,2,15,26.6

@@ -71,10 +71,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* only have things that should be visible from every page */}
       <Navbar />
       <Routes>
-        {/* can pass props here */}
+
+        {/* route and props for HomeView */}
         <Route 
           path="/" 
           element={<HomeView 
@@ -82,11 +82,13 @@ function App() {
           getLocalData={(zipInput) => getLocalData(zipInput)}/>} 
         />
 
+        {/* route for About page */}
         <Route 
           path="/about" 
           element={<AboutView />} 
         />
 
+        {/* route and props for IndicatorView */}
         <Route 
           path="/indicators" 
           element={<IndicatorView 
@@ -96,6 +98,7 @@ function App() {
           getAllIndicators={getAllIndicators}/>} 
         />
 
+        {/* route and props for FeaturedIndicatorView */}
         <Route 
           path="/indicators/:id" 
           element={<FeaturedIndicatorView 

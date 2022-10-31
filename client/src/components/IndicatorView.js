@@ -23,8 +23,7 @@ function IndicatorView(props){
     // Function to generate conditional messages based on enviro data. Compares the props.envData value for that indicator (air, water, etc.) against a hazard threshold, and returns a message describing if the result is "good-news", "bad-news", or "no-data"
     function news(index, envDataValue) {
         // if data is null, show no data message
-        // problem: doens't differentiate between null and 0-value data. also tried if (data === null), same problem
-        if (envDataValue === null) {
+        if (envDataValue < 0) {
             return `${props.allIndicators[index].no_data}`;
         // else if data is below hazard threshold, show good news
         } else if (envDataValue < props.allIndicators[index].threshold) {
@@ -41,15 +40,15 @@ function IndicatorView(props){
     let leadNews = news(2, props.envData.lead_paint);
     let waterNews= news(3, props.envData.water);
 
-    // function conditionalClass(indId) {
-    //     if (!props.envData[props.allIndicators[indId].id]) {
-    //         return "no-data"
-    //     } else if (props.envData[props.allIndicators[indId].id] < props.allIndicators[indId].threshold) {
-    //         return "good-news"
-    //     } else {
-    //         return "bad-news"
-    //     }
-    // }
+    function conditionalClass(index) {
+        if (props.envData[props.allIndicators[index].id] < 0) {
+            return "no-data"
+        } else if (props.envData[props.allIndicators[index].id] < props.allIndicators[index].threshold) {
+            return "good-news"
+        } else {
+            return "bad-news"
+        }
+    }
 
     return (
     <div className="IndicatorView">
@@ -77,12 +76,9 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <div className="card-text">
-                            {/* NOT WORKING: conditionally set class based on good news or bad news */}
-                            <p className={props.envData[props.allIndicators[0].id]===null ? 'no-data' : 'has-data'}>
-                                <p className={props.envData[props.allIndicators[0].id] < props.allIndicators[0].threshold ? 'good-news' : 'bad-news'}> 
+                                <p className={conditionalClass(0)}>
                                     {`${airNews}`}
                                 </p>
-                            </p>
                         </div>
                         <button 
                             class="btn btn-primary"
@@ -105,8 +101,8 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
                         <div className="card-text">
-                            <p className={props.envData[props.allIndicators[1].id] < props.allIndicators[1].threshold ? 'good-news' : 'bad-news'}> 
-                                { props.allIndicators && `${hazCleanupsNews}`}
+                            <p className={conditionalClass(1)}> 
+                                {`${hazCleanupsNews}`}
                             </p>
                         </div>
                         <button 
@@ -131,7 +127,7 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
                         <div className="card-text">
-                            <p className={props.envData[props.allIndicators[2].id] < props.allIndicators[2].threshold ? 'good-news' : 'bad-news'}> 
+                            <p className={conditionalClass(2)}> 
                                 {`${leadNews}`}
                             </p>
                         </div>
@@ -156,8 +152,8 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
                         <div className="card-text">
-                            <p className={props.envData[props.allIndicators[3].id] < props.allIndicators[3].threshold ? 'good-news' : 'bad-news'}> 
-                                { props.allIndicators && `${waterNews}`}
+                            <p className={conditionalClass(3)}> 
+                                {`${waterNews}`}
                             </p>
                         </div>
                         <button 
