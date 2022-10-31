@@ -24,32 +24,33 @@ function IndicatorView(props){
         console.log(id);
     }
 
-    // NOT WORKING - WHY?
-    // // function to generate conditional messages based on enviro data
-    // function news(indId, data) {
-    //     // if data is null, show no data message
-    //     if (!data) {
-    //         return `${ind[indId].no_data}`;
-    //     // else if data is below hazard threshold, show good news
-    //     } else if (data < ind[indId].threshold) {
-    //         return `${ind[indId].good_news}`;
-    //     // else, data is over hazard threshold, so show bad news
-    //     } else {
-    //         return `${ind[indId].bad_news}`
-    //     }
-    // }
-
-    // let airNews = news(ind[0].id, envData.air);
-    // let hazCleanupsNews = news(ind[1].id, envData.haz_cleanups);
-    // let leadNews = news(ind[2].id, envData.lead_paint);
-    // let waterNews= news(ind[3].id, envData.water);
+    // function to generate conditional messages based on enviro data
+    function news(indId, data) {
+        // if data is null, show no data message
+        // problem: doens't differentiate between null and 0-value data. also tried if (data === null), same problem
+        if (!data) {
+            return `${ind[indId].no_data}`;
+        // else if data is below hazard threshold, show good news
+        } else if (data < ind[indId].threshold) {
+            return `${ind[indId].good_news}`;
+        // else, data is over hazard threshold, so show bad news
+        } else {
+            return `${ind[indId].bad_news}`
+        }
+    }
+    
+    // call "news" function to create conditional messages based on enviro data
+    let airNews = news(0, envData.air);
+    let hazCleanupsNews = news(1, envData.haz_cleanups);
+    let leadNews = news(2, envData.lead_paint);
+    let waterNews= news(3, envData.water);
 
     return (
     <div className="IndicatorView">
         {/* header */}
         <div className="row">
             <div className="col">
-            <h2>Results for</h2>
+            <h2>Results for {`${envData.zip}`}:</h2>
             <h2 id="location">
             {`${envData.city}`} 
             </h2>
@@ -70,7 +71,7 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <p className="card-text">
-                        Good news/bad news/ no data
+                        { ind && `${airNews}`}
                         </p>
                         <button 
                             class="btn btn-primary"
@@ -92,7 +93,7 @@ function IndicatorView(props){
                         alt="waste cleanup sites"/>
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
-                        <p className="card-text">Good news/bad news/ no data</p>
+                        <p className="card-text">{ ind && `${hazCleanupsNews}`}</p>
                         <button 
                             class="btn btn-primary"
                             type="button" 
@@ -114,7 +115,7 @@ function IndicatorView(props){
                         alt="lead in housing"/>
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
-                        <p className="card-text">Good news/bad news/ no data</p>
+                        <p className="card-text">{ ind && `${leadNews}`}</p>
                         <button 
                             class="btn btn-primary"
                             type="button" 
@@ -135,7 +136,7 @@ function IndicatorView(props){
                         alt="water quality"/>
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
-                        <p className="card-text">Good news/bad news/ no data.</p>
+                        <p className="card-text">{ ind && `${waterNews}`}</p>
                         <button 
                             class="btn btn-primary"
                             type="button" 

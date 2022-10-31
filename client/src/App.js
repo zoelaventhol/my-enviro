@@ -15,6 +15,8 @@ function App() {
   const [indicatorDetails, setIndicatorDetails] = useState({});
 
   useEffect(() => {
+    // ask Jim about storing ZIP-based data local browser storage
+    // bandaid: set useState to default location OR create errorView and set state to render error view. review react router demo for this.
     allIndicatorDetails();
   }, []);
 

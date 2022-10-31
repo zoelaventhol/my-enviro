@@ -10,6 +10,7 @@
     background-size:cover;
     border-radius: 10px;
     background-color: white;
+    padding-top: 15%;
 }
 
 /* NOT WORKING: want to add semi-transparent layer over background image */
@@ -23,7 +24,6 @@
 }
 
 h1 {
-    padding-top: 20%;
     font-size: 4em;
 }
 

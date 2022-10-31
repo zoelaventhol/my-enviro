@@ -37,6 +37,12 @@ h2#location {
     border-bottom: 8px solid #5a52fc;
 }
 
+.card-text {
+    border-radius: 10px;
+    padding: .25em;
+    background-color:rgb(197, 237, 252);
+}
+
 .btn {
     background-color: #5a52fc;
     font-weight: bold;

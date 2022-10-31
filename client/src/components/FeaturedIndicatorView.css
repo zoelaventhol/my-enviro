@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.FeaturedIndicatorView {
+    padding-top: 5%;
+}
+
 .row {
     margin: auto;
 }
@@ -20,6 +24,7 @@
 
 .good-or-bad-news p {
     padding-top: 10%;
+    font-size:x-large;
     /* want to vertically align in container */
 }
 
@@ -27,6 +32,14 @@
     border: 6px solid #5a52fc;
     border-radius: 10px;
     margin: auto;
+    height: 500px;
+    overflow: scroll;
+    padding-top: 2%;
+    margin-top: 5%;
+}
+
+#indicator-description {
+    font-size: x-large;
 }
 
 #indicator-summary {
@@ -35,9 +48,11 @@
 
 #what-to-do {
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
-#action-detail {
+#action-intro, #action-detail {
     text-align: left;
 }
 
@@ -45,8 +60,8 @@
     padding: 1em;
 }
 
-h1 {
-    font-size:xx-large;
+#data h1 {
+    font-size:5em;
 }
 
 .icon-container img {
@@ -58,4 +73,8 @@ h1 {
     align-items: center;
     border: 5px solid #5a52fc;
     border-radius: 10px;
+}
+
+#footnote {
+    padding: 2em 1em;
 }
