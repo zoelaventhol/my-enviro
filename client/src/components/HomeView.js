@@ -32,7 +32,7 @@ function HomeView(props){
             <div className="row">
                 <div className="col-8">
                     <div className="row">
-                        <h1>Enter your ZIP code</h1>
+                        <h1 id="zip-prompt">Enter your ZIP code</h1>
                     </div>
                     <div className="row">
                         <h4>Learn about your air, water, home, and neighborhood - and how to protect yourself. Knowledge is power!</h4>

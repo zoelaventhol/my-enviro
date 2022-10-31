@@ -4,6 +4,7 @@
 
 .IndicatorView {
     padding-top: 5%;
+    background-color: #529ffc;
 }
 
 h2 {
@@ -42,14 +43,28 @@ h2#location {
     font-weight: bold;
 }
 
+.card-text {
+    background-color: rgb(178, 214, 255);
+    border-radius: 10px;
+} 
+
+/* conditionally style text based on threshold - wasn't working */
 .good-news {
     background-color: rgb(184, 255, 195);
     border-radius: 10px;
+    padding: .25em;
 }
 
 .bad-news {
     background-color: rgb(255, 184, 184);
     border-radius: 10px;
+    padding: .25em;
+}
+
+.no-data {
+    background-color: rgb(255, 246, 184);
+    border-radius: 10px;
+    padding: .25em;
 }
 
 #footnote {
@@ -57,6 +72,3 @@ h2#location {
     text-align: left;
 }
 
-.card-text p {
-    background-color: rgb(255, 177, 177);
-}

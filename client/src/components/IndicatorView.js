@@ -73,9 +73,11 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <div className="card-text">
-                            {/* conditionally set class based on good news or bad news */}
-                            <p className={envData[ind[0].id] < ind[0].threshold ? 'good-news' : 'bad-news'}>
-                                { ind && `${airNews}`}
+                            {/* NOT WORKING: conditionally set class based on good news or bad news */}
+                            <p className={envData[ind[0].id]===null ? 'no-data' : 'has-data'}>
+                                <p className={envData[ind[0].id] < ind[0].threshold ? 'good-news' : 'bad-news'}> 
+                                    {`${airNews}`}
+                                </p>
                             </p>
                         </div>
                         <button 
@@ -99,8 +101,7 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Waste Cleanups</h5>
                         <div className="card-text">
-                            {/* conditionally set class based on good news or bad news */}
-                            <p className={envData[ind[1].id] < ind[1].threshold ? 'good-news' : 'bad-news'}>
+                            <p className={envData[ind[1].id] < ind[1].threshold ? 'good-news' : 'bad-news'}> 
                                 { ind && `${hazCleanupsNews}`}
                             </p>
                         </div>
@@ -126,9 +127,8 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Lead in Housing</h5>
                         <div className="card-text">
-                            {/* conditionally set class based on good news or bad news */}
-                            <p className={envData[ind[2].id] < ind[2].threshold ? 'good-news' : 'bad-news'}>
-                                { ind && `${leadNews}`}
+                            <p className={envData[ind[2].id] < ind[2].threshold ? 'good-news' : 'bad-news'}> 
+                                {`${leadNews}`}
                             </p>
                         </div>
                         <button 
@@ -152,8 +152,7 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Water</h5>
                         <div className="card-text">
-                             {/* conditionally set class based on good news or bad news */}
-                             <p className={envData[ind[3].id] < ind[3].threshold ? 'good-news' : 'bad-news'}>
+                            <p className={envData[ind[3].id] < ind[3].threshold ? 'good-news' : 'bad-news'}> 
                                 { ind && `${waterNews}`}
                             </p>
                         </div>

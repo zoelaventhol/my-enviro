@@ -3,28 +3,28 @@
 }
 
 .HomeView {
-    background-image:url("https://images.pexels.com/photos/4119737/pexels-photo-4119737.jpeg");
+    background:url("https://images.pexels.com/photos/4119737/pexels-photo-4119737.jpeg");
+    background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
     border-radius: 10px;
-    background-color: white;
-    padding-top: 15%;
 }
 
 /* NOT WORKING: want to add semi-transparent layer over background image */
-/* .layer {
-    background-color: rgba(255,255,255, 0.7);
-} */
+.layer {
+    background-color: rgba(255,255,255, 0.35);
+}
 
 .col-8 {
     margin: auto;
     text-align:left;
 }
 
-h1 {
+#zip-prompt {
     font-size: 4em;
+    padding-top: 20%;
 }
 
 input {
