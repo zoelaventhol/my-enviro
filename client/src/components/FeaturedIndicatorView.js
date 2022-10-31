@@ -4,42 +4,38 @@ import ErrorView from './ErrorView';
 import './FeaturedIndicatorView.css'
 
 function FeaturedIndicatorView(props){
-    // use state of indicator details
-    let ind = props.indicatorDetails;
-    // use state of enviro data
-    let envData = props.data;
-
     // use React router navigation
     const navigate = useNavigate();
 
+    // go back to "indicators" page when you click the close button
     function handleClick(e) {
         navigate(`/indicators`);
     }
 
     // function to generate conditional messages based on enviro data
-    function news(data) {
+    function news(envDataValue) {
         // if data is null, show no data message
-        if (!data) {
-            return `${ind.no_data}`;
+        if (!envDataValue) {
+            return `${props.featIndicator.no_data}`;
         // else if data is below hazard threshold, show good news
-        } else if (data < ind.threshold) {
-            return `${ind.good_news}`;
+        } else if (envDataValue < props.featIndicator.threshold) {
+            return `${props.featIndicator.good_news}`;
         // else, data is over hazard threshold, so show bad news
         } else {
-            return `${ind.bad_news}`
+            return `${props.featIndicator.bad_news}`
         }
     }
     
     // call "news" function to create conditional messages based on enviro data
-    let dataNews = news(envData[ind.id]);
+    let featNews = news(props.envData[props.featIndicator.id]);
     
     return (
     <div className="FeaturedIndicatorView">
         {/* header */}
         <div className="row">
             <div className="col">
-                <h2>{`${ind.indicator_name}`} in</h2>
-                <h2 id="location">{`${envData.city}`}</h2>
+                <h2>{`${props.featIndicator.indicator_name}`} in</h2>
+                <h2 id="location">{`${props.envData.city}`}</h2>
             </div>
         </div>
 
@@ -64,7 +60,7 @@ function FeaturedIndicatorView(props){
                         {/* icon square: conditionally display an icon depending on indicator id */}
                         <div className="col-3">
                             <div className="icon-container">
-                                <img src={`${ind.icon_url}`} />
+                                <img src={`${props.featIndicator.icon_url}`} />
                             </div>
                         </div>
 
@@ -73,8 +69,8 @@ function FeaturedIndicatorView(props){
                         <div className="col">
                             <div className="good-or-bad-news">
                                 {/* conditionally set class based on good news or bad news */}
-                                <p className={envData[ind.id] < ind.threshold ? 'good-news' : 'bad-news'}>
-                                    {`${dataNews}`}
+                                <p className={props.envData[props.featIndicator.id] < props.featIndicator.threshold ? 'good-news' : 'bad-news'}>
+                                    {`${featNews}`}
                                 </p>
                             </div>
                         </div>
@@ -86,17 +82,17 @@ function FeaturedIndicatorView(props){
                         conditionally display: number from enviro_data, and indicator description and summary from indicator_details*/}
                         <div className="col-5" id="summary">
                             <div className="row" id="data">
-                                <h1>{`${envData[ind.id]}${ind.if_percent}`}</h1>
+                                <h1>{`${props.envData[props.featIndicator.id]}${props.featIndicator.if_percent}`}</h1>
                             </div>
 
                             <div className="row" id="indicator-description">
-                                <p>{`${ind.data_description}`}</p>
+                                <p>{`${props.featIndicator.data_description}`}</p>
                             </div>
 
                             <div className="row" id="indicator-summary">
                                 <b>What does this mean?</b>
                                 <p>
-                                    {`${ind.summary}`}
+                                    {`${props.featIndicator.summary}`}
                                     <br />
                                     <br />
                                     <a href="https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-40" target = "_blank">Source</a>    
@@ -113,33 +109,33 @@ function FeaturedIndicatorView(props){
                             </div>
 
                             <div className="row" id="action-intro">
-                                <p>If you are concerned about {`${ind.indicator_name}`.toLowerCase()} in your area, some simple steps you can take are:</p>
+                                <p>If you are concerned about {`${props.featIndicator.indicator_name}`.toLowerCase()} in your area, some simple steps you can take are:</p>
                             </div>
 
                             <div className="row" id="action-detail">
                                 <p>
                                     <b>Learn more</b>
                                     <br />
-                                    <div dangerouslySetInnerHTML={{__html: ind.learn_more }} />
+                                    <div dangerouslySetInnerHTML={{__html: props.featIndicator.learn_more }} />
                                 </p>
 
                                 <p>
                                     <b>Protect yourself</b>
                                     <br />
-                                    <div dangerouslySetInnerHTML={{__html: ind.protect_yourself }} />
+                                    <div dangerouslySetInnerHTML={{__html: props.featIndicator.protect_yourself }} />
                                 </p>
 
                                 <p>
                                     <b>Take action</b>
                                     <br />
-                                    Look up your local public officials or {`${ind.indicator_name}`.toLowerCase()} advocacy groups to learn more.</p>
+                                    Look up your local public officials or {`${props.featIndicator.indicator_name}`.toLowerCase()} advocacy groups to learn more.</p>
                             </div>
                         </div>  
                     </div>
 
                     {/* conditionally display footnote */}
                     <div className="row" id="footnote">
-                        <div dangerouslySetInnerHTML={{__html: ind.footnote }} />
+                        <div dangerouslySetInnerHTML={{__html: props.featIndicator.footnote }} />
                     </div>
                 </div>
             </div>

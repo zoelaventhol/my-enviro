@@ -13,26 +13,21 @@ import ErrorView from './components/ErrorView.js';
 function App() {
   
   // initiate state for enviro_data (aka "data") and indicator_details (aka "indicatorDetails")
-  const [data, setData] = useState({});
-  const [indicatorDetails, setIndicatorDetails] = useState({});
+  const [envData, setEnvData] = useState({});
+  const [allIndicators, setAllIndicators] = useState({});
+  const [featIndicator, setFeatIndicator] = useState({});
 
   useEffect(() => {
-    // ask Jim about storing ZIP-based data local browser storage
-    // bandaid: set useState to default location OR create errorView and set state to render error view. review react router demo for this.
-    allIndicatorDetails();
+    getAllIndicators();
   }, []);
 
-  // useEffect(() => {
-  //   localStorage.getItem('data', JSON.parse(data));
-  // }, [data]);
-
   // get all indicator details
-  async function allIndicatorDetails() {
+  async function getAllIndicators() {
     try {
       let response = await fetch(`/indicator_details`);
       if (response.ok) {
         let data = await response.json();
-        setIndicatorDetails(data);
+        setAllIndicators(data);
         console.log(data);
       } else {
         console.log(`Server error: ${response.status} ${response.statusText}`);
@@ -43,12 +38,12 @@ function App() {
   }
 
   // get details for one indicator (by id)
-  async function oneIndicator(id) {
+  async function getFeatIndicator(id) {
     try {
       let response = await fetch(`/indicator_details/${id}`);
       if (response.ok) {
         let data = await response.json();
-        setIndicatorDetails(data);
+        setFeatIndicator(data);
         console.log(data);
       } else {
         console.log(`Server error: ${response.status} ${response.statusText}`);
@@ -64,9 +59,8 @@ function App() {
       let response = await fetch(`/enviro_data/${zipInput}`);
       if (response.ok) {
         let data = await response.json();
-        setData(data);
+        setEnvData(data);
         console.log(data);
-        // localStorage.setItem('data', JSON.stringify(data));
       } else {
         console.log(`Server error: ${response.status} ${response.statusText}`);
       }
@@ -81,10 +75,34 @@ function App() {
       <Navbar />
       <Routes>
         {/* can pass props here */}
-        <Route path="/" element={<HomeView data={data} getLocalData={(zipInput) => getLocalData(zipInput)}/>} />
-        <Route path="/about" element={<AboutView />} />
-        <Route path="/indicators" element={<IndicatorView data={data} indicatorDetails={indicatorDetails} oneIndicator={(id) => oneIndicator(id)} allIndicatorDetails={allIndicatorDetails}/>} />
-        <Route path="/indicators/:id" element={<FeaturedIndicatorView indicatorDetails={indicatorDetails} data={data} allIndicatorDetails={allIndicatorDetails}/>} /> 
+        <Route 
+          path="/" 
+          element={<HomeView 
+          envData={envData} 
+          getLocalData={(zipInput) => getLocalData(zipInput)}/>} 
+        />
+
+        <Route 
+          path="/about" 
+          element={<AboutView />} 
+        />
+
+        <Route 
+          path="/indicators" 
+          element={<IndicatorView 
+          envData={envData} 
+          allIndicators={allIndicators}
+          getFeatIndicator={(id) => getFeatIndicator(id)} 
+          getAllIndicators={getAllIndicators}/>} 
+        />
+
+        <Route 
+          path="/indicators/:id" 
+          element={<FeaturedIndicatorView 
+          envData={envData} 
+          featIndicator={featIndicator} 
+          getAllIndicators={getAllIndicators} />} 
+        /> 
       </Routes>
     </div>
   );
