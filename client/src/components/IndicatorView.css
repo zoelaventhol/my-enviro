@@ -3,8 +3,7 @@
 }
 
 .IndicatorView {
-    padding-top: 5%;
-    height: 80%;
+    padding-top: 3%;
 }
 
 h2 {
@@ -19,14 +18,22 @@ h2#location {
     margin-bottom: 1em;
 }
 
+#indicator-cards {
+    padding-bottom: 2%;
+}
+
+.d-flex justify-content-around {
+    flex-wrap: wrap;
+}
+
 .card {
     background-color: white;
     border: 8px solid #5a52fc;
     border-radius: 10px;
     aspect-ratio: 1/1;
     margin: 1em;
-    width: 70%;
-    height: 80%;
+    width: 22%;
+    height: 400px;
     overflow:scroll;
 }
 
@@ -47,27 +54,23 @@ h2#location {
 }
 
 .card-text {
-    background-color: rgb(178, 214, 255);
-    border-radius: 10px;
+    padding: .25em;
 } 
 
 /* conditionally style text based on threshold - wasn't working */
 .good-news {
     background-color: rgb(184, 255, 195);
     border-radius: 10px;
-    padding: .25em;
 }
 
 .bad-news {
     background-color: rgb(255, 184, 184);
     border-radius: 10px;
-    padding: .25em;
 }
 
 .no-data {
     background-color: rgb(255, 246, 184);
     border-radius: 10px;
-    padding: .25em;
 }
 
 #footnote {
