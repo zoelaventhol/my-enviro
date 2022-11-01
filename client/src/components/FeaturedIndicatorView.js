@@ -125,7 +125,7 @@ function FeaturedIndicatorView(props){
                         conditionally display action recommendation from indicator_details */}
                         <div className="col-5" id="action">
                             <div className="row" id="what-to-do">
-                                <h2>What to do</h2>
+                                <h3>What to do</h3>
                             </div>
 
                             <div className="row" id="action-intro">
