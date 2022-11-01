@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
 import './IndicatorView.css';
-import ErrorView from "./ErrorView.js"
 
 function IndicatorView(props){
     useEffect(() => {

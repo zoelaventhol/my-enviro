@@ -7,8 +7,6 @@ import Navbar from './components/Navbar.js';
 import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
 import IndicatorView from './components/IndicatorView.js';
 import HomeView from './components/HomeView.js';
-import AboutView from './components/AboutView.js';
-import ErrorView from './components/ErrorView.js';
 
 function App() {
   
@@ -80,12 +78,6 @@ function App() {
           element={<HomeView 
           envData={envData} 
           getLocalData={(zipInput) => getLocalData(zipInput)}/>} 
-        />
-
-        {/* route for About page */}
-        <Route 
-          path="/about" 
-          element={<AboutView />} 
         />
 
         {/* route and props for IndicatorView */}
