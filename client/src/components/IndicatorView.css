@@ -53,24 +53,23 @@ h2#location {
     font-weight: bold;
 }
 
-.card-text {
-    padding: .25em;
-} 
-
 /* conditionally style text based on threshold - wasn't working */
 .good-news {
     background-color: rgb(184, 255, 195);
     border-radius: 10px;
+    padding: .25em;
 }
 
 .bad-news {
     background-color: rgb(255, 184, 184);
     border-radius: 10px;
+    padding: .25em;
 }
 
 .no-data {
     background-color: rgb(255, 246, 184);
     border-radius: 10px;
+    padding: .25em;
 }
 
 #footnote {
