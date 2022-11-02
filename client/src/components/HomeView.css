@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* set background image */
 .HomeView {
     background:url("https://images.pexels.com/photos/4119737/pexels-photo-4119737.jpeg");
     background-color: white;
@@ -12,11 +13,12 @@
     border-radius: 10px;
 }
 
-/* NOT WORKING: want to add semi-transparent layer over background image */
+/* add translucent layer over background image for better visibility */
 .layer {
     background-color: rgba(255,255,255, 0.35);
 }
 
+/* container for main info */
 .col-8 {
     margin: auto;
     text-align:left;
