@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const db = require("../model/helper"); // added
+const db = require("../model/helper"); // added during scaffolding
 
 /* GET all data */
+// not used in app, just wrote to test it
 router.get('/', function(req, res, next) {
   db("SELECT * FROM enviro_data;")
   .then(results => {
