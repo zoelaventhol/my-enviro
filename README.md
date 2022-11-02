@@ -50,5 +50,7 @@ DB_PASS=(your password)
 ## Learn More
 Full [project description here](https://docs.google.com/document/d/1EyuTybF4YVzwdO1ak_yoinMkoNYwa-Yj6S7IBZ90VEE/edit#).
 
+Includes file map, user flow, design, data methodology, links to source data, feature extension recommendations and more.
+
 
 _This is a student project that was created by Zoe Laventhol at [CodeOp](http://codeop.tech), a full stack development bootcamp in Barcelona._
