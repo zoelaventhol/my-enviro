@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
-import { useNavigate } from 'react-router-dom';
 import './IndicatorView.css';
+// use React router navigation
+import { useNavigate } from 'react-router-dom';
 
 function IndicatorView(props){
+    // make sure all data from indicator_details is saved in allIndicators state
     useEffect(() => {
         props.getAllIndicators();
       }, []);
@@ -13,32 +15,34 @@ function IndicatorView(props){
     // handleClick sends indicator id (i.e. air, water, etc.) to App, where it updates the state of featIndicator
     function handleClick(id) {
         // update state/pass to parent (App.js)
-        props.getFeatIndicator(id)
+        props.getFeatIndicator(id);
         // go to featured indicator page
-        navigate(`/indicators/${id}`)
-        console.log(id);
+        navigate(`/indicators/${id}`);
     }
 
-    // Function to generate conditional messages based on enviro data. Compares the props.envData value for that indicator (air, water, etc.) against a hazard threshold, and returns a message describing if the result is "good-news", "bad-news", or "no-data"
+    // Function to generate conditional messages based on enviro data. Compares the props.envData value for each indicator (air, water, etc.) against a hazard threshold ("threshold" in indicator_details), and returns a message describing if the result is "good-news", "bad-news", or "no-data"
     function news(index, envDataValue) {
-        // if data is null, show no data message
+        // If data is null (aka less than 0), show no data message. In the enviro_data table, all null fields have been reset to -1 in order to differentiate them from 0-value data.
         if (envDataValue < 0) {
             return `${props.allIndicators[index].no_data}`;
-        // else if data is below hazard threshold, show good news
+        
+            // else if data is below hazard threshold, show good news
         } else if (envDataValue < props.allIndicators[index].threshold) {
             return `${props.allIndicators[index].good_news}`;
-        // else, data is over hazard threshold, so show bad news
+        
+            // else, data is over hazard threshold, so show bad news
         } else {
             return `${props.allIndicators[index].bad_news}`
         }
     }
     
-    // call "news" function to create conditional messages based on enviro data
+    // call "news" function to create conditional "good_news/bad_news" messages for each indicator
     let airNews = news(0, props.envData.air);
     let hazCleanupsNews = news(1, props.envData.haz_cleanups);
     let leadNews = news(2, props.envData.lead_paint);
     let waterNews= news(3, props.envData.water);
 
+    // same logic/purpose as "news" function, but allows us to give conditional classes to pieces of our template (so we can style them in different colors)
     function conditionalClass(index) {
         if (props.envData[props.allIndicators[index].id] < 0) {
             return "no-data"
@@ -61,7 +65,7 @@ function IndicatorView(props){
             </div>
         </div>
 
-        {/* indicator cards */}
+        {/* indicator cards container */}
         <div className="row" id="indicator-cards">
 
             {/* air card */}
@@ -75,6 +79,7 @@ function IndicatorView(props){
                     <div className="card-body">
                         <h5 className="card-title">Air</h5>
                         <div className="card-text">
+                                {/* conditional class and message for air "news" - will return message and class (with different color) for "good_news", "bad_news", or "no_data", depending on the value for "air" in envData and the "threshold" in featIndicator. This is repeated on all cards */}
                                 <p className={conditionalClass(0)}>
                                     {`${airNews}`}
                                 </p>
@@ -90,7 +95,7 @@ function IndicatorView(props){
                 </div>
             </div>
 
-                {/* haz-cleanups card */}
+            {/* haz-cleanups card */}
             <div className="col">
                 <div className="card" id="haz-cleanups-card">
                     <img 
@@ -114,7 +119,8 @@ function IndicatorView(props){
                     </div>
                 </div>
             </div>
-                {/* lead-paint card */}
+            
+            {/* lead-paint card */}
             <div className="col">
                 <div className="card" id="lead-paint-card">
                     <img 
@@ -139,7 +145,7 @@ function IndicatorView(props){
                 </div>   
             </div>
 
-                {/* water card */}
+            {/* water card */}
             <div className="col">
                 <div className="card" id="water-card">
                     <img 
