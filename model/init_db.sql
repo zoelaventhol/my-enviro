@@ -9,6 +9,7 @@ CREATE TABLE enviro_data (
     water DECIMAL(3,1)
 );
 
+-- imports data from local file enviro_data.csv
 LOAD DATA LOCAL INFILE '/Users/Zoe/Desktop/CodeOp/codeop-activities/MVP/my-express-app/data/enviro_data.csv' 
 INTO TABLE enviro_data
 FIELDS TERMINATED BY ',' 
@@ -35,6 +36,7 @@ CREATE TABLE indicator_details (
     source VARCHAR (255)
 );
 
+-- imports data from local file indicator_details.csv
 LOAD DATA LOCAL INFILE '/Users/Zoe/Desktop/CodeOp/codeop-activities/MVP/my-express-app/data/indicator_details.csv' 
 INTO TABLE indicator_details
 FIELDS TERMINATED BY ',' 
