@@ -22,19 +22,13 @@ h2#location {
     padding-bottom: 2%;
 }
 
-.d-flex justify-content-around {
-    flex-wrap: wrap;
-}
-
 .card {
     background-color: white;
     border: 8px solid #5a52fc;
     border-radius: 10px;
     aspect-ratio: 1/1;
     margin: 1em;
-    width: 22%;
-    height: 400px;
-    overflow:scroll;
+    width: 90%;
 }
 
 .card-img-top {

@@ -64,10 +64,8 @@ function IndicatorView(props){
         {/* indicator cards */}
         <div className="row" id="indicator-cards">
 
-            {/* flexbox for indicator cards */}
-            {/* ADD CODE */}
-            <div className="d-flex justify-content-around">
             {/* air card */}
+            <div className="col">
                 <div className="card" id="air-card">
                     <img 
                         className="card-img-top" 
@@ -90,8 +88,10 @@ function IndicatorView(props){
                         </button>
                     </div>
                 </div>
+            </div>
 
                 {/* haz-cleanups card */}
+            <div className="col">
                 <div className="card" id="haz-cleanups-card">
                     <img 
                         className="card-img-top" 
@@ -113,9 +113,9 @@ function IndicatorView(props){
                         </button>
                     </div>
                 </div>
-
+            </div>
                 {/* lead-paint card */}
-            
+            <div className="col">
                 <div className="card" id="lead-paint-card">
                     <img 
                         className="card-img-top" 
@@ -137,8 +137,10 @@ function IndicatorView(props){
                         </button>
                     </div>
                 </div>   
+            </div>
 
                 {/* water card */}
+            <div className="col">
                 <div className="card" id="water-card">
                     <img 
                         className="card-img-top" 
