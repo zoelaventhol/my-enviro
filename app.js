@@ -2,12 +2,13 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const cors = require('cors');
+const cors = require('cors'); // added during scaffolding
 
 var indexRouter = require('./routes/index');
-const enviroDataRouter = require("./routes/enviro_data.js")
+// access enviro_data routes
+const enviroDataRouter = require("./routes/enviro_data.js") 
+// access indicator_details routes
 const indicatorDetailsRouter = require("./routes/indicator_details.js")
-// later: add indicators
 
 var app = express();
 
@@ -21,15 +22,13 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
+// connect to enviro_data routes
 app.use('/enviro_data', enviroDataRouter);
+// connect to indicator_details routes
 app.use('/indicator_details', indicatorDetailsRouter);
-// later: add indicators
-
-/* BELOW COPIED FROM MILESTONE APP.JS FILE, need to understand */
 
 // Anything that doesn't match the above, send back index.html
-// QUESTION: can't find "build" directory in "client" in the original project - what is this pointing to? should I point it somewhere else?
-// build folder auto-generated when we npm build (package.json)
+// build folder will be auto-generated when we npm build (package.json)
 app.get("*", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/client/build/index.html"));
   });
