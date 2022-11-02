@@ -1,6 +1,7 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom';
 import './FeaturedIndicatorView.css'
+// use React router navigation
+import { useNavigate } from 'react-router-dom';
 
 function FeaturedIndicatorView(props){
     // use React router navigation
@@ -11,7 +12,7 @@ function FeaturedIndicatorView(props){
         navigate(`/indicators`);
     }
 
-    // function to generate conditional messages based on enviro data
+    // Function to generate conditional messages based on enviro data. Compares the props.envData value for each indicator (air, water, etc.) against a hazard threshold ("threshold" in indicator_details), and returns a message describing if the result is "good-news", "bad-news", or "no-data"
     function news(envDataValue) {
         // if data is null, show no data message
         if (envDataValue < 0) {
@@ -31,15 +32,15 @@ function FeaturedIndicatorView(props){
     // function to give conditional styling (red/yellow/green text background) to featNews based on indicator threshold
     function conditionalClass() {
         if (props.envData[props.featIndicator.id] < 0) {
-            return "no-data"
+            return "no-data";
         } else if (props.envData[props.featIndicator.id] < props.featIndicator.threshold) {
-            return "good-news"
+            return "good-news";
         } else {
-            return "bad-news"
+            return "bad-news";
         }
     }
 
-    // if envDataValue is null (set as -1 in data set to differentiate it from 0 values), return a "?". else return the data value, and a "%" if it's a percentage.
+    // if envDataValue is null (set as -1 in data set to differentiate it from 0 values), return a "?", else return the data value. Return a "%" if it's a percentage.
     function displayData(envDataValue) {
         if (envDataValue < 0) {
             return '?';
@@ -50,6 +51,7 @@ function FeaturedIndicatorView(props){
     
     return (
     <div className="FeaturedIndicatorView">
+
         {/* header */}
         <div className="row">
             <div className="col">
@@ -61,8 +63,8 @@ function FeaturedIndicatorView(props){
         {/* indicator details container */}
         <div className="row">
             <div className="col-10" id="indicator-details">
-                {/* "close" button
-                click to close and return to "indicators view" (with all 4 indicators. state of data should stay saved) */}
+
+                {/* "close" button - click to close and return to "indicators view"*/}
                     <div className="row">
                         <div className = "close-button">
                             <button 
@@ -122,7 +124,7 @@ function FeaturedIndicatorView(props){
                         </div>
                         
                         {/* action container 
-                        conditionally display action recommendation from indicator_details */}
+                        conditionally display action recommendations from indicator_details */}
                         <div className="col-5" id="action">
                             <div className="row" id="what-to-do">
                                 <h3>What to do</h3>
@@ -136,12 +138,14 @@ function FeaturedIndicatorView(props){
                                 <p>
                                     <b>Learn more</b>
                                     <br />
+                                    {/* dangerouslySetInnerHTML allows the page to render HTML from the input data */}
                                     <div dangerouslySetInnerHTML={{__html: props.featIndicator.learn_more }} />
                                 </p>
 
                                 <p>
                                     <b>Protect yourself</b>
                                     <br />
+                                    {/* dangerouslySetInnerHTML allows the page to render HTML from the input data */}
                                     <div dangerouslySetInnerHTML={{__html: props.featIndicator.protect_yourself }} />
                                 </p>
 
@@ -155,6 +159,7 @@ function FeaturedIndicatorView(props){
 
                     {/* conditionally display footnote */}
                     <div className="row" id="footnote">
+                        {/* dangerouslySetInnerHTML allows the page to render HTML from the input data */}
                         <div dangerouslySetInnerHTML={{__html: props.featIndicator.footnote }} />
                     </div>
                 </div>
