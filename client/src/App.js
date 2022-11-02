@@ -1,5 +1,3 @@
-// get rid of logo?
-import logo from './logo.svg';
 import React, { useEffect, useState } from "react";
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
@@ -10,16 +8,21 @@ import HomeView from './components/HomeView.js';
 
 function App() {
   
-  // initiate state for enviro_data (aka "data") and indicator_details (aka "indicatorDetails")
+  /* initiate state for:
+  1. selected enviro_data (aka "envData") - will be set by ZIP search
+  2. all indicator_details (aka "allIndicators") - will be set on app start (with useEffect)
+  3. featured indicator_details (aka "featIndicator") - will be set on clicking an indicator from the "IndicatorView"
+  */
   const [envData, setEnvData] = useState({});
   const [allIndicators, setAllIndicators] = useState({});
   const [featIndicator, setFeatIndicator] = useState({});
 
+  // when app starts, retrieve all data from indicator_details and store it in state for allIndicators
   useEffect(() => {
     getAllIndicators();
   }, []);
 
-  // get all indicator details
+  // get all indicator details and store them in allIndicators state
   async function getAllIndicators() {
     try {
       let response = await fetch(`/indicator_details`);
@@ -35,7 +38,7 @@ function App() {
     }
   }
 
-  // get details for one indicator (by id)
+  // get details for one indicator (by id) and set them as state for featIndicator
   async function getFeatIndicator(id) {
     try {
       let response = await fetch(`/indicator_details/${id}`);
@@ -51,7 +54,7 @@ function App() {
     }
   }
   
-  // get local enviro data based on form entry (ZIP code)
+  // get local enviro_data based on ZIP code entry on HomeView, set as state for envData
   async function getLocalData(zipInput) {
     try {
       let response = await fetch(`/enviro_data/${zipInput}`);
@@ -69,6 +72,7 @@ function App() {
 
   return (
     <div className="App">
+      {/* show nav bar and have access to front-end routes from every location in app */}
       <Navbar />
       <Routes>
 
