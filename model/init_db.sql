@@ -10,7 +10,7 @@ CREATE TABLE enviro_data (
 );
 
 -- imports data from local file enviro_data.csv
-LOAD DATA LOCAL INFILE '/Users/Zoe/Desktop/CodeOp/codeop-activities/MVP/my-express-app/data/enviro_data.csv' 
+LOAD DATA LOCAL INFILE 'data/enviro_data.csv' 
 INTO TABLE enviro_data
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
@@ -37,7 +37,7 @@ CREATE TABLE indicator_details (
 );
 
 -- imports data from local file indicator_details.csv
-LOAD DATA LOCAL INFILE '/Users/Zoe/Desktop/CodeOp/codeop-activities/MVP/my-express-app/data/indicator_details.csv' 
+LOAD DATA LOCAL INFILE 'data/indicator_details.csv' 
 INTO TABLE indicator_details
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
