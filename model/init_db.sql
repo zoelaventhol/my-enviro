@@ -1,7 +1,9 @@
 DROP TABLE IF EXISTS enviro_data;
 
+-- consider moving env data into linked table so more scalable later
+-- look up more on normalization of databases (Codd)
 CREATE TABLE enviro_data (
-    zip VARCHAR (5) NOT NULL,
+    zip VARCHAR (5) PRIMARY KEY,
     city VARCHAR (255),
     air INT,
     haz_cleanups INT,
@@ -20,7 +22,7 @@ IGNORE 1 ROWS;
 DROP TABLE IF EXISTS indicator_details;
 
 CREATE TABLE indicator_details (
-    id VARCHAR (15),
+    id VARCHAR (15) PRIMARY KEY,
     if_percent VARCHAR (1),
     indicator_name VARCHAR (50),
     icon_url VARCHAR (255),
