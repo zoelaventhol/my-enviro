@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar.js';
+import NavBar from './components/NavBar.js';
 import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
 import IndicatorView from './components/IndicatorView.js';
 import HomeView from './components/HomeView.js';
@@ -73,14 +73,13 @@ function App() {
   return (
     <div className="App">
       {/* show nav bar and have access to front-end routes from every location in app */}
-      <Navbar />
+      <NavBar />
       <Routes>
 
         {/* route and props for HomeView */}
         <Route 
           path="/" 
           element={<HomeView 
-          envData={envData} 
           getLocalData={(zipInput) => getLocalData(zipInput)}/>} 
         />
 

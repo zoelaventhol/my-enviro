@@ -3,7 +3,7 @@ import './HomeView.css'
 // use React router navigation
 import { useNavigate } from 'react-router-dom';
 
-function HomeView(props){
+function HomeView({ envData, getLocalData }){
     // state for ZIP input. state/default value is empty string
     const [zipInput, setZipInput] = useState("");
 
@@ -20,7 +20,7 @@ function HomeView(props){
     // handleSubmit to send ZIP to App/update state
     function handleSubmit(submit) {
         submit.preventDefault(); // prevent auto-reload
-        props.getLocalData(zipInput); // pass zipInput to parent (App.js), where it will be used to getLocalData
+        getLocalData(zipInput); // pass zipInput to parent (App.js), where it will be used to getLocalData
         navigate("/indicators") // go to indicators page
     }
 
