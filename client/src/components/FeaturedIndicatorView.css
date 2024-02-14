@@ -4,6 +4,9 @@
 
 .FeaturedIndicatorView {
     padding-top: 5%;
+    background-color: #529ffc;
+    border-radius:10px;
+    margin-top: 0.5em;
 }
 
 /* center content in rows */

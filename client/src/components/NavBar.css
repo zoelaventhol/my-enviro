@@ -1,0 +1,17 @@
+.Navbar {
+    background-color: white;
+    display:flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.navbar-contents {
+    border: 1px solid black;
+    width: 30%;
+}
