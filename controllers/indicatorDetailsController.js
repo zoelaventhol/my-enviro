@@ -1,19 +1,16 @@
-const express = require("express");
-const router = express.Router();
-const db = require("../model/helper"); // added
+const db = require("../model/helper");
 
-/* GET all data */
-router.get("/", function (req, res, next) {
+const getAllIndicatorDetails = async (req, res) => {
   db("SELECT * FROM indicator_details;")
     .then((results) => {
       res.send(results.data);
     })
     .catch((err) => res.status(500).send(err));
-});
+};
 
-/* GET indicator details by id */
-router.get("/:id", async function (req, res) {
-  const sql = `SELECT * FROM indicator_details WHERE id = "${req.params.id}"`;
+const getIndicatorDetailsById = async (req, res) => {
+  const { id } = req.params;
+  const sql = `SELECT * FROM indicator_details WHERE id = "${id}"`;
 
   try {
     let result = await db(sql); // run the sql command: look for data by zip
@@ -27,6 +24,9 @@ router.get("/:id", async function (req, res) {
     // else send error if fails
     res.status(500).send({ error: error.message });
   }
-});
+};
 
-module.exports = router;
+module.exports = {
+  getAllIndicatorDetails,
+  getIndicatorDetailsById,
+};
