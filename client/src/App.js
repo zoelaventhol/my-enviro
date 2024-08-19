@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar.js';
-import FeaturedIndicatorView from './components/FeaturedIndicatorView.js';
-import IndicatorView from './components/IndicatorView.js';
-import HomeView from './components/HomeView.js';
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import NavBar from "./components/NavBar.js";
+import FeaturedIndicatorView from "./components/FeaturedIndicatorView.js";
+import IndicatorView from "./components/IndicatorView.js";
+import HomeView from "./components/HomeView.js";
 
 function App() {
-  
   /* initiate state for:
   1. selected enviro_data (aka "envData") - will be set by ZIP search
   2. all indicator_details (aka "allIndicators") - will be set on app start (with useEffect)
@@ -25,7 +24,7 @@ function App() {
   // get all indicator details and store them in allIndicators state
   async function getAllIndicators() {
     try {
-      let response = await fetch(`/indicator_details`);
+      let response = await fetch(`/indicator-details`);
       if (response.ok) {
         let data = await response.json();
         setAllIndicators(data);
@@ -41,7 +40,7 @@ function App() {
   // get details for one indicator (by id) and set them as state for featIndicator
   async function getFeatIndicator(id) {
     try {
-      let response = await fetch(`/indicator_details/${id}`);
+      let response = await fetch(`/indicator-details/${id}`);
       if (response.ok) {
         let data = await response.json();
         setFeatIndicator(data);
@@ -53,11 +52,11 @@ function App() {
       console.log(`Network error: ${error.message}`);
     }
   }
-  
+
   // get local enviro_data based on ZIP code entry on HomeView, set as state for envData
   async function getLocalData(zipInput) {
     try {
-      let response = await fetch(`/enviro_data/${zipInput}`);
+      let response = await fetch(`/enviro-data/${zipInput}`);
       if (response.ok) {
         let data = await response.json();
         setEnvData(data);
@@ -75,32 +74,38 @@ function App() {
       {/* show nav bar and have access to front-end routes from every location in app */}
       <NavBar />
       <Routes>
-
         {/* route and props for HomeView */}
-        <Route 
-          path="/" 
-          element={<HomeView 
-          getLocalData={(zipInput) => getLocalData(zipInput)}/>} 
+        <Route
+          path="/"
+          element={
+            <HomeView getLocalData={(zipInput) => getLocalData(zipInput)} />
+          }
         />
 
         {/* route and props for IndicatorView */}
-        <Route 
-          path="/indicators" 
-          element={<IndicatorView 
-          envData={envData} 
-          allIndicators={allIndicators}
-          getFeatIndicator={(id) => getFeatIndicator(id)} 
-          getAllIndicators={getAllIndicators}/>} 
+        <Route
+          path="/indicators"
+          element={
+            <IndicatorView
+              envData={envData}
+              allIndicators={allIndicators}
+              getFeatIndicator={(id) => getFeatIndicator(id)}
+              getAllIndicators={getAllIndicators}
+            />
+          }
         />
 
         {/* route and props for FeaturedIndicatorView */}
-        <Route 
-          path="/indicators/:id" 
-          element={<FeaturedIndicatorView 
-          envData={envData} 
-          featIndicator={featIndicator} 
-          getAllIndicators={getAllIndicators} />} 
-        /> 
+        <Route
+          path="/indicators/:id"
+          element={
+            <FeaturedIndicatorView
+              envData={envData}
+              featIndicator={featIndicator}
+              getAllIndicators={getAllIndicators}
+            />
+          }
+        />
       </Routes>
     </div>
   );

@@ -22,9 +22,9 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/", indexRouter);
 // connect to enviro_data routes
-app.use("/enviro_data", enviroDataRouter);
+app.use("/enviro-data", enviroDataRouter);
 // connect to indicator_details routes
-app.use("/indicator_details", indicatorDetailsRouter);
+app.use("/indicator-details", indicatorDetailsRouter);
 
 // Anything that doesn't match the above, send back index.html
 // build folder will be auto-generated when we npm build (package.json)
