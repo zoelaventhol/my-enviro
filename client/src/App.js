@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+import api from "./api.js";
 import NavBar from "./components/NavBar.js";
 import FeaturedIndicatorView from "./components/FeaturedIndicatorView.js";
 import IndicatorView from "./components/IndicatorView.js";
@@ -12,9 +13,9 @@ function App() {
   2. all indicator_details (aka "allIndicators") - will be set on app start (with useEffect)
   3. featured indicator_details (aka "featIndicator") - will be set on clicking an indicator from the "IndicatorView"
   */
-  const [envData, setEnvData] = useState({});
-  const [allIndicators, setAllIndicators] = useState({});
-  const [featIndicator, setFeatIndicator] = useState({});
+  const [envData, setEnvData] = useState([]);
+  const [allIndicators, setAllIndicators] = useState([]);
+  const [featIndicator, setFeatIndicator] = useState([]);
 
   // when app starts, retrieve all data from indicator_details and store it in state for allIndicators
   useEffect(() => {
@@ -23,50 +24,20 @@ function App() {
 
   // get all indicator details and store them in allIndicators state
   async function getAllIndicators() {
-    try {
-      let response = await fetch(`/indicator-details`);
-      if (response.ok) {
-        let data = await response.json();
-        setAllIndicators(data);
-        console.log(data);
-      } else {
-        console.log(`Server error: ${response.status} ${response.statusText}`);
-      }
-    } catch (error) {
-      console.log(`Network error: ${error.message}`);
-    }
+    let data = await api.getAllIndicators();
+    setAllIndicators(data);
   }
 
   // get details for one indicator (by id) and set them as state for featIndicator
   async function getFeatIndicator(id) {
-    try {
-      let response = await fetch(`/indicator-details/${id}`);
-      if (response.ok) {
-        let data = await response.json();
-        setFeatIndicator(data);
-        console.log(data);
-      } else {
-        console.log(`Server error: ${response.status} ${response.statusText}`);
-      }
-    } catch (error) {
-      console.log(`Network error: ${error.message}`);
-    }
+    let data = await api.getFeatIndicator(id);
+    setFeatIndicator(data);
   }
 
   // get local enviro_data based on ZIP code entry on HomeView, set as state for envData
   async function getLocalData(zipInput) {
-    try {
-      let response = await fetch(`/enviro-data/${zipInput}`);
-      if (response.ok) {
-        let data = await response.json();
-        setEnvData(data);
-        console.log(data);
-      } else {
-        console.log(`Server error: ${response.status} ${response.statusText}`);
-      }
-    } catch (error) {
-      console.log(`Network error: ${error.message}`);
-    }
+    let data = await api.getLocalData(zipInput);
+    setEnvData(data);
   }
 
   return (
