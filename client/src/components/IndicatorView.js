@@ -12,7 +12,7 @@ function IndicatorView({
   // make sure all data from indicator_details is saved in allIndicators state
   useEffect(() => {
     getAllIndicators();
-  }, []);
+  });
 
   // use React router navigation
   const navigate = useNavigate();
