@@ -1,18 +1,18 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 const db = require("../model/helper"); // added
 
 /* GET all data */
-router.get('/', function(req, res, next) {
+router.get("/", function (req, res, next) {
   db("SELECT * FROM indicator_details;")
-  .then(results => {
-    res.send(results.data);
-  })
-  .catch(err => res.status(500).send(err));
+    .then((results) => {
+      res.send(results.data);
+    })
+    .catch((err) => res.status(500).send(err));
 });
 
 /* GET indicator details by id */
-router.get("/:id", async function(req, res) {
+router.get("/:id", async function (req, res) {
   const sql = `SELECT * FROM indicator_details WHERE id = "${req.params.id}"`;
 
   try {

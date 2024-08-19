@@ -1,20 +1,16 @@
-const express = require('express');
-const router = express.Router();
-const db = require("../model/helper"); // added during scaffolding
+const db = require("../model/helper");
 
-/* GET all data */
-// not used in app, just wrote to test it
-router.get('/', function(req, res, next) {
+const getAllEnviroData = (req, res) => {
   db("SELECT * FROM enviro_data;")
-  .then(results => {
-    res.send(results.data);
-  })
-  .catch(err => res.status(500).send(err));
-});
+    .then((results) => {
+      res.send(results.data);
+    })
+    .catch((err) => res.status(500).send(err));
+};
 
-/* GET data by ZIP */
-router.get("/:zip", async function(req, res) {
-  const sql = `SELECT * FROM enviro_data WHERE zip = ${req.params.zip}`;
+const getByZip = async (req, res) => {
+  const zip = req.params.zip;
+  const sql = `SELECT * FROM enviro_data WHERE zip = ${zip}`;
 
   try {
     let result = await db(sql); // run the sql command: look for data by zip
@@ -28,6 +24,9 @@ router.get("/:zip", async function(req, res) {
     // else send error if fails
     res.status(500).send({ error: error.message });
   }
-});
+};
 
-module.exports = router;
+module.exports = {
+  getByZip,
+  getAllEnviroData,
+};
