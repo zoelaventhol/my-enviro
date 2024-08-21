@@ -1,0 +1,64 @@
+.IndicatorView {
+  padding-top: 5%;
+  background-color: #529ffc;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 1em;
+  font-size: 3em;
+}
+
+h2#location {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#indicator-cards {
+  padding-bottom: 2%;
+}
+
+.card {
+  background-color: white;
+  border: 8px solid #5a52fc;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  margin: 1em;
+  width: 90%;
+}
+
+.card-img-top {
+  padding: 1em;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  align-items: center;
+  border-bottom: 8px solid #5a52fc;
+}
+
+#footnote {
+  font-size: smaller;
+  text-align: left;
+}
+
+/* conditionally style text based on comparison of envData value to featIndicator threshold - set by conditionalClass function*/
+.good-news {
+  background-color: rgb(184, 255, 195);
+  border-radius: 10px;
+  padding: 0.25em;
+}
+
+.bad-news {
+  background-color: rgb(255, 184, 184);
+  border-radius: 10px;
+  padding: 0.25em;
+}
+
+.no-data {
+  background-color: rgb(255, 246, 184);
+  border-radius: 10px;
+  padding: 0.25em;
+}

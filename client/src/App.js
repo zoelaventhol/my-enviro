@@ -3,9 +3,9 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import api from "./api.js";
 import NavBar from "./components/NavBar.js";
-import FeaturedIndicatorView from "./components/FeaturedIndicatorView.js";
-import IndicatorView from "./components/IndicatorView.js";
-import HomeView from "./components/HomeView.js";
+import FeaturedIndicatorView from "./views/FeaturedIndicatorView.js";
+import IndicatorView from "./views/IndicatorView.js";
+import HomeView from "./views/HomeView.js";
 
 function App() {
   /* initiate state for:

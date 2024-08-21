@@ -12,7 +12,7 @@ function IndicatorView({
   // make sure all data from indicator_details is saved in allIndicators state
   useEffect(() => {
     getAllIndicators();
-  });
+  }, []);
 
   // use React router navigation
   const navigate = useNavigate();
@@ -87,7 +87,7 @@ function IndicatorView({
                 <p className={conditionalClass(0)}>{`${airNews}`}</p>
               </div>
               <button
-                class="btn btn-primary"
+                className="btn btn-primary"
                 type="button"
                 id="air"
                 onClick={(e) => handleClick(allIndicators[0].id)}

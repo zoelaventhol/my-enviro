@@ -1,5 +1,15 @@
-.App {
-  text-align: center;
-  margin: 1em;
-  border-radius:10px;
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1em;
+}
+
+.btn {
+  background-color: #5a52fc;
+  font-weight: bold;
 }
