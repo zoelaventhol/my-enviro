@@ -61,7 +61,6 @@ function App() {
               envData={envData}
               allIndicators={allIndicators}
               getFeatIndicator={(id) => getFeatIndicator(id)}
-              getAllIndicators={getAllIndicators}
             />
           }
         />

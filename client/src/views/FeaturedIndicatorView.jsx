@@ -12,7 +12,8 @@ function FeaturedIndicatorView({ featIndicator, envData }) {
     navigate(`/indicators`);
   }
 
-  // Function to generate conditional messages based on enviro data. Compares the props.envData value for each indicator (air, water, etc.) against a hazard threshold ("threshold" in indicator_details), and returns a message describing if the result is "good-news", "bad-news", or "no-data"
+  // Function to generate conditional messages based on enviro data.
+  // Compares the props.envData value for each indicator (air, water, etc.) against a hazard threshold ("threshold" in indicator_details), and returns a message describing if the result is "good-news", "bad-news", or "no-data"
   function news(envDataValue) {
     // if data is null, show no data message
     if (envDataValue < 0) {
@@ -31,23 +32,20 @@ function FeaturedIndicatorView({ featIndicator, envData }) {
 
   // function to give conditional styling (red/yellow/green text background) to featNews based on indicator threshold
   function conditionalClass() {
-    if (envData[featIndicator.id] < 0) {
-      return "no-data";
-    } else if (envData[featIndicator.id] < featIndicator.threshold) {
-      return "good-news";
-    } else {
-      return "bad-news";
-    }
+    return envData[featIndicator.id] < 0
+      ? "no-data"
+      : envData[featIndicator.id] < featIndicator.threshold
+      ? "good-news"
+      : "bad-news";
   }
 
-  // if envDataValue is null (set as -1 in data set to differentiate it from 0 values), return a "?", else return the data value. Return a "%" if it's a percentage.
+  // if no envDataValue (set as -1 in data set to differentiate it from 0 values), return a "?", else return the data value. Return a "%" if it's a percentage.
   function displayData(envDataValue) {
-    if (envDataValue < 0) {
-      return "?";
-    } else {
-      return `${envData[featIndicator.id]}${featIndicator.if_percent}`;
-    }
+    return envDataValue < 0
+      ? "?"
+      : `${envData[featIndicator.id]}${featIndicator.if_percent}`;
   }
+
   return (
     <div className="FeaturedIndicatorView">
       {/* header */}
@@ -124,8 +122,7 @@ function FeaturedIndicatorView({ featIndicator, envData }) {
               </div>
             </div>
 
-            {/* action container 
-                        conditionally display action recommendations from indicator_details */}
+            {/* action container conditionally display action recommendations from indicator_details */}
             <div className="col-5" id="action">
               <div className="row" id="what-to-do">
                 <h3>What to do</h3>
