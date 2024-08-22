@@ -20,11 +20,11 @@ app.use(cookieParser());
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", indexRouter);
+app.use("/api", indexRouter);
 // connect to enviro_data routes
-app.use("/enviro-data", enviroDataRouter);
+app.use("/api/enviro-data", enviroDataRouter);
 // connect to indicator_details routes
-app.use("/indicator-details", indicatorDetailsRouter);
+app.use("/api/indicator-details", indicatorDetailsRouter);
 
 // Anything that doesn't match the above, send back index.html
 // build folder will be auto-generated when we npm build (package.json)

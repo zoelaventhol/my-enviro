@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import api from "./api.js";
-import NavBar from "./components/NavBar.js";
-import FeaturedIndicatorView from "./views/FeaturedIndicatorView.js";
-import IndicatorView from "./views/IndicatorView.js";
-import HomeView from "./views/HomeView.js";
+import NavBar from "./components/NavBar.jsx";
+import FeaturedIndicatorView from "./views/FeaturedIndicatorView.jsx";
+import IndicatorView from "./views/IndicatorView.jsx";
+import HomeView from "./views/HomeView.jsx";
 
 function App() {
   /* initiate state for:
